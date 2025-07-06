@@ -1,0 +1,36 @@
+2025-07-05 09:30:17,334 - __main__ - INFO - ================================================================================
+2025-07-05 09:30:17,334 - __main__ - INFO - Starting debug session at Sat Jul  5 09:30:17 2025
+2025-07-05 09:30:17,334 - __main__ - INFO - Log file: C:\Users\stora\Downloads\socket-ai\logs\debug_test_20250705_093017.log
+2025-07-05 09:30:17,334 - __main__ - INFO - Python executable: C:\Users\stora\Downloads\socket-ai\.venv\Scripts\python.exe
+2025-07-05 09:30:17,334 - __main__ - INFO - Working directory: C:\Users\stora\Downloads\socket-ai
+2025-07-05 09:30:17,334 - __main__ - INFO - Environment variables:
+2025-07-05 09:30:17,334 - __main__ - INFO -   PYTHONPATH: Not set
+2025-07-05 09:30:17,334 - __main__ - INFO -   PATH: C:\Users\stora\Downloads\socket-ai\.venv\Scripts;c:\Users\stora\.windsurf\extensions\ms-python.python-2025.4.0-win32-x64\python_files\deactivate\powershell;C:\Users\stora\.venv/Scripts;C:\Users\stora\micromamba\condabin;C:\Users\stora\micromamba\condabin;c:\Users\stora\.windsurf\extensions\ms-python.python-2025.4.0-win32-x64\python_files\deactivate\powershell;C:\Users\stora\.venv/Scripts;C:\Users\stora\micromamba\condabin;C:\Program Files\ImageMagick-7.1.1-Q16-HDRI;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.6\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.6\libnvvp;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\NVIDIA Corporation\Nsight Compute 2024.3.2\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Bitvise SSH Client;C:\Program Files\NVIDIA Corporation\NVIDIA app\NvDLISR;C:\Program Files\Git\cmd;C:\Program Files\dotnet\;C:\ProgramData\chocolatey\bin;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Program Files\Docker\Docker\resources\bin;C:\Users\stora\AppData\Local\nvm;C:\nvm4w\nodejs;C:\Users\stora\AppData\Local\micromamba;C:\Users\stora\AppData\Local\Microsoft\WindowsApps;C:\Users\stora\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\stora\AppData\Local\Microsoft\WindowsApps;C:\Users\stora\AppData\Local\Muse Hub\lib;C:\Users\stora\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\Scripts;C:\Users\stora\OneDrive\Documents\ComfyUI\.venv\Scripts\;C:\Users\stora\OneDrive\Documents\ComfyUI\.venv\Lib\site-packages\ninja-1.11.1.4.dist-info;C:\Users\stora\AppData\Local\Programs\Windsurf\bin;C:\Users\stora\AppData\Local\nvm;C:\nvm4w\nodejs
+2025-07-05 09:30:17,334 - __main__ - INFO -   VIRTUAL_ENV: C:\Users\stora\Downloads\socket-ai\.venv
+2025-07-05 09:30:17,334 - __main__ - INFO - Project root: C:\Users\stora\Downloads\socket-ai
+2025-07-05 09:30:17,334 - __main__ - INFO - Python path:
+2025-07-05 09:30:17,334 - __main__ - INFO -   0: C:\Users\stora\Downloads
+2025-07-05 09:30:17,334 - __main__ - INFO -   1: C:\Users\stora\Downloads\socket-ai
+2025-07-05 09:30:17,334 - __main__ - INFO -   2: C:\Users\stora\micromamba\envs\irc-ai\python311.zip
+2025-07-05 09:30:17,334 - __main__ - INFO -   3: C:\Users\stora\micromamba\envs\irc-ai\DLLs
+2025-07-05 09:30:17,334 - __main__ - INFO -   4: C:\Users\stora\micromamba\envs\irc-ai\Lib
+2025-07-05 09:30:17,334 - __main__ - INFO -   5: C:\Users\stora\micromamba\envs\irc-ai
+2025-07-05 09:30:17,334 - __main__ - INFO -   6: C:\Users\stora\Downloads\socket-ai\.venv
+2025-07-05 09:30:17,334 - __main__ - INFO -   7: C:\Users\stora\Downloads\socket-ai\.venv\Lib\site-packages
+2025-07-05 09:30:17,339 - __main__ - INFO - Successfully imported utils module
+2025-07-05 09:30:17,339 - __main__ - INFO - utils module path: C:\Users\stora\Downloads\socket-ai\utils\__init__.py
+2025-07-05 09:30:17,365 - __main__ - INFO - Successfully imported utils.config
+2025-07-05 09:30:17,365 - __main__ - INFO - config module path: C:\Users\stora\Downloads\socket-ai\utils\config.py
+2025-07-05 09:30:17,365 - __main__ - INFO - Basic imports successful!
+2025-07-05 09:30:17,988 - __main__ - INFO - Successfully imported launch_bot
+2025-07-05 09:30:17,989 - __main__ - ERROR - Unhandled exception in main: module, class, method, function, traceback, frame, or code object was expected, got str
+2025-07-05 09:30:18,006 - __main__ - ERROR - Traceback (most recent call last):
+  File "C:\Users\stora\Downloads\socket-ai\run_debug_test.py", line 131, in main
+    logger.info(f"launch_bot module path: {inspect.getfile(launch_bot_main.__module__)}")
+                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\stora\micromamba\envs\irc-ai\Lib\inspect.py", line 916, in getfile
+    raise TypeError('module, class, method, function, traceback, frame, or '
+TypeError: module, class, method, function, traceback, frame, or code object was expected, got str
+
+2025-07-05 09:30:18,006 - __main__ - INFO - Debug session completed at Sat Jul  5 09:30:18 2025
+2025-07-05 09:30:18,006 - __main__ - INFO - ================================================================================

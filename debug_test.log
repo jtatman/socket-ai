@@ -1,0 +1,13 @@
+2025-07-05 09:22:51,289 - __main__ - INFO - Starting debug test...
+2025-07-05 09:22:51,289 - __main__ - INFO - Checking mock server connection...
+2025-07-05 09:22:51,291 - __main__ - INFO - Successfully connected to mock server
+2025-07-05 09:22:51,292 - __main__ - INFO - Testing with bot: C3PO
+2025-07-05 09:22:51,292 - __main__ - INFO - Running command: C:\Users\stora\Downloads\socket-ai\.venv\Scripts\python.exe C:\Users\stora\Downloads\socket-ai\scripts\launch_bot.py --env cantina --bot C3PO --test-mode
+2025-07-05 09:22:51,298 - __main__ - INFO - Started bot process with PID: 45028
+2025-07-05 09:22:52,226 - __main__ - ERROR - BOT ERROR: Traceback (most recent call last):
+2025-07-05 09:22:52,327 - __main__ - ERROR - Bot process exited with code 1
+2025-07-05 09:22:52,328 - __main__ - INFO - STDOUT: 
+2025-07-05 09:22:52,328 - __main__ - ERROR - STDERR:   File "C:\Users\stora\Downloads\socket-ai\scripts\launch_bot.py", line 18, in <module>
+    from utils.config import load_config
+ModuleNotFoundError: No module named 'utils'
+

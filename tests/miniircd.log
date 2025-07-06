@@ -1,0 +1,130 @@
+2025-07-06 03:38:38,262 - miniircd[24968] - INFO - Accepted connection from 127.0.0.1:65202.
+2025-07-06 03:38:38,264 - miniircd[24968] - INFO - Disconnected connection from 127.0.0.1:65202 (EOT).
+2025-07-06 03:39:20,197 - miniircd[24968] - INFO - Accepted connection from 127.0.0.1:65259.
+2025-07-06 03:39:20,200 - miniircd[24968] - INFO - Disconnected connection from 127.0.0.1:65259 (EOT).
+2025-07-06 03:39:20,200 - miniircd[24968] - INFO - Accepted connection from 127.0.0.1:65260.
+2025-07-06 03:39:20,200 - miniircd[24968] - INFO - Disconnected connection from 127.0.0.1:65260 (Test complete).
+2025-07-06 03:39:34,175 - miniircd[24968] - INFO - Accepted connection from 127.0.0.1:65284.
+2025-07-06 03:39:34,175 - miniircd[24968] - INFO - Disconnected connection from 127.0.0.1:65284 (EOT).
+2025-07-06 03:39:34,177 - miniircd[24968] - INFO - Accepted connection from 127.0.0.1:65285.
+2025-07-06 03:39:34,193 - miniircd[24968] - INFO - Disconnected connection from 127.0.0.1:65285 (Test complete).
+2025-07-06 03:42:03,985 - miniircd[24968] - INFO - Accepted connection from 127.0.0.1:65528.
+2025-07-06 03:42:03,986 - miniircd[24968] - INFO - Disconnected connection from 127.0.0.1:65528 ([WinError 10054] An existing connection was forcibly closed by the remote host).
+2025-07-06 03:42:17,859 - miniircd[24968] - INFO - Accepted connection from 127.0.0.1:49164.
+2025-07-06 03:42:17,860 - miniircd[24968] - INFO - Disconnected connection from 127.0.0.1:49164 ([WinError 10054] An existing connection was forcibly closed by the remote host).
+2025-07-06 03:43:05,554 - miniircd[24968] - INFO - Accepted connection from 127.0.0.1:49244.
+2025-07-06 03:43:05,554 - miniircd[24968] - INFO - Disconnected connection from 127.0.0.1:49244 (Test complete).
+2025-07-06 03:43:22,090 - miniircd[24968] - INFO - Accepted connection from 127.0.0.1:49272.
+2025-07-06 03:43:22,090 - miniircd[24968] - INFO - Disconnected connection from 127.0.0.1:49272 (Test complete).
+2025-07-06 03:43:49,591 - miniircd[24968] - INFO - Accepted connection from 127.0.0.1:49308.
+2025-07-06 03:43:49,594 - miniircd[24968] - INFO - Disconnected connection from 127.0.0.1:49308 (EOT).
+2025-07-06 03:43:49,594 - miniircd[24968] - INFO - Accepted connection from 127.0.0.1:49309.
+2025-07-06 03:43:49,594 - miniircd[24968] - INFO - Disconnected connection from 127.0.0.1:49309 (Test complete).
+2025-07-06 03:44:00,448 - miniircd[24968] - INFO - Accepted connection from 127.0.0.1:49328.
+2025-07-06 03:44:00,448 - miniircd[24968] - INFO - Disconnected connection from 127.0.0.1:49328 (EOT).
+2025-07-06 03:44:00,454 - miniircd[24968] - INFO - Accepted connection from 127.0.0.1:49329.
+2025-07-06 03:44:00,462 - miniircd[24968] - INFO - Disconnected connection from 127.0.0.1:49329 (Test complete).
+2025-07-06 03:46:26,215 - miniircd[24968] - INFO - Accepted connection from 127.0.0.1:49544.
+2025-07-06 03:46:26,215 - miniircd[24968] - INFO - Disconnected connection from 127.0.0.1:49544 (EOT).
+2025-07-06 03:46:26,217 - miniircd[24968] - INFO - Accepted connection from 127.0.0.1:49545.
+2025-07-06 03:46:26,226 - miniircd[24968] - INFO - Disconnected connection from 127.0.0.1:49545 (Test complete).
+2025-07-06 03:46:34,503 - miniircd[24968] - INFO - Accepted connection from 127.0.0.1:49561.
+2025-07-06 03:46:34,504 - miniircd[24968] - INFO - Disconnected connection from 127.0.0.1:49561 (EOT).
+2025-07-06 03:46:34,504 - miniircd[24968] - INFO - Accepted connection from 127.0.0.1:49562.
+2025-07-06 03:46:34,504 - miniircd[24968] - INFO - Disconnected connection from 127.0.0.1:49562 (Test complete).
+2025-07-06 03:46:55,097 - miniircd[24968] - INFO - Accepted connection from 127.0.0.1:49597.
+2025-07-06 03:46:55,576 - miniircd[24968] - INFO - Disconnected connection from 127.0.0.1:49597 (EOT).
+2025-07-06 03:47:54,159 - miniircd[24968] - INFO - Accepted connection from 127.0.0.1:49711.
+2025-07-06 03:47:54,159 - miniircd[24968] - INFO - Disconnected connection from 127.0.0.1:49711 (EOT).
+2025-07-06 03:47:54,161 - miniircd[24968] - INFO - Accepted connection from 127.0.0.1:49712.
+2025-07-06 03:47:54,176 - miniircd[24968] - INFO - Disconnected connection from 127.0.0.1:49712 (Test complete).
+2025-07-06 03:48:00,627 - miniircd[24968] - INFO - Accepted connection from 127.0.0.1:49725.
+2025-07-06 03:48:00,638 - miniircd[24968] - INFO - Disconnected connection from 127.0.0.1:49725 (EOT).
+2025-07-06 03:48:00,639 - miniircd[24968] - INFO - Accepted connection from 127.0.0.1:49726.
+2025-07-06 03:48:00,655 - miniircd[24968] - INFO - Disconnected connection from 127.0.0.1:49726 (Test complete).
+2025-07-06 03:48:20,860 - miniircd[24968] - INFO - Accepted connection from 127.0.0.1:49763.
+2025-07-06 03:48:26,405 - miniircd[24968] - INFO - Disconnected connection from 127.0.0.1:49763 (EOT).
+2025-07-06 03:49:24,061 - miniircd[24968] - INFO - Accepted connection from 127.0.0.1:49866.
+2025-07-06 03:49:24,562 - miniircd[24968] - INFO - Disconnected connection from 127.0.0.1:49866 (EOT).
+2025-07-06 03:49:24,564 - miniircd[24968] - INFO - Accepted connection from 127.0.0.1:49867.
+2025-07-06 03:49:32,063 - miniircd[24968] - INFO - Accepted connection from 127.0.0.1:49880.
+2025-07-06 03:49:32,564 - miniircd[24968] - INFO - Disconnected connection from 127.0.0.1:49880 (EOT).
+2025-07-06 03:49:32,565 - miniircd[24968] - INFO - Accepted connection from 127.0.0.1:49882.
+2025-07-06 03:49:35,595 - miniircd[24968] - INFO - Disconnected connection from 127.0.0.1:49867 (EOT).
+2025-07-06 03:49:43,077 - miniircd[24968] - INFO - Disconnected connection from 127.0.0.1:49882 (EOT).
+2025-07-06 03:51:22,627 - miniircd[24968] - INFO - Accepted connection from 127.0.0.1:50096.
+2025-07-06 03:51:23,129 - miniircd[24968] - INFO - Accepted connection from 127.0.0.1:50098.
+2025-07-06 03:51:23,130 - miniircd[24968] - INFO - Accepted connection from 127.0.0.1:50099.
+2025-07-06 03:51:23,130 - miniircd[24968] - INFO - Disconnected connection from 127.0.0.1:50098 (EOT).
+2025-07-06 03:51:23,131 - miniircd[24968] - INFO - Accepted connection from 127.0.0.1:50100.
+2025-07-06 03:51:23,131 - miniircd[24968] - INFO - Disconnected connection from 127.0.0.1:50099 (EOT).
+2025-07-06 03:51:32,551 - miniircd[24968] - INFO - Accepted connection from 127.0.0.1:50114.
+2025-07-06 03:51:33,052 - miniircd[24968] - INFO - Accepted connection from 127.0.0.1:50116.
+2025-07-06 03:51:33,052 - miniircd[24968] - INFO - Accepted connection from 127.0.0.1:50117.
+2025-07-06 03:51:33,053 - miniircd[24968] - INFO - Disconnected connection from 127.0.0.1:50116 (EOT).
+2025-07-06 03:51:33,053 - miniircd[24968] - INFO - Accepted connection from 127.0.0.1:50118.
+2025-07-06 03:51:33,054 - miniircd[24968] - INFO - Disconnected connection from 127.0.0.1:50117 (EOT).
+2025-07-06 03:51:34,121 - miniircd[24968] - INFO - Disconnected connection from 127.0.0.1:50096 (EOT).
+2025-07-06 03:51:34,175 - miniircd[24968] - INFO - Disconnected connection from 127.0.0.1:50100 (EOT).
+2025-07-06 03:51:44,025 - miniircd[24968] - INFO - Disconnected connection from 127.0.0.1:50114 (EOT).
+2025-07-06 03:51:44,036 - miniircd[24968] - INFO - Disconnected connection from 127.0.0.1:50118 (EOT).
+2025-07-06 03:54:17,583 - miniircd[24968] - INFO - Accepted connection from 127.0.0.1:50322.
+2025-07-06 03:54:18,084 - miniircd[24968] - INFO - Accepted connection from 127.0.0.1:50323.
+2025-07-06 03:54:18,094 - miniircd[24968] - INFO - Disconnected connection from 127.0.0.1:50323 (EOT).
+2025-07-06 03:54:18,095 - miniircd[24968] - INFO - Accepted connection from 127.0.0.1:50324.
+2025-07-06 03:54:18,113 - miniircd[24968] - INFO - Disconnected connection from 127.0.0.1:50324 (EOT).
+2025-07-06 03:54:18,114 - miniircd[24968] - INFO - Accepted connection from 127.0.0.1:50325.
+2025-07-06 03:54:24,157 - miniircd[24968] - INFO - Accepted connection from 127.0.0.1:50335.
+2025-07-06 03:54:24,659 - miniircd[24968] - INFO - Accepted connection from 127.0.0.1:50337.
+2025-07-06 03:54:24,672 - miniircd[24968] - INFO - Disconnected connection from 127.0.0.1:50337 (EOT).
+2025-07-06 03:54:24,672 - miniircd[24968] - INFO - Accepted connection from 127.0.0.1:50338.
+2025-07-06 03:54:24,688 - miniircd[24968] - INFO - Disconnected connection from 127.0.0.1:50338 (EOT).
+2025-07-06 03:54:24,689 - miniircd[24968] - INFO - Accepted connection from 127.0.0.1:50339.
+2025-07-06 03:54:35,323 - miniircd[24968] - INFO - Disconnected connection from 127.0.0.1:50322 (EOT).
+2025-07-06 03:54:35,382 - miniircd[24968] - INFO - Disconnected connection from 127.0.0.1:50325 (EOT).
+2025-07-06 03:54:41,073 - miniircd[24968] - INFO - Disconnected connection from 127.0.0.1:50335 (EOT).
+2025-07-06 03:54:41,126 - miniircd[24968] - INFO - Disconnected connection from 127.0.0.1:50339 (EOT).
+2025-07-06 03:56:32,354 - miniircd[24968] - INFO - Accepted connection from 127.0.0.1:50531.
+2025-07-06 03:56:32,855 - miniircd[24968] - INFO - Accepted connection from 127.0.0.1:50533.
+2025-07-06 03:56:32,878 - miniircd[24968] - INFO - Disconnected connection from 127.0.0.1:50533 (EOT).
+2025-07-06 03:56:32,879 - miniircd[24968] - INFO - Accepted connection from 127.0.0.1:50534.
+2025-07-06 03:56:44,432 - miniircd[24968] - INFO - Disconnected connection from 127.0.0.1:50531 (EOT).
+2025-07-06 03:56:44,483 - miniircd[24968] - INFO - Disconnected connection from 127.0.0.1:50534 (EOT).
+2025-07-06 03:59:30,028 - miniircd[24968] - INFO - Accepted connection from 127.0.0.1:50751.
+2025-07-06 03:59:30,530 - miniircd[24968] - INFO - Accepted connection from 127.0.0.1:50754.
+2025-07-06 03:59:30,545 - miniircd[24968] - INFO - Disconnected connection from 127.0.0.1:50754 (EOT).
+2025-07-06 03:59:30,546 - miniircd[24968] - INFO - Accepted connection from 127.0.0.1:50755.
+2025-07-06 03:59:42,057 - miniircd[24968] - INFO - Disconnected connection from 127.0.0.1:50751 (EOT).
+2025-07-06 03:59:42,107 - miniircd[24968] - INFO - Disconnected connection from 127.0.0.1:50755 (EOT).
+2025-07-06 04:02:07,913 - miniircd[24968] - INFO - Accepted connection from 127.0.0.1:51082.
+2025-07-06 04:02:08,419 - miniircd[24968] - INFO - Accepted connection from 127.0.0.1:51084.
+2025-07-06 04:02:08,419 - miniircd[24968] - INFO - Accepted connection from 127.0.0.1:51085.
+2025-07-06 04:02:08,420 - miniircd[24968] - INFO - Disconnected connection from 127.0.0.1:51084 (EOT).
+2025-07-06 04:02:14,429 - miniircd[24968] - INFO - Disconnected connection from 127.0.0.1:51082 (EOT).
+2025-07-06 04:02:14,507 - miniircd[24968] - INFO - Disconnected connection from 127.0.0.1:51085 (EOT).
+2025-07-06 04:02:19,997 - miniircd[24968] - INFO - Accepted connection from 127.0.0.1:51115.
+2025-07-06 04:02:20,497 - miniircd[24968] - INFO - Accepted connection from 127.0.0.1:51117.
+2025-07-06 04:02:20,528 - miniircd[24968] - INFO - Disconnected connection from 127.0.0.1:51117 (EOT).
+2025-07-06 04:02:20,528 - miniircd[24968] - INFO - Accepted connection from 127.0.0.1:51118.
+2025-07-06 04:02:26,593 - miniircd[24968] - INFO - Disconnected connection from 127.0.0.1:51115 (EOT).
+2025-07-06 04:02:26,602 - miniircd[24968] - INFO - Disconnected connection from 127.0.0.1:51118 (EOT).
+2025-07-06 04:03:27,549 - miniircd[24968] - INFO - Accepted connection from 127.0.0.1:51205.
+2025-07-06 04:03:28,050 - miniircd[24968] - INFO - Accepted connection from 127.0.0.1:51207.
+2025-07-06 04:03:28,070 - miniircd[24968] - INFO - Disconnected connection from 127.0.0.1:51207 (EOT).
+2025-07-06 04:03:28,071 - miniircd[24968] - INFO - Accepted connection from 127.0.0.1:51208.
+2025-07-06 04:03:50,776 - miniircd[24968] - INFO - Disconnected connection from 127.0.0.1:51208 (Test complete).
+2025-07-06 04:03:50,978 - miniircd[24968] - INFO - Disconnected connection from 127.0.0.1:51205 (EOT).
+2025-07-06 04:29:35,508 - miniircd[24968] - INFO - Accepted connection from 127.0.0.1:53125.
+2025-07-06 04:29:36,009 - miniircd[24968] - INFO - Accepted connection from 127.0.0.1:53127.
+2025-07-06 04:29:36,026 - miniircd[24968] - INFO - Disconnected connection from 127.0.0.1:53127 (EOT).
+2025-07-06 04:29:36,027 - miniircd[24968] - INFO - Accepted connection from 127.0.0.1:53128.
+2025-07-06 04:29:58,573 - miniircd[24968] - INFO - Disconnected connection from 127.0.0.1:53128 (Test complete).
+2025-07-06 04:29:58,774 - miniircd[24968] - INFO - Disconnected connection from 127.0.0.1:53125 (EOT).
+2025-07-06 04:30:57,443 - miniircd[24968] - INFO - Accepted connection from 127.0.0.1:53233.
+2025-07-06 04:30:57,443 - miniircd[24968] - INFO - Disconnected connection from 127.0.0.1:53233 (EOT).
+2025-07-06 04:30:57,443 - miniircd[24968] - INFO - Accepted connection from 127.0.0.1:53234.
+2025-07-06 04:30:57,447 - miniircd[24968] - INFO - Disconnected connection from 127.0.0.1:53234 (Test complete).
+2025-07-06 04:31:18,914 - miniircd[24968] - INFO - Accepted connection from 127.0.0.1:53271.
+2025-07-06 04:31:18,929 - miniircd[24968] - INFO - Disconnected connection from 127.0.0.1:53271 (EOT).
+2025-07-06 04:31:18,931 - miniircd[24968] - INFO - Accepted connection from 127.0.0.1:53272.
+2025-07-06 04:31:41,405 - miniircd[24968] - INFO - Disconnected connection from 127.0.0.1:53272 (Test complete).

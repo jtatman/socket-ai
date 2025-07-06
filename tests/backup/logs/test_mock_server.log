@@ -1,0 +1,85 @@
+2025-07-06 03:31:11,541 - test_mock_server - INFO - Test module initialized
+2025-07-06 03:31:11,561 - test_mock_server - INFO - 
+================================================================================
+2025-07-06 03:31:11,561 - test_mock_server - INFO - Starting mock IRC server...
+2025-07-06 03:31:11,562 - asyncio - DEBUG - Using proactor: IocpProactor
+2025-07-06 03:31:11,563 - test_mock_server - INFO - Mock server started on 127.0.0.1:16667
+2025-07-06 03:31:11,565 - test_mock_server - INFO - 
+--------------------------------------------------------------------------------
+2025-07-06 03:31:11,565 - test_mock_server - INFO - Starting test_mock_server_basic
+2025-07-06 03:31:11,565 - test_mock_server - INFO - Creating socket...
+2025-07-06 03:31:11,565 - test_mock_server - INFO - Connecting to 127.0.0.1:16667...
+2025-07-06 03:31:11,566 - test_mock_server - INFO - Successfully connected to mock server
+2025-07-06 03:31:11,566 - test_mock_server - INFO - Sending NICK command: b'NICK testuser\r\n'
+2025-07-06 03:31:11,567 - test_mock_server - INFO - Successfully sent NICK command
+2025-07-06 03:31:11,567 - test_mock_server - INFO - Sending USER command: b'USER testuser 0 * :Test User\r\n'
+2025-07-06 03:31:11,567 - test_mock_server - INFO - Successfully sent USER command
+2025-07-06 03:31:11,567 - test_mock_server - INFO - Reading server responses...
+2025-07-06 03:31:11,568 - test_mock_server - INFO - Received: b':kubernetes.docker.internal 433 * testuser :Nickname is already in use\r\n'
+2025-07-06 03:31:16,576 - test_mock_server - WARNING - No data received within 5 seconds
+2025-07-06 03:31:16,576 - test_mock_server - INFO - Complete server response: b':kubernetes.docker.internal 433 * testuser :Nickname is already in use\r\n'
+2025-07-06 03:31:16,577 - test_mock_server - ERROR - Test failed: Did not receive welcome message. Response: b':kubernetes.docker.internal 433 * testuser :Nickname is already in use\r\n'
+assert False
+2025-07-06 03:31:16,580 - test_mock_server - ERROR - Traceback (most recent call last):
+  File "C:\Users\stora\Downloads\socket-ai\tests\backup\test_mock_server.py", line 153, in test_mock_server_basic
+    assert welcome_received, f"Did not receive welcome message. Response: {response!r}"
+AssertionError: Did not receive welcome message. Response: b':kubernetes.docker.internal 433 * testuser :Nickname is already in use\r\n'
+assert False
+
+2025-07-06 03:31:16,580 - test_mock_server - INFO - Sent QUIT command to server
+2025-07-06 03:31:16,581 - test_mock_server - INFO - Closed socket connection
+2025-07-06 03:31:16,581 - test_mock_server - INFO - --------------------------------------------------------------------------------
+
+2025-07-06 03:31:16,636 - test_mock_server - INFO - Stopping mock IRC server...
+2025-07-06 03:31:16,636 - mock_irc_server - INFO - Stopping mock IRC server...
+2025-07-06 03:31:16,636 - mock_irc_server - INFO - Mock IRC server stopped
+2025-07-06 03:31:16,636 - test_mock_server - INFO - Mock server stopped
+2025-07-06 03:31:16,636 - test_mock_server - INFO - ================================================================================
+
+2025-07-06 03:31:16,636 - test_irc_bots - INFO - Found 5 bot configurations: C3PO, Chewbacca, HanSolo, PrincessLeia, R2D2
+2025-07-06 03:31:16,689 - test_irc_bots - INFO - 
+================================================================================
+2025-07-06 03:31:16,690 - test_irc_bots - INFO - STARTING TEST: test_bot_connection with miniircd
+2025-07-06 03:31:16,690 - test_irc_bots - INFO - ================================================================================
+2025-07-06 03:31:16,690 - test_irc_bots - INFO - Available bots: C3PO, Chewbacca, HanSolo, PrincessLeia, R2D2
+2025-07-06 03:31:16,690 - test_irc_bots - INFO - Starting bot: C3PO
+2025-07-06 03:31:16,716 - test_irc_bots - INFO - Bot will join channel: #cantina
+2025-07-06 03:31:16,716 - test_irc_bots - INFO - Bot config path: C:\Users\stora\Downloads\socket-ai\environments\cantina\C3PO.yml
+2025-07-06 03:31:16,716 - test_irc_bots - INFO - Bot config exists: True
+2025-07-06 03:31:16,722 - test_irc_bots - INFO - Started bot process with PID: 15368
+2025-07-06 03:31:16,722 - test_irc_bots - INFO - Waiting for bot to start and connect to server (15 seconds)...
+2025-07-06 03:31:17,639 - test_irc_bots - ERROR - BOT STDERR: 2025-07-06 03:31:17,547 - utils.config - INFO - Loaded configuration from environments\cantina\C3PO.yml
+2025-07-06 03:31:17,739 - test_irc_bots - ERROR - BOT STDERR: 2025-07-06 03:31:17,597 - irc_bot - INFO - Attempting to connect to localhost:16667...
+2025-07-06 03:31:19,749 - test_irc_bots - ERROR - BOT STDERR: 2025-07-06 03:31:19,657 - irc_bot - INFO - Successfully connected to localhost:16667
+2025-07-06 03:31:21,757 - test_irc_bots - ERROR - BOT STDERR: 2025-07-06 03:31:21,659 - irc_bot - INFO - Received welcome message, joining channel...
+2025-07-06 03:31:23,666 - test_irc_bots - ERROR - BOT STDERR: 2025-07-06 03:31:23,662 - irc_bot - INFO - Successfully joined #cantina
+2025-07-06 03:31:31,801 - test_irc_bots - INFO - Connecting test client to IRC server...
+2025-07-06 03:31:31,821 - test_irc_bots - INFO - Connected to IRC server at 127.0.0.1:16667
+2025-07-06 03:31:31,821 - test_irc_bots - INFO - Sending NICK and USER commands...
+2025-07-06 03:31:31,822 - test_irc_bots - INFO - Waiting for welcome message...
+2025-07-06 03:31:31,822 - test_irc_bots - INFO - Received welcome message
+2025-07-06 03:31:31,822 - test_irc_bots - DEBUG - Server response after welcome: :kubernetes.docker.internal 001 TestUser :Hi, welcome to IRC
+:kubernetes.docker.internal 002 TestUser :Your host is kubernetes.docker.internal, running version miniircd-2.3
+:kubernetes.docker.internal 003 TestUser :This server was created sometime
+:kubernetes.docker.internal 004 TestUser kubernetes.docker.internal miniircd-2.3 o o
+:kubernetes.docker.internal 251 TestUser :There are 2 users and 0 services on 1 server
+:kubernetes.docker.internal 422 TestUser :MOTD File is missing
+
+2025-07-06 03:31:31,822 - test_irc_bots - INFO - Joining bot's channel #cantina...
+2025-07-06 03:31:31,822 - test_irc_bots - INFO - Waiting for join confirmation...
+2025-07-06 03:31:31,823 - test_irc_bots - INFO - Received our own join confirmation
+2025-07-06 03:31:31,823 - test_irc_bots - INFO - Bot c3po is in the channel
+2025-07-06 03:31:31,823 - test_irc_bots - INFO - Sending test message: PRIVMSG #cantina :Hello C3PO, are you there?
+2025-07-06 03:31:31,823 - test_irc_bots - INFO - Waiting for bot response (max 30 seconds)...
+2025-07-06 03:31:31,823 - test_irc_bots - INFO - Received: :kubernetes.docker.internal 353 TestUser = #cantina :C3PO TestUser
+:kubernetes.docker.internal 366 TestUser #cantina :End of NAMES list
+2025-07-06 03:31:35,195 - test_irc_bots - INFO - Received: :C3PO!C3PO@127.0.0.1 PRIVMSG #cantina :*ahem* Ah, yes. I'm here. Though, I must admit, I'm not exactly in the best of moods at the moment. This " Cantina" we're in is quite...unsettling. So many unsavory characters and shady dealings. I do hope we can find a way out of this place soon. *nervous fidgeting*
+2025-07-06 03:31:35,195 - test_irc_bots - INFO - Bot c3po responded after 3.4 seconds
+2025-07-06 03:31:35,195 - test_irc_bots - INFO - Final response from server: :kubernetes.docker.internal 353 TestUser = #cantina :C3PO TestUser
+:kubernetes.docker.internal 366 TestUser #cantina :End of NAMES list
+:C3PO!C3PO@127.0.0.1 PRIVMSG #cantina :*ahem* Ah, yes. I'm here. Though, I must admit, I'm not exactly in the best of moods at the moment. This " Cantina" we're in is quite...unsettling. So many unsavory characters and shady dealings. I do hope we can find a way out of this place soon. *nervous fidgeting*
+
+2025-07-06 03:31:35,195 - test_irc_bots - INFO - Terminating bot process 15368
+rt, R2-D2, seems to have malfunctioned again. *sigh*
+
+2025-07-06 03:31:15,770 - test_irc_bots - INFO - Terminating bot process 27752

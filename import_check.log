@@ -1,0 +1,29 @@
+================================================================================
+Python executable: C:\Users\stora\Downloads\socket-ai\.venv\Scripts\python.exe
+Working directory: C:\Users\stora\Downloads\socket-ai
+Python version: 3.11.13 | packaged by conda-forge | (main, Jun  4 2025, 14:39:58) [MSC v.1943 64 bit (AMD64)]
+Project root: C:\Users\stora\Downloads\socket-ai
+
+Python path:
+  0: C:\Users\stora\Downloads\socket-ai
+  1: C:\Users\stora\micromamba\envs\irc-ai\python311.zip
+  2: C:\Users\stora\micromamba\envs\irc-ai\DLLs
+  3: C:\Users\stora\micromamba\envs\irc-ai\Lib
+  4: C:\Users\stora\micromamba\envs\irc-ai
+  5: C:\Users\stora\Downloads\socket-ai\.venv
+  6: C:\Users\stora\Downloads\socket-ai\.venv\Lib\site-packages
+
+Testing imports...
+
+1. Testing import utils...
+  Success! utils module path: C:\Users\stora\Downloads\socket-ai\utils\__init__.py
+
+1.1 Testing from utils import config...
+  Success! config module path: C:\Users\stora\Downloads\socket-ai\utils\config.py
+
+2. Testing from scripts.launch_bot import main...
+  Success! launch_bot imported successfully.
+
+================================================================================
+
+Check 'import_check.log' for complete output.

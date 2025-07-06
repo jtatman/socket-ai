@@ -1,0 +1,904 @@
+2025-07-05 09:32:59,975 - utils.config - INFO - Loaded configuration from environments\cantina\C3PO.yml
+2025-07-05 09:33:00,032 - __main__ - ERROR - Bot error: 'IRCBot' object has no attribute 'run'
+Traceback (most recent call last):
+  File "C:\Users\stora\Downloads\socket-ai\scripts\launch_bot.py", line 67, in main
+    bot.run()
+    ^^^^^^^
+AttributeError: 'IRCBot' object has no attribute 'run'
+2025-07-05 16:02:44,842 - utils.config - INFO - Loaded configuration from environments\cantina\C3PO.yml
+2025-07-05 16:02:44,893 - __main__ - ERROR - Bot error: 'IRCBot' object has no attribute 'run'
+Traceback (most recent call last):
+  File "C:\Users\stora\Downloads\socket-ai\scripts\launch_bot.py", line 67, in main
+    bot.run()
+    ^^^^^^^
+AttributeError: 'IRCBot' object has no attribute 'run'
+2025-07-05 16:03:19,276 - utils.config - INFO - Loaded configuration from environments\cantina\C3PO.yml
+2025-07-05 16:03:19,328 - __main__ - ERROR - Bot error: 'IRCBot' object has no attribute 'run'
+Traceback (most recent call last):
+  File "C:\Users\stora\Downloads\socket-ai\scripts\launch_bot.py", line 67, in main
+    bot.run()
+    ^^^^^^^
+AttributeError: 'IRCBot' object has no attribute 'run'
+2025-07-05 16:03:23,241 - utils.config - INFO - Loaded configuration from environments\cantina\C3PO.yml
+2025-07-05 16:03:23,285 - __main__ - ERROR - Bot error: 'IRCBot' object has no attribute 'run'
+Traceback (most recent call last):
+  File "C:\Users\stora\Downloads\socket-ai\scripts\launch_bot.py", line 67, in main
+    bot.run()
+    ^^^^^^^
+AttributeError: 'IRCBot' object has no attribute 'run'
+2025-07-05 18:22:33,715 - utils.config - INFO - Loaded configuration from environments\cantina\C3PO.yml
+2025-07-05 18:22:33,774 - __main__ - ERROR - Bot error: 'IRCBot' object has no attribute 'run'
+Traceback (most recent call last):
+  File "C:\Users\stora\Downloads\socket-ai\scripts\launch_bot.py", line 67, in main
+    bot.run()
+    ^^^^^^^
+AttributeError: 'IRCBot' object has no attribute 'run'
+2025-07-05 18:23:22,669 - utils.config - INFO - Loaded configuration from environments\cantina\C3PO.yml
+2025-07-05 18:23:22,749 - __main__ - ERROR - Bot error: 'IRCBot' object has no attribute 'run'
+Traceback (most recent call last):
+  File "C:\Users\stora\Downloads\socket-ai\scripts\launch_bot.py", line 67, in main
+    bot.run()
+    ^^^^^^^
+AttributeError: 'IRCBot' object has no attribute 'run'
+2025-07-05 18:31:01,116 - utils.config - INFO - Loaded configuration from environments\cantina\C3PO.yml
+2025-07-05 18:31:01,183 - __main__ - ERROR - Bot error: 'IRCBot' object has no attribute 'run'
+Traceback (most recent call last):
+  File "C:\Users\stora\Downloads\socket-ai\scripts\launch_bot.py", line 67, in main
+    bot.run()
+    ^^^^^^^
+AttributeError: 'IRCBot' object has no attribute 'run'
+2025-07-05 18:32:13,289 - utils.config - INFO - Loaded configuration from environments\cantina\C3PO.yml
+2025-07-05 18:32:13,290 - __main__ - ERROR - Bot error: name 'asyncio' is not defined
+Traceback (most recent call last):
+  File "C:\Users\stora\Downloads\socket-ai\scripts\launch_bot.py", line 78, in main
+    asyncio.run(run_bot(config))
+    ^^^^^^^
+NameError: name 'asyncio' is not defined
+2025-07-05 18:32:53,762 - utils.config - INFO - Loaded configuration from environments\cantina\C3PO.yml
+2025-07-05 18:32:53,763 - __main__ - ERROR - Bot error: name 'asyncio' is not defined
+Traceback (most recent call last):
+  File "C:\Users\stora\Downloads\socket-ai\scripts\launch_bot.py", line 78, in main
+    asyncio.run(run_bot(config))
+    ^^^^^^^
+NameError: name 'asyncio' is not defined
+2025-07-05 18:33:38,917 - utils.config - INFO - Loaded configuration from environments\cantina\C3PO.yml
+2025-07-05 18:33:38,917 - __main__ - ERROR - Bot error: name 'asyncio' is not defined
+Traceback (most recent call last):
+  File "C:\Users\stora\Downloads\socket-ai\scripts\launch_bot.py", line 77, in main
+    asyncio.run(run_bot(config))
+    ^^^^^^^
+NameError: name 'asyncio' is not defined
+2025-07-05 22:34:03,368 - utils.config - INFO - Loaded configuration from environments\cantina\C3PO.yml
+2025-07-05 22:34:03,368 - __main__ - ERROR - Bot error: name 'asyncio' is not defined
+Traceback (most recent call last):
+  File "C:\Users\stora\Downloads\socket-ai\scripts\launch_bot.py", line 77, in main
+    asyncio.run(run_bot(config))
+    ^^^^^^^
+NameError: name 'asyncio' is not defined
+2025-07-05 22:34:25,332 - utils.config - INFO - Loaded configuration from environments\cantina\C3PO.yml
+2025-07-05 22:34:25,332 - __main__ - ERROR - Bot error: name 'asyncio' is not defined
+Traceback (most recent call last):
+  File "C:\Users\stora\Downloads\socket-ai\scripts\launch_bot.py", line 77, in main
+    asyncio.run(run_bot(config))
+    ^^^^^^^
+NameError: name 'asyncio' is not defined
+2025-07-05 22:35:25,399 - utils.config - INFO - Loaded configuration from environments\cantina\C3PO.yml
+2025-07-05 22:35:25,399 - __main__ - ERROR - Bot error: name 'asyncio' is not defined
+Traceback (most recent call last):
+  File "C:\Users\stora\Downloads\socket-ai\scripts\launch_bot.py", line 77, in main
+    asyncio.run(run_bot(config))
+    ^^^^^^^
+NameError: name 'asyncio' is not defined
+2025-07-05 22:36:25,417 - utils.config - INFO - Loaded configuration from environments\cantina\C3PO.yml
+2025-07-05 22:36:27,553 - irc_bot - INFO - Connected to localhost:16667
+2025-07-05 22:36:31,564 - __main__ - ERROR - Bot error: Connection lost
+Traceback (most recent call last):
+  File "C:\Users\stora\Downloads\socket-ai\scripts\launch_bot.py", line 48, in run_bot
+    await bot.connect()  # connect() calls _main_loop() internally
+    ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\stora\Downloads\socket-ai\bots\irc_bot.py", line 90, in connect
+    await self._main_loop()
+  File "C:\Users\stora\Downloads\socket-ai\bots\irc_bot.py", line 103, in _main_loop
+    await self._handle_line(line.decode(errors="ignore"))
+  File "C:\Users\stora\Downloads\socket-ai\bots\irc_bot.py", line 118, in _handle_line
+    await self.send_line(f"JOIN {self.channel}")
+  File "C:\Users\stora\Downloads\socket-ai\bots\irc_bot.py", line 78, in send_line
+    await self.writer.drain()
+  File "C:\Users\stora\micromamba\envs\irc-ai\Lib\asyncio\streams.py", line 392, in drain
+    await self._protocol._drain_helper()
+  File "C:\Users\stora\micromamba\envs\irc-ai\Lib\asyncio\streams.py", line 166, in _drain_helper
+    raise ConnectionResetError('Connection lost')
+ConnectionResetError: Connection lost
+2025-07-05 22:41:15,598 - utils.config - INFO - Loaded configuration from environments\cantina\C3PO.yml
+2025-07-05 22:41:15,653 - irc_bot - INFO - Attempting to connect to localhost:16667...
+2025-07-05 22:41:15,653 - irc_bot - ERROR - Failed to connect to localhost:16667: ssl_handshake_timeout is only meaningful with ssl
+2025-07-05 22:41:15,653 - __main__ - ERROR - Bot error: ssl_handshake_timeout is only meaningful with ssl
+Traceback (most recent call last):
+  File "C:\Users\stora\Downloads\socket-ai\scripts\launch_bot.py", line 48, in run_bot
+    await bot.connect()  # connect() calls _main_loop() internally
+    ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\stora\Downloads\socket-ai\bots\irc_bot.py", line 95, in connect
+    self.reader, self.writer = await asyncio.open_connection(
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\stora\micromamba\envs\irc-ai\Lib\asyncio\streams.py", line 48, in open_connection
+    transport, _ = await loop.create_connection(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\stora\micromamba\envs\irc-ai\Lib\asyncio\base_events.py", line 1027, in create_connection
+    raise ValueError(
+ValueError: ssl_handshake_timeout is only meaningful with ssl
+2025-07-05 22:42:10,465 - utils.config - INFO - Loaded configuration from environments\cantina\C3PO.yml
+2025-07-05 22:42:10,518 - irc_bot - INFO - Attempting to connect to localhost:16667...
+2025-07-05 22:42:12,570 - irc_bot - INFO - Successfully connected to localhost:16667
+2025-07-05 22:42:16,600 - irc_bot - ERROR - Connection error in send_line: Connection lost
+2025-07-05 22:42:16,600 - irc_bot - ERROR - Failed to connect to localhost:16667: [WinError 10053] An established connection was aborted by the software in your host machine
+2025-07-05 22:42:16,601 - __main__ - ERROR - Bot error: [WinError 10053] An established connection was aborted by the software in your host machine
+Traceback (most recent call last):
+  File "C:\Users\stora\Downloads\socket-ai\bots\irc_bot.py", line 81, in send_line
+    await self.writer.drain()
+  File "C:\Users\stora\micromamba\envs\irc-ai\Lib\asyncio\streams.py", line 392, in drain
+    await self._protocol._drain_helper()
+  File "C:\Users\stora\micromamba\envs\irc-ai\Lib\asyncio\streams.py", line 166, in _drain_helper
+    raise ConnectionResetError('Connection lost')
+ConnectionResetError: Connection lost
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\stora\Downloads\socket-ai\scripts\launch_bot.py", line 48, in run_bot
+    await bot.connect()  # connect() calls _main_loop() internally
+    ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\stora\Downloads\socket-ai\bots\irc_bot.py", line 121, in connect
+    await self.writer.wait_closed()
+  File "C:\Users\stora\micromamba\envs\irc-ai\Lib\asyncio\streams.py", line 364, in wait_closed
+    await self._protocol._get_close_waiter(self)
+ConnectionAbortedError: [WinError 10053] An established connection was aborted by the software in your host machine
+2025-07-05 23:03:53,583 - utils.config - INFO - Loaded configuration from environments\cantina\C3PO.yml
+2025-07-05 23:03:53,632 - irc_bot - INFO - Attempting to connect to localhost:16667...
+2025-07-05 23:03:55,669 - irc_bot - INFO - Successfully connected to localhost:16667
+2025-07-05 23:03:59,697 - irc_bot - ERROR - Connection error in send_line: Connection lost
+2025-07-05 23:03:59,697 - irc_bot - ERROR - Failed to connect to localhost:16667: [WinError 10053] An established connection was aborted by the software in your host machine
+2025-07-05 23:03:59,698 - __main__ - ERROR - Bot error: [WinError 10053] An established connection was aborted by the software in your host machine
+Traceback (most recent call last):
+  File "C:\Users\stora\Downloads\socket-ai\bots\irc_bot.py", line 81, in send_line
+    await self.writer.drain()
+  File "C:\Users\stora\micromamba\envs\irc-ai\Lib\asyncio\streams.py", line 392, in drain
+    await self._protocol._drain_helper()
+  File "C:\Users\stora\micromamba\envs\irc-ai\Lib\asyncio\streams.py", line 166, in _drain_helper
+    raise ConnectionResetError('Connection lost')
+ConnectionResetError: Connection lost
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\stora\Downloads\socket-ai\scripts\launch_bot.py", line 48, in run_bot
+    await bot.connect()  # connect() calls _main_loop() internally
+    ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\stora\Downloads\socket-ai\bots\irc_bot.py", line 121, in connect
+    await self.writer.wait_closed()
+  File "C:\Users\stora\micromamba\envs\irc-ai\Lib\asyncio\streams.py", line 364, in wait_closed
+    await self._protocol._get_close_waiter(self)
+ConnectionAbortedError: [WinError 10053] An established connection was aborted by the software in your host machine
+2025-07-05 23:30:07,941 - utils.config - INFO - Loaded configuration from environments\cantina\C3PO.yml
+2025-07-05 23:30:07,992 - irc_bot - INFO - Attempting to connect to localhost:16667...
+2025-07-05 23:30:10,036 - irc_bot - INFO - Successfully connected to localhost:16667
+2025-07-05 23:30:14,056 - irc_bot - ERROR - Connection error in send_line: Connection lost
+2025-07-05 23:30:14,056 - irc_bot - ERROR - Connection error: [WinError 10053] An established connection was aborted by the software in your host machine
+2025-07-05 23:30:19,069 - irc_bot - ERROR - Reconnection attempt 1 failed: [WinError 10053] An established connection was aborted by the software in your host machine
+2025-07-05 23:30:19,069 - irc_bot - ERROR - Reconnection attempt 2 failed: [WinError 10053] An established connection was aborted by the software in your host machine
+2025-07-05 23:30:19,070 - irc_bot - ERROR - Reconnection attempt 3 failed: [WinError 10053] An established connection was aborted by the software in your host machine
+2025-07-05 23:30:19,070 - irc_bot - ERROR - Fatal error in main loop: Failed to reconnect after 3 attempts
+2025-07-05 23:30:19,070 - irc_bot - ERROR - Failed to connect to localhost:16667: Failed to reconnect after 3 attempts
+2025-07-05 23:30:19,070 - __main__ - ERROR - Bot error: [WinError 10053] An established connection was aborted by the software in your host machine
+Traceback (most recent call last):
+  File "C:\Users\stora\Downloads\socket-ai\bots\irc_bot.py", line 113, in connect
+    await self._main_loop()
+  File "C:\Users\stora\Downloads\socket-ai\bots\irc_bot.py", line 198, in _main_loop
+    await self._reconnect()
+  File "C:\Users\stora\Downloads\socket-ai\bots\irc_bot.py", line 156, in _reconnect
+    raise ConnectionError(f"Failed to reconnect after {max_attempts} attempts")
+ConnectionError: Failed to reconnect after 3 attempts
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\stora\Downloads\socket-ai\scripts\launch_bot.py", line 48, in run_bot
+    await bot.connect()  # connect() calls _main_loop() internally
+    ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\stora\Downloads\socket-ai\bots\irc_bot.py", line 121, in connect
+    await self.writer.wait_closed()
+  File "C:\Users\stora\micromamba\envs\irc-ai\Lib\asyncio\streams.py", line 364, in wait_closed
+    await self._protocol._get_close_waiter(self)
+ConnectionAbortedError: [WinError 10053] An established connection was aborted by the software in your host machine
+2025-07-05 23:31:49,459 - utils.config - INFO - Loaded configuration from environments\cantina\C3PO.yml
+2025-07-05 23:31:49,512 - irc_bot - INFO - Attempting to connect to localhost:16667...
+2025-07-05 23:31:51,548 - irc_bot - INFO - Successfully connected to localhost:16667
+2025-07-05 23:31:55,544 - irc_bot - ERROR - Connection error in send_line: Connection lost
+2025-07-05 23:31:55,545 - irc_bot - ERROR - Connection error: [WinError 10053] An established connection was aborted by the software in your host machine
+2025-07-05 23:32:00,549 - irc_bot - ERROR - Reconnection attempt 1 failed: [WinError 10053] An established connection was aborted by the software in your host machine
+2025-07-05 23:32:00,549 - irc_bot - ERROR - Reconnection attempt 2 failed: [WinError 10053] An established connection was aborted by the software in your host machine
+2025-07-05 23:32:00,549 - irc_bot - ERROR - Reconnection attempt 3 failed: [WinError 10053] An established connection was aborted by the software in your host machine
+2025-07-05 23:32:00,549 - irc_bot - ERROR - Fatal error in main loop: Failed to reconnect after 3 attempts
+2025-07-05 23:32:00,549 - irc_bot - ERROR - Failed to connect to localhost:16667: Failed to reconnect after 3 attempts
+2025-07-05 23:32:00,549 - __main__ - ERROR - Bot error: [WinError 10053] An established connection was aborted by the software in your host machine
+Traceback (most recent call last):
+  File "C:\Users\stora\Downloads\socket-ai\bots\irc_bot.py", line 113, in connect
+    await self._main_loop()
+  File "C:\Users\stora\Downloads\socket-ai\bots\irc_bot.py", line 198, in _main_loop
+    await self._reconnect()
+  File "C:\Users\stora\Downloads\socket-ai\bots\irc_bot.py", line 156, in _reconnect
+    raise ConnectionError(f"Failed to reconnect after {max_attempts} attempts")
+ConnectionError: Failed to reconnect after 3 attempts
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\stora\Downloads\socket-ai\scripts\launch_bot.py", line 48, in run_bot
+    await bot.connect()  # connect() calls _main_loop() internally
+    ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\stora\Downloads\socket-ai\bots\irc_bot.py", line 121, in connect
+    await self.writer.wait_closed()
+  File "C:\Users\stora\micromamba\envs\irc-ai\Lib\asyncio\streams.py", line 364, in wait_closed
+    await self._protocol._get_close_waiter(self)
+ConnectionAbortedError: [WinError 10053] An established connection was aborted by the software in your host machine
+2025-07-06 00:10:32,526 - utils.config - INFO - Loaded configuration from environments\cantina\C3PO.yml
+2025-07-06 00:10:32,584 - irc_bot - INFO - Attempting to connect to localhost:16667...
+2025-07-06 00:10:34,636 - irc_bot - INFO - Successfully connected to localhost:16667
+2025-07-06 00:10:38,664 - irc_bot - ERROR - Connection error in send_line: Connection lost
+2025-07-06 00:10:38,665 - irc_bot - ERROR - Connection error: [WinError 10053] An established connection was aborted by the software in your host machine
+2025-07-06 00:10:43,669 - irc_bot - ERROR - Reconnection attempt 1 failed: [WinError 10053] An established connection was aborted by the software in your host machine
+2025-07-06 00:10:43,669 - irc_bot - ERROR - Reconnection attempt 2 failed: [WinError 10053] An established connection was aborted by the software in your host machine
+2025-07-06 00:10:43,669 - irc_bot - ERROR - Reconnection attempt 3 failed: [WinError 10053] An established connection was aborted by the software in your host machine
+2025-07-06 00:10:43,669 - irc_bot - ERROR - Fatal error in main loop: Failed to reconnect after 3 attempts
+2025-07-06 00:10:43,669 - irc_bot - ERROR - Failed to connect to localhost:16667: Failed to reconnect after 3 attempts
+2025-07-06 00:10:43,669 - __main__ - ERROR - Bot error: [WinError 10053] An established connection was aborted by the software in your host machine
+Traceback (most recent call last):
+  File "C:\Users\stora\Downloads\socket-ai\bots\irc_bot.py", line 113, in connect
+    await self._main_loop()
+  File "C:\Users\stora\Downloads\socket-ai\bots\irc_bot.py", line 198, in _main_loop
+    await self._reconnect()
+  File "C:\Users\stora\Downloads\socket-ai\bots\irc_bot.py", line 156, in _reconnect
+    raise ConnectionError(f"Failed to reconnect after {max_attempts} attempts")
+ConnectionError: Failed to reconnect after 3 attempts
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\stora\Downloads\socket-ai\scripts\launch_bot.py", line 48, in run_bot
+    await bot.connect()  # connect() calls _main_loop() internally
+    ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\stora\Downloads\socket-ai\bots\irc_bot.py", line 121, in connect
+    await self.writer.wait_closed()
+  File "C:\Users\stora\micromamba\envs\irc-ai\Lib\asyncio\streams.py", line 364, in wait_closed
+    await self._protocol._get_close_waiter(self)
+ConnectionAbortedError: [WinError 10053] An established connection was aborted by the software in your host machine
+2025-07-06 00:12:37,824 - utils.config - INFO - Loaded configuration from environments\cantina\C3PO.yml
+2025-07-06 00:12:37,878 - irc_bot - INFO - Attempting to connect to localhost:16667...
+2025-07-06 00:12:39,937 - irc_bot - INFO - Successfully connected to localhost:16667
+2025-07-06 00:12:43,944 - irc_bot - ERROR - Connection error in send_line: Connection lost
+2025-07-06 00:12:43,945 - irc_bot - ERROR - Error processing line: [WinError 10053] An established connection was aborted by the software in your host machine
+Traceback (most recent call last):
+  File "C:\Users\stora\Downloads\socket-ai\bots\irc_bot.py", line 81, in send_line
+    await self.writer.drain()
+  File "C:\Users\stora\micromamba\envs\irc-ai\Lib\asyncio\streams.py", line 392, in drain
+    await self._protocol._drain_helper()
+  File "C:\Users\stora\micromamba\envs\irc-ai\Lib\asyncio\streams.py", line 166, in _drain_helper
+    raise ConnectionResetError('Connection lost')
+ConnectionResetError: Connection lost
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\stora\Downloads\socket-ai\bots\irc_bot.py", line 226, in _main_loop
+    await self._handle_line(line)
+  File "C:\Users\stora\Downloads\socket-ai\bots\irc_bot.py", line 289, in _handle_line
+    await self.send_line(f"JOIN {self.channel}")
+  File "C:\Users\stora\Downloads\socket-ai\bots\irc_bot.py", line 87, in send_line
+    await self.writer.wait_closed()
+  File "C:\Users\stora\micromamba\envs\irc-ai\Lib\asyncio\streams.py", line 364, in wait_closed
+    await self._protocol._get_close_waiter(self)
+  File "C:\Users\stora\micromamba\envs\irc-ai\Lib\asyncio\proactor_events.py", line 401, in _loop_writing
+    self._write_fut = self._loop._proactor.send(self._sock, data)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\stora\micromamba\envs\irc-ai\Lib\asyncio\windows_events.py", line 574, in send
+    ov.WSASend(conn.fileno(), buf, flags)
+ConnectionAbortedError: [WinError 10053] An established connection was aborted by the software in your host machine
+2025-07-06 00:12:43,973 - irc_bot - ERROR - Cannot send line: writer is not connected
+2025-07-06 00:12:43,974 - irc_bot - WARNING - Connection closed by server, attempting to reconnect...
+2025-07-06 00:12:43,974 - irc_bot - ERROR - Reconnection attempt 1 failed: [WinError 10053] An established connection was aborted by the software in your host machine
+2025-07-06 00:12:43,974 - irc_bot - ERROR - Reconnection attempt 2 failed: [WinError 10053] An established connection was aborted by the software in your host machine
+2025-07-06 00:12:43,974 - irc_bot - ERROR - Reconnection attempt 3 failed: [WinError 10053] An established connection was aborted by the software in your host machine
+2025-07-06 00:12:43,974 - irc_bot - ERROR - Failed to reconnect in main loop: Failed to reconnect after 3 attempts
+2025-07-06 00:12:43,974 - irc_bot - ERROR - Fatal error in main loop: Failed to reconnect after 3 attempts
+Traceback (most recent call last):
+  File "C:\Users\stora\Downloads\socket-ai\bots\irc_bot.py", line 81, in send_line
+    await self.writer.drain()
+  File "C:\Users\stora\micromamba\envs\irc-ai\Lib\asyncio\streams.py", line 392, in drain
+    await self._protocol._drain_helper()
+  File "C:\Users\stora\micromamba\envs\irc-ai\Lib\asyncio\streams.py", line 166, in _drain_helper
+    raise ConnectionResetError('Connection lost')
+ConnectionResetError: Connection lost
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\stora\Downloads\socket-ai\bots\irc_bot.py", line 150, in _reconnect
+    await self.writer.wait_closed()
+  File "C:\Users\stora\micromamba\envs\irc-ai\Lib\asyncio\streams.py", line 364, in wait_closed
+    await self._protocol._get_close_waiter(self)
+ConnectionAbortedError: [WinError 10053] An established connection was aborted by the software in your host machine
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\stora\Downloads\socket-ai\bots\irc_bot.py", line 199, in _main_loop
+    await self._reconnect()
+  File "C:\Users\stora\Downloads\socket-ai\bots\irc_bot.py", line 175, in _reconnect
+    raise ConnectionError(f"Failed to reconnect after {max_attempts} attempts")
+ConnectionError: Failed to reconnect after 3 attempts
+2025-07-06 00:12:43,975 - irc_bot - ERROR - Unexpected error during handshake: Failed to reconnect after 3 attempts
+Traceback (most recent call last):
+  File "C:\Users\stora\Downloads\socket-ai\bots\irc_bot.py", line 81, in send_line
+    await self.writer.drain()
+  File "C:\Users\stora\micromamba\envs\irc-ai\Lib\asyncio\streams.py", line 392, in drain
+    await self._protocol._drain_helper()
+  File "C:\Users\stora\micromamba\envs\irc-ai\Lib\asyncio\streams.py", line 166, in _drain_helper
+    raise ConnectionResetError('Connection lost')
+ConnectionResetError: Connection lost
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\stora\Downloads\socket-ai\bots\irc_bot.py", line 150, in _reconnect
+    await self.writer.wait_closed()
+  File "C:\Users\stora\micromamba\envs\irc-ai\Lib\asyncio\streams.py", line 364, in wait_closed
+    await self._protocol._get_close_waiter(self)
+ConnectionAbortedError: [WinError 10053] An established connection was aborted by the software in your host machine
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\stora\Downloads\socket-ai\bots\irc_bot.py", line 122, in connect
+    await self._main_loop()
+  File "C:\Users\stora\Downloads\socket-ai\bots\irc_bot.py", line 199, in _main_loop
+    await self._reconnect()
+  File "C:\Users\stora\Downloads\socket-ai\bots\irc_bot.py", line 175, in _reconnect
+    raise ConnectionError(f"Failed to reconnect after {max_attempts} attempts")
+ConnectionError: Failed to reconnect after 3 attempts
+2025-07-06 00:12:43,976 - irc_bot - ERROR - Failed to connect to localhost:16667: Failed to reconnect after 3 attempts
+Traceback (most recent call last):
+  File "C:\Users\stora\Downloads\socket-ai\bots\irc_bot.py", line 81, in send_line
+    await self.writer.drain()
+  File "C:\Users\stora\micromamba\envs\irc-ai\Lib\asyncio\streams.py", line 392, in drain
+    await self._protocol._drain_helper()
+  File "C:\Users\stora\micromamba\envs\irc-ai\Lib\asyncio\streams.py", line 166, in _drain_helper
+    raise ConnectionResetError('Connection lost')
+ConnectionResetError: Connection lost
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\stora\Downloads\socket-ai\bots\irc_bot.py", line 150, in _reconnect
+    await self.writer.wait_closed()
+  File "C:\Users\stora\micromamba\envs\irc-ai\Lib\asyncio\streams.py", line 364, in wait_closed
+    await self._protocol._get_close_waiter(self)
+ConnectionAbortedError: [WinError 10053] An established connection was aborted by the software in your host machine
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\stora\Downloads\socket-ai\bots\irc_bot.py", line 122, in connect
+    await self._main_loop()
+  File "C:\Users\stora\Downloads\socket-ai\bots\irc_bot.py", line 199, in _main_loop
+    await self._reconnect()
+  File "C:\Users\stora\Downloads\socket-ai\bots\irc_bot.py", line 175, in _reconnect
+    raise ConnectionError(f"Failed to reconnect after {max_attempts} attempts")
+ConnectionError: Failed to reconnect after 3 attempts
+2025-07-06 00:12:43,976 - irc_bot - ERROR - Error closing writer: [WinError 10053] An established connection was aborted by the software in your host machine
+Traceback (most recent call last):
+  File "C:\Users\stora\Downloads\socket-ai\bots\irc_bot.py", line 122, in connect
+    await self._main_loop()
+  File "C:\Users\stora\Downloads\socket-ai\bots\irc_bot.py", line 199, in _main_loop
+    await self._reconnect()
+  File "C:\Users\stora\Downloads\socket-ai\bots\irc_bot.py", line 175, in _reconnect
+    raise ConnectionError(f"Failed to reconnect after {max_attempts} attempts")
+ConnectionError: Failed to reconnect after 3 attempts
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\stora\Downloads\socket-ai\bots\irc_bot.py", line 137, in connect
+    await self.writer.wait_closed()
+  File "C:\Users\stora\micromamba\envs\irc-ai\Lib\asyncio\streams.py", line 364, in wait_closed
+    await self._protocol._get_close_waiter(self)
+ConnectionAbortedError: [WinError 10053] An established connection was aborted by the software in your host machine
+2025-07-06 00:12:43,976 - __main__ - ERROR - Bot error: Failed to reconnect after 3 attempts
+Traceback (most recent call last):
+  File "C:\Users\stora\Downloads\socket-ai\scripts\launch_bot.py", line 48, in run_bot
+    await bot.connect()  # connect() calls _main_loop() internally
+    ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\stora\Downloads\socket-ai\bots\irc_bot.py", line 122, in connect
+    await self._main_loop()
+  File "C:\Users\stora\Downloads\socket-ai\bots\irc_bot.py", line 199, in _main_loop
+    await self._reconnect()
+  File "C:\Users\stora\Downloads\socket-ai\bots\irc_bot.py", line 175, in _reconnect
+    raise ConnectionError(f"Failed to reconnect after {max_attempts} attempts")
+ConnectionError: Failed to reconnect after 3 attempts
+2025-07-06 00:15:43,940 - utils.config - INFO - Loaded configuration from environments\cantina\C3PO.yml
+2025-07-06 00:15:43,998 - irc_bot - INFO - Attempting to connect to localhost:16667...
+2025-07-06 00:15:46,059 - irc_bot - INFO - Successfully connected to localhost:16667
+2025-07-06 00:15:48,063 - irc_bot - INFO - Received welcome message, joining channel...
+2025-07-06 00:15:50,076 - irc_bot - ERROR - Connection error in send_line: Connection lost
+2025-07-06 00:15:50,077 - irc_bot - ERROR - Error processing line: [WinError 10053] An established connection was aborted by the software in your host machine
+Traceback (most recent call last):
+  File "C:\Users\stora\Downloads\socket-ai\bots\irc_bot.py", line 81, in send_line
+    await self.writer.drain()
+  File "C:\Users\stora\micromamba\envs\irc-ai\Lib\asyncio\streams.py", line 392, in drain
+    await self._protocol._drain_helper()
+  File "C:\Users\stora\micromamba\envs\irc-ai\Lib\asyncio\streams.py", line 166, in _drain_helper
+    raise ConnectionResetError('Connection lost')
+ConnectionResetError: Connection lost
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\stora\Downloads\socket-ai\bots\irc_bot.py", line 262, in _main_loop
+    await self._handle_line(line)
+  File "C:\Users\stora\Downloads\socket-ai\bots\irc_bot.py", line 341, in _handle_line
+    await self.send_line(f"JOIN {self.channel}")
+  File "C:\Users\stora\Downloads\socket-ai\bots\irc_bot.py", line 87, in send_line
+    await self.writer.wait_closed()
+  File "C:\Users\stora\micromamba\envs\irc-ai\Lib\asyncio\streams.py", line 364, in wait_closed
+    await self._protocol._get_close_waiter(self)
+  File "C:\Users\stora\micromamba\envs\irc-ai\Lib\asyncio\proactor_events.py", line 401, in _loop_writing
+    self._write_fut = self._loop._proactor.send(self._sock, data)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\stora\micromamba\envs\irc-ai\Lib\asyncio\windows_events.py", line 574, in send
+    ov.WSASend(conn.fileno(), buf, flags)
+ConnectionAbortedError: [WinError 10053] An established connection was aborted by the software in your host machine
+2025-07-06 00:15:50,079 - irc_bot - INFO - Received welcome message, joining channel...
+2025-07-06 00:15:50,079 - irc_bot - ERROR - Cannot send line: writer is not connected
+2025-07-06 00:15:50,079 - irc_bot - WARNING - Connection closed by server, attempting to reconnect...
+2025-07-06 00:15:50,079 - irc_bot - WARNING - Connection attempt 1 failed: [WinError 10053] An established connection was aborted by the software in your host machine
+2025-07-06 00:15:50,079 - irc_bot - INFO - Retrying in 2 seconds...
+2025-07-06 00:15:52,083 - irc_bot - WARNING - Connection attempt 2 failed: [WinError 10053] An established connection was aborted by the software in your host machine
+2025-07-06 00:15:52,083 - irc_bot - INFO - Retrying in 4 seconds...
+2025-07-06 00:15:56,084 - irc_bot - WARNING - Connection attempt 3 failed: [WinError 10053] An established connection was aborted by the software in your host machine
+2025-07-06 00:15:56,084 - irc_bot - ERROR - Failed to reconnect in main loop: Failed to connect after 3 attempts. Last error: [WinError 10053] An established connection was aborted by the software in your host machine
+2025-07-06 00:15:56,084 - irc_bot - ERROR - Fatal error in main loop: Failed to connect after 3 attempts. Last error: [WinError 10053] An established connection was aborted by the software in your host machine
+Traceback (most recent call last):
+  File "C:\Users\stora\Downloads\socket-ai\bots\irc_bot.py", line 235, in _main_loop
+    await self._reconnect()
+  File "C:\Users\stora\Downloads\socket-ai\bots\irc_bot.py", line 199, in _reconnect
+    raise ConnectionError(f"Failed to connect after {max_attempts} attempts. Last error: {last_error}")
+ConnectionError: Failed to connect after 3 attempts. Last error: [WinError 10053] An established connection was aborted by the software in your host machine
+2025-07-06 00:15:56,084 - irc_bot - ERROR - Unexpected error during handshake: Failed to connect after 3 attempts. Last error: [WinError 10053] An established connection was aborted by the software in your host machine
+Traceback (most recent call last):
+  File "C:\Users\stora\Downloads\socket-ai\bots\irc_bot.py", line 122, in connect
+    await self._main_loop()
+  File "C:\Users\stora\Downloads\socket-ai\bots\irc_bot.py", line 235, in _main_loop
+    await self._reconnect()
+  File "C:\Users\stora\Downloads\socket-ai\bots\irc_bot.py", line 199, in _reconnect
+    raise ConnectionError(f"Failed to connect after {max_attempts} attempts. Last error: {last_error}")
+ConnectionError: Failed to connect after 3 attempts. Last error: [WinError 10053] An established connection was aborted by the software in your host machine
+2025-07-06 00:15:56,085 - irc_bot - ERROR - Failed to connect to localhost:16667: Failed to connect after 3 attempts. Last error: [WinError 10053] An established connection was aborted by the software in your host machine
+Traceback (most recent call last):
+  File "C:\Users\stora\Downloads\socket-ai\bots\irc_bot.py", line 122, in connect
+    await self._main_loop()
+  File "C:\Users\stora\Downloads\socket-ai\bots\irc_bot.py", line 235, in _main_loop
+    await self._reconnect()
+  File "C:\Users\stora\Downloads\socket-ai\bots\irc_bot.py", line 199, in _reconnect
+    raise ConnectionError(f"Failed to connect after {max_attempts} attempts. Last error: {last_error}")
+ConnectionError: Failed to connect after 3 attempts. Last error: [WinError 10053] An established connection was aborted by the software in your host machine
+2025-07-06 00:15:56,085 - irc_bot - ERROR - Error closing writer: [WinError 10053] An established connection was aborted by the software in your host machine
+Traceback (most recent call last):
+  File "C:\Users\stora\Downloads\socket-ai\bots\irc_bot.py", line 122, in connect
+    await self._main_loop()
+  File "C:\Users\stora\Downloads\socket-ai\bots\irc_bot.py", line 235, in _main_loop
+    await self._reconnect()
+  File "C:\Users\stora\Downloads\socket-ai\bots\irc_bot.py", line 199, in _reconnect
+    raise ConnectionError(f"Failed to connect after {max_attempts} attempts. Last error: {last_error}")
+ConnectionError: Failed to connect after 3 attempts. Last error: [WinError 10053] An established connection was aborted by the software in your host machine
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\stora\Downloads\socket-ai\bots\irc_bot.py", line 137, in connect
+    await self.writer.wait_closed()
+  File "C:\Users\stora\micromamba\envs\irc-ai\Lib\asyncio\streams.py", line 364, in wait_closed
+    await self._protocol._get_close_waiter(self)
+ConnectionAbortedError: [WinError 10053] An established connection was aborted by the software in your host machine
+2025-07-06 00:15:56,086 - __main__ - ERROR - Bot error: Failed to connect after 3 attempts. Last error: [WinError 10053] An established connection was aborted by the software in your host machine
+Traceback (most recent call last):
+  File "C:\Users\stora\Downloads\socket-ai\scripts\launch_bot.py", line 48, in run_bot
+    await bot.connect()  # connect() calls _main_loop() internally
+    ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\stora\Downloads\socket-ai\bots\irc_bot.py", line 122, in connect
+    await self._main_loop()
+  File "C:\Users\stora\Downloads\socket-ai\bots\irc_bot.py", line 235, in _main_loop
+    await self._reconnect()
+  File "C:\Users\stora\Downloads\socket-ai\bots\irc_bot.py", line 199, in _reconnect
+    raise ConnectionError(f"Failed to connect after {max_attempts} attempts. Last error: {last_error}")
+ConnectionError: Failed to connect after 3 attempts. Last error: [WinError 10053] An established connection was aborted by the software in your host machine
+2025-07-06 00:48:54,155 - utils.config - INFO - Loaded configuration from environments\cantina\C3PO.yml
+2025-07-06 00:48:54,205 - irc_bot - INFO - Attempting to connect to localhost:16667...
+2025-07-06 00:48:56,250 - irc_bot - INFO - Successfully connected to localhost:16667
+2025-07-06 00:49:58,260 - irc_bot - ERROR - Error sending PING: name 'time' is not defined
+Traceback (most recent call last):
+  File "C:\Users\stora\micromamba\envs\irc-ai\Lib\asyncio\tasks.py", line 500, in wait_for
+    return fut.result()
+           ^^^^^^^^^^^^
+  File "C:\Users\stora\micromamba\envs\irc-ai\Lib\asyncio\streams.py", line 711, in read
+    await self._wait_for_data('read')
+  File "C:\Users\stora\micromamba\envs\irc-ai\Lib\asyncio\streams.py", line 543, in _wait_for_data
+    await self._waiter
+asyncio.exceptions.CancelledError
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\stora\Downloads\socket-ai\bots\irc_bot.py", line 245, in _main_loop
+    chunk = await asyncio.wait_for(self.reader.read(4096), timeout=60.0)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\stora\micromamba\envs\irc-ai\Lib\asyncio\tasks.py", line 502, in wait_for
+    raise exceptions.TimeoutError() from exc
+TimeoutError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\stora\Downloads\socket-ai\bots\irc_bot.py", line 269, in _main_loop
+    ping_msg = f"PING :{int(time.time())}"
+                            ^^^^
+NameError: name 'time' is not defined
+2025-07-06 00:49:58,274 - irc_bot - ERROR - Fatal error in main loop: name 'time' is not defined
+Traceback (most recent call last):
+  File "C:\Users\stora\micromamba\envs\irc-ai\Lib\asyncio\tasks.py", line 500, in wait_for
+    return fut.result()
+           ^^^^^^^^^^^^
+  File "C:\Users\stora\micromamba\envs\irc-ai\Lib\asyncio\streams.py", line 711, in read
+    await self._wait_for_data('read')
+  File "C:\Users\stora\micromamba\envs\irc-ai\Lib\asyncio\streams.py", line 543, in _wait_for_data
+    await self._waiter
+asyncio.exceptions.CancelledError
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\stora\Downloads\socket-ai\bots\irc_bot.py", line 245, in _main_loop
+    chunk = await asyncio.wait_for(self.reader.read(4096), timeout=60.0)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\stora\micromamba\envs\irc-ai\Lib\asyncio\tasks.py", line 502, in wait_for
+    raise exceptions.TimeoutError() from exc
+TimeoutError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\stora\Downloads\socket-ai\bots\irc_bot.py", line 269, in _main_loop
+    ping_msg = f"PING :{int(time.time())}"
+                            ^^^^
+NameError: name 'time' is not defined
+2025-07-06 00:49:58,275 - irc_bot - ERROR - Unexpected error during handshake: name 'time' is not defined
+Traceback (most recent call last):
+  File "C:\Users\stora\micromamba\envs\irc-ai\Lib\asyncio\tasks.py", line 500, in wait_for
+    return fut.result()
+           ^^^^^^^^^^^^
+  File "C:\Users\stora\micromamba\envs\irc-ai\Lib\asyncio\streams.py", line 711, in read
+    await self._wait_for_data('read')
+  File "C:\Users\stora\micromamba\envs\irc-ai\Lib\asyncio\streams.py", line 543, in _wait_for_data
+    await self._waiter
+asyncio.exceptions.CancelledError
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\stora\Downloads\socket-ai\bots\irc_bot.py", line 245, in _main_loop
+    chunk = await asyncio.wait_for(self.reader.read(4096), timeout=60.0)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\stora\micromamba\envs\irc-ai\Lib\asyncio\tasks.py", line 502, in wait_for
+    raise exceptions.TimeoutError() from exc
+TimeoutError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\stora\Downloads\socket-ai\bots\irc_bot.py", line 122, in connect
+    await self._main_loop()
+  File "C:\Users\stora\Downloads\socket-ai\bots\irc_bot.py", line 269, in _main_loop
+    ping_msg = f"PING :{int(time.time())}"
+                            ^^^^
+NameError: name 'time' is not defined
+2025-07-06 00:49:58,276 - irc_bot - ERROR - Failed to connect to localhost:16667: name 'time' is not defined
+Traceback (most recent call last):
+  File "C:\Users\stora\micromamba\envs\irc-ai\Lib\asyncio\tasks.py", line 500, in wait_for
+    return fut.result()
+           ^^^^^^^^^^^^
+  File "C:\Users\stora\micromamba\envs\irc-ai\Lib\asyncio\streams.py", line 711, in read
+    await self._wait_for_data('read')
+  File "C:\Users\stora\micromamba\envs\irc-ai\Lib\asyncio\streams.py", line 543, in _wait_for_data
+    await self._waiter
+asyncio.exceptions.CancelledError
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\stora\Downloads\socket-ai\bots\irc_bot.py", line 245, in _main_loop
+    chunk = await asyncio.wait_for(self.reader.read(4096), timeout=60.0)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\stora\micromamba\envs\irc-ai\Lib\asyncio\tasks.py", line 502, in wait_for
+    raise exceptions.TimeoutError() from exc
+TimeoutError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\stora\Downloads\socket-ai\bots\irc_bot.py", line 122, in connect
+    await self._main_loop()
+  File "C:\Users\stora\Downloads\socket-ai\bots\irc_bot.py", line 269, in _main_loop
+    ping_msg = f"PING :{int(time.time())}"
+                            ^^^^
+NameError: name 'time' is not defined
+2025-07-06 00:49:58,277 - __main__ - ERROR - Bot error: name 'time' is not defined
+Traceback (most recent call last):
+  File "C:\Users\stora\micromamba\envs\irc-ai\Lib\asyncio\tasks.py", line 500, in wait_for
+    return fut.result()
+           ^^^^^^^^^^^^
+  File "C:\Users\stora\micromamba\envs\irc-ai\Lib\asyncio\streams.py", line 711, in read
+    await self._wait_for_data('read')
+  File "C:\Users\stora\micromamba\envs\irc-ai\Lib\asyncio\streams.py", line 543, in _wait_for_data
+    await self._waiter
+asyncio.exceptions.CancelledError
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\stora\Downloads\socket-ai\bots\irc_bot.py", line 245, in _main_loop
+    chunk = await asyncio.wait_for(self.reader.read(4096), timeout=60.0)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\stora\micromamba\envs\irc-ai\Lib\asyncio\tasks.py", line 502, in wait_for
+    raise exceptions.TimeoutError() from exc
+TimeoutError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\stora\Downloads\socket-ai\scripts\launch_bot.py", line 48, in run_bot
+    await bot.connect()  # connect() calls _main_loop() internally
+    ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\stora\Downloads\socket-ai\bots\irc_bot.py", line 122, in connect
+    await self._main_loop()
+  File "C:\Users\stora\Downloads\socket-ai\bots\irc_bot.py", line 269, in _main_loop
+    ping_msg = f"PING :{int(time.time())}"
+                            ^^^^
+NameError: name 'time' is not defined
+2025-07-06 01:35:11,638 - utils.config - INFO - Loaded configuration from environments\cantina\C3PO.yml
+2025-07-06 01:35:11,686 - irc_bot - INFO - Attempting to connect to localhost:16667...
+2025-07-06 01:35:13,731 - irc_bot - INFO - Successfully connected to localhost:16667
+2025-07-06 01:35:15,731 - irc_bot - INFO - Received welcome message, joining channel...
+2025-07-06 01:35:17,739 - irc_bot - INFO - Successfully joined #cantina
+2025-07-06 02:07:44,197 - utils.config - INFO - Loaded configuration from environments\cantina\C3PO.yml
+2025-07-06 02:07:44,245 - irc_bot - INFO - Attempting to connect to localhost:16667...
+2025-07-06 02:07:46,278 - irc_bot - INFO - Successfully connected to localhost:16667
+2025-07-06 02:07:48,281 - irc_bot - INFO - Received welcome message, joining channel...
+2025-07-06 02:07:50,294 - irc_bot - INFO - Successfully joined #cantina
+2025-07-06 02:27:50,285 - utils.config - INFO - Loaded configuration from environments\cantina\C3PO.yml
+2025-07-06 02:27:50,341 - irc_bot - INFO - Attempting to connect to localhost:16667...
+2025-07-06 02:27:52,377 - irc_bot - INFO - Successfully connected to localhost:16667
+2025-07-06 02:27:54,384 - irc_bot - INFO - Received welcome message, joining channel...
+2025-07-06 02:27:56,394 - irc_bot - INFO - Successfully joined #cantina
+2025-07-06 02:28:08,214 - httpx - INFO - HTTP Request: POST http://10.209.1.96:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-06 03:21:48,604 - utils.config - INFO - Loaded configuration from environments\cantina\C3PO.yml
+2025-07-06 03:21:48,662 - irc_bot - INFO - Attempting to connect to localhost:16667...
+2025-07-06 03:21:50,688 - irc_bot - INFO - Successfully connected to localhost:16667
+2025-07-06 03:21:52,694 - irc_bot - INFO - Received welcome message, joining channel...
+2025-07-06 03:21:54,707 - irc_bot - INFO - Successfully joined #cantina
+2025-07-06 03:22:06,251 - httpx - INFO - HTTP Request: POST http://10.209.1.96:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-06 03:30:56,023 - utils.config - INFO - Loaded configuration from environments\cantina\C3PO.yml
+2025-07-06 03:30:56,078 - irc_bot - INFO - Attempting to connect to localhost:16667...
+2025-07-06 03:30:58,120 - irc_bot - INFO - Successfully connected to localhost:16667
+2025-07-06 03:31:00,128 - irc_bot - INFO - Received welcome message, joining channel...
+2025-07-06 03:31:02,139 - irc_bot - INFO - Successfully joined #cantina
+2025-07-06 03:31:13,436 - httpx - INFO - HTTP Request: POST http://10.209.1.96:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-06 03:31:17,547 - utils.config - INFO - Loaded configuration from environments\cantina\C3PO.yml
+2025-07-06 03:31:17,597 - irc_bot - INFO - Attempting to connect to localhost:16667...
+2025-07-06 03:31:19,657 - irc_bot - INFO - Successfully connected to localhost:16667
+2025-07-06 03:31:21,659 - irc_bot - INFO - Received welcome message, joining channel...
+2025-07-06 03:31:23,662 - irc_bot - INFO - Successfully joined #cantina
+2025-07-06 03:31:33,738 - httpx - INFO - HTTP Request: POST http://10.209.1.96:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-06 03:32:58,844 - utils.config - INFO - Loaded configuration from environments\cantina\C3PO.yml
+2025-07-06 03:32:58,894 - irc_bot - INFO - Attempting to connect to localhost:16667...
+2025-07-06 03:33:00,920 - irc_bot - INFO - Successfully connected to localhost:16667
+2025-07-06 03:33:02,925 - irc_bot - INFO - Received welcome message, joining channel...
+2025-07-06 03:33:04,936 - irc_bot - INFO - Successfully joined #cantina
+2025-07-06 03:33:08,316 - utils.config - INFO - Loaded configuration from environments\cantina\C3PO.yml
+2025-07-06 03:33:08,362 - irc_bot - INFO - Attempting to connect to localhost:16667...
+2025-07-06 03:33:10,403 - irc_bot - INFO - Successfully connected to localhost:16667
+2025-07-06 03:38:38,991 - utils.config - INFO - Loaded configuration from environments\cantina\C3PO.yml
+2025-07-06 03:38:39,046 - irc_bot - INFO - Attempting to connect to localhost:16667...
+2025-07-06 03:38:41,078 - irc_bot - INFO - Successfully connected to localhost:16667
+2025-07-06 03:38:43,094 - irc_bot - INFO - Received welcome message, joining channel...
+2025-07-06 03:38:45,099 - irc_bot - INFO - Successfully joined #cantina
+2025-07-06 03:38:56,612 - httpx - INFO - HTTP Request: POST http://10.209.1.96:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-06 03:39:20,995 - utils.config - INFO - Loaded configuration from environments\cantina\C3PO.yml
+2025-07-06 03:39:21,062 - irc_bot - INFO - Attempting to connect to localhost:16667...
+2025-07-06 03:39:23,105 - irc_bot - INFO - Successfully connected to localhost:16667
+2025-07-06 03:39:25,108 - irc_bot - INFO - Received welcome message, joining channel...
+2025-07-06 03:39:27,109 - irc_bot - INFO - Successfully joined #cantina
+2025-07-06 03:39:33,680 - irc_bot - ERROR - Connection error in main loop: [WinError 64] The specified network name is no longer available
+Traceback (most recent call last):
+  File "C:\Users\stora\micromamba\envs\irc-ai\Lib\asyncio\windows_events.py", line 494, in finish_recv
+    return ov.getresult()
+           ^^^^^^^^^^^^^^
+OSError: [WinError 64] The specified network name is no longer available
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\stora\Downloads\socket-ai\bots\irc_bot.py", line 245, in _main_loop
+    chunk = await asyncio.wait_for(self.reader.read(4096), timeout=60.0)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\stora\micromamba\envs\irc-ai\Lib\asyncio\tasks.py", line 489, in wait_for
+    return fut.result()
+           ^^^^^^^^^^^^
+  File "C:\Users\stora\micromamba\envs\irc-ai\Lib\asyncio\streams.py", line 711, in read
+    await self._wait_for_data('read')
+  File "C:\Users\stora\micromamba\envs\irc-ai\Lib\asyncio\streams.py", line 543, in _wait_for_data
+    await self._waiter
+  File "C:\Users\stora\micromamba\envs\irc-ai\Lib\asyncio\proactor_events.py", line 286, in _loop_reading
+    length = fut.result()
+             ^^^^^^^^^^^^
+  File "C:\Users\stora\micromamba\envs\irc-ai\Lib\asyncio\windows_events.py", line 854, in _poll
+    value = callback(transferred, key, ov)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\stora\micromamba\envs\irc-ai\Lib\asyncio\windows_events.py", line 498, in finish_recv
+    raise ConnectionResetError(*exc.args)
+ConnectionResetError: [WinError 64] The specified network name is no longer available
+2025-07-06 03:39:34,909 - utils.config - INFO - Loaded configuration from environments\cantina\C3PO.yml
+2025-07-06 03:39:34,954 - irc_bot - INFO - Attempting to connect to localhost:16667...
+2025-07-06 03:39:36,989 - irc_bot - INFO - Successfully connected to localhost:16667
+2025-07-06 03:39:38,727 - irc_bot - WARNING - Connection attempt 1 failed: [WinError 64] The specified network name is no longer available
+2025-07-06 03:39:38,727 - irc_bot - INFO - Retrying in 2 seconds...
+2025-07-06 03:39:38,991 - irc_bot - INFO - Received welcome message, joining channel...
+2025-07-06 03:39:40,734 - irc_bot - WARNING - Connection attempt 2 failed: [WinError 64] The specified network name is no longer available
+2025-07-06 03:39:40,734 - irc_bot - INFO - Retrying in 4 seconds...
+2025-07-06 03:39:41,002 - irc_bot - INFO - Successfully joined #cantina
+2025-07-06 03:39:44,959 - httpx - INFO - HTTP Request: POST http://10.209.1.96:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-06 03:39:51,005 - httpx - INFO - HTTP Request: POST http://10.209.1.96:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-06 03:43:50,376 - utils.config - INFO - Loaded configuration from environments\cantina\C3PO.yml
+2025-07-06 03:43:50,423 - irc_bot - INFO - Attempting to connect to localhost:16667...
+2025-07-06 03:43:52,470 - irc_bot - INFO - Successfully connected to localhost:16667
+2025-07-06 03:43:54,483 - irc_bot - INFO - Received welcome message, joining channel...
+2025-07-06 03:43:56,495 - irc_bot - INFO - Successfully joined #cantina
+2025-07-06 03:44:00,344 - irc_bot - ERROR - Connection error in main loop: [WinError 64] The specified network name is no longer available
+Traceback (most recent call last):
+  File "C:\Users\stora\micromamba\envs\irc-ai\Lib\asyncio\windows_events.py", line 494, in finish_recv
+    return ov.getresult()
+           ^^^^^^^^^^^^^^
+OSError: [WinError 64] The specified network name is no longer available
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\stora\Downloads\socket-ai\bots\irc_bot.py", line 245, in _main_loop
+    chunk = await asyncio.wait_for(self.reader.read(4096), timeout=60.0)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\stora\micromamba\envs\irc-ai\Lib\asyncio\tasks.py", line 489, in wait_for
+    return fut.result()
+           ^^^^^^^^^^^^
+  File "C:\Users\stora\micromamba\envs\irc-ai\Lib\asyncio\streams.py", line 711, in read
+    await self._wait_for_data('read')
+  File "C:\Users\stora\micromamba\envs\irc-ai\Lib\asyncio\streams.py", line 543, in _wait_for_data
+    await self._waiter
+  File "C:\Users\stora\micromamba\envs\irc-ai\Lib\asyncio\proactor_events.py", line 286, in _loop_reading
+    length = fut.result()
+             ^^^^^^^^^^^^
+  File "C:\Users\stora\micromamba\envs\irc-ai\Lib\asyncio\windows_events.py", line 854, in _poll
+    value = callback(transferred, key, ov)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\stora\micromamba\envs\irc-ai\Lib\asyncio\windows_events.py", line 498, in finish_recv
+    raise ConnectionResetError(*exc.args)
+ConnectionResetError: [WinError 64] The specified network name is no longer available
+2025-07-06 03:44:01,212 - utils.config - INFO - Loaded configuration from environments\cantina\C3PO.yml
+2025-07-06 03:44:01,266 - irc_bot - INFO - Attempting to connect to localhost:16667...
+2025-07-06 03:44:03,303 - irc_bot - INFO - Successfully connected to localhost:16667
+2025-07-06 03:44:05,311 - irc_bot - INFO - Received welcome message, joining channel...
+2025-07-06 03:44:05,359 - irc_bot - WARNING - Connection attempt 1 failed: [WinError 64] The specified network name is no longer available
+2025-07-06 03:44:05,359 - irc_bot - INFO - Retrying in 2 seconds...
+2025-07-06 03:44:07,319 - irc_bot - INFO - Successfully joined #cantina
+2025-07-06 03:44:07,366 - irc_bot - WARNING - Connection attempt 2 failed: [WinError 64] The specified network name is no longer available
+2025-07-06 03:44:07,366 - irc_bot - INFO - Retrying in 4 seconds...
+2025-07-06 03:44:10,909 - httpx - INFO - HTTP Request: POST http://10.209.1.96:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-06 03:44:17,328 - httpx - INFO - HTTP Request: POST http://10.209.1.96:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-06 03:46:27,040 - utils.config - INFO - Loaded configuration from environments\cantina\C3PO.yml
+2025-07-06 03:46:27,096 - irc_bot - INFO - Attempting to connect to localhost:16667...
+2025-07-06 03:46:29,124 - irc_bot - INFO - Successfully connected to localhost:16667
+2025-07-06 03:46:31,132 - irc_bot - INFO - Received welcome message, joining channel...
+2025-07-06 03:46:33,139 - irc_bot - INFO - Successfully joined #cantina
+2025-07-06 03:46:35,143 - irc_bot - ERROR - Cannot send line: writer is not connected
+2025-07-06 03:46:35,143 - irc_bot - ERROR - Connection error in main loop: [WinError 64] The specified network name is no longer available
+Traceback (most recent call last):
+  File "C:\Users\stora\micromamba\envs\irc-ai\Lib\asyncio\windows_events.py", line 494, in finish_recv
+    return ov.getresult()
+           ^^^^^^^^^^^^^^
+OSError: [WinError 64] The specified network name is no longer available
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\stora\Downloads\socket-ai\bots\irc_bot.py", line 245, in _main_loop
+    chunk = await asyncio.wait_for(self.reader.read(4096), timeout=60.0)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\stora\micromamba\envs\irc-ai\Lib\asyncio\tasks.py", line 489, in wait_for
+    return fut.result()
+           ^^^^^^^^^^^^
+  File "C:\Users\stora\micromamba\envs\irc-ai\Lib\asyncio\streams.py", line 692, in read
+    raise self._exception
+  File "C:\Users\stora\micromamba\envs\irc-ai\Lib\asyncio\proactor_events.py", line 286, in _loop_reading
+    length = fut.result()
+             ^^^^^^^^^^^^
+  File "C:\Users\stora\micromamba\envs\irc-ai\Lib\asyncio\windows_events.py", line 854, in _poll
+    value = callback(transferred, key, ov)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\stora\micromamba\envs\irc-ai\Lib\asyncio\windows_events.py", line 498, in finish_recv
+    raise ConnectionResetError(*exc.args)
+ConnectionResetError: [WinError 64] The specified network name is no longer available
+2025-07-06 03:46:35,490 - utils.config - INFO - Loaded configuration from environments\cantina\C3PO.yml
+2025-07-06 03:46:35,546 - irc_bot - INFO - Attempting to connect to localhost:16667...
+2025-07-06 03:46:37,577 - irc_bot - INFO - Successfully connected to localhost:16667
+2025-07-06 03:46:39,589 - irc_bot - INFO - Received welcome message, joining channel...
+2025-07-06 03:46:40,152 - irc_bot - WARNING - Connection attempt 1 failed: [WinError 64] The specified network name is no longer available
+2025-07-06 03:46:40,152 - irc_bot - INFO - Retrying in 2 seconds...
+2025-07-06 03:46:41,590 - irc_bot - INFO - Successfully joined #cantina
+2025-07-06 03:46:42,161 - irc_bot - WARNING - Connection attempt 2 failed: [WinError 64] The specified network name is no longer available
+2025-07-06 03:46:42,161 - irc_bot - INFO - Retrying in 4 seconds...
+2025-07-06 03:46:46,100 - httpx - INFO - HTTP Request: POST http://10.209.1.96:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-06 03:46:52,636 - httpx - INFO - HTTP Request: POST http://10.209.1.96:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-06 03:47:54,998 - utils.config - INFO - Loaded configuration from environments\cantina\C3PO.yml
+2025-07-06 03:47:55,048 - irc_bot - INFO - Attempting to connect to localhost:16667...
+2025-07-06 03:47:57,088 - irc_bot - INFO - Successfully connected to localhost:16667
+2025-07-06 03:47:59,100 - irc_bot - INFO - Received welcome message, joining channel...
+2025-07-06 03:48:01,121 - irc_bot - ERROR - Cannot send line: writer is not connected
+2025-07-06 03:48:01,121 - irc_bot - ERROR - Connection error in main loop: [WinError 64] The specified network name is no longer available
+Traceback (most recent call last):
+  File "C:\Users\stora\micromamba\envs\irc-ai\Lib\asyncio\windows_events.py", line 494, in finish_recv
+    return ov.getresult()
+           ^^^^^^^^^^^^^^
+OSError: [WinError 64] The specified network name is no longer available
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\stora\Downloads\socket-ai\bots\irc_bot.py", line 245, in _main_loop
+    chunk = await asyncio.wait_for(self.reader.read(4096), timeout=60.0)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\stora\micromamba\envs\irc-ai\Lib\asyncio\tasks.py", line 489, in wait_for
+    return fut.result()
+           ^^^^^^^^^^^^
+  File "C:\Users\stora\micromamba\envs\irc-ai\Lib\asyncio\streams.py", line 692, in read
+    raise self._exception
+  File "C:\Users\stora\micromamba\envs\irc-ai\Lib\asyncio\proactor_events.py", line 286, in _loop_reading
+    length = fut.result()
+             ^^^^^^^^^^^^
+  File "C:\Users\stora\micromamba\envs\irc-ai\Lib\asyncio\windows_events.py", line 854, in _poll
+    value = callback(transferred, key, ov)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\stora\micromamba\envs\irc-ai\Lib\asyncio\windows_events.py", line 498, in finish_recv
+    raise ConnectionResetError(*exc.args)
+ConnectionResetError: [WinError 64] The specified network name is no longer available
+2025-07-06 03:48:01,564 - utils.config - INFO - Loaded configuration from environments\cantina\C3PO.yml
+2025-07-06 03:48:01,629 - irc_bot - INFO - Attempting to connect to localhost:16667...
+2025-07-06 03:48:03,676 - irc_bot - INFO - Successfully connected to localhost:16667
+2025-07-06 03:48:05,679 - irc_bot - INFO - Received welcome message, joining channel...
+2025-07-06 03:48:06,129 - irc_bot - WARNING - Connection attempt 1 failed: [WinError 64] The specified network name is no longer available
+2025-07-06 03:48:06,129 - irc_bot - INFO - Retrying in 2 seconds...
+2025-07-06 03:48:07,687 - irc_bot - INFO - Successfully joined #cantina
+2025-07-06 03:48:08,137 - irc_bot - WARNING - Connection attempt 2 failed: [WinError 64] The specified network name is no longer available
+2025-07-06 03:48:08,137 - irc_bot - INFO - Retrying in 4 seconds...
+2025-07-06 03:48:12,162 - httpx - INFO - HTTP Request: POST http://10.209.1.96:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-06 03:48:17,622 - httpx - INFO - HTTP Request: POST http://10.209.1.96:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-06 04:30:58,427 - utils.config - INFO - Loaded configuration from environments\cantina\C3PO.yml
+2025-07-06 04:30:58,485 - irc_bot - INFO - Attempting to connect to localhost:16667...
+2025-07-06 04:31:00,516 - irc_bot - INFO - Successfully connected to localhost:16667
+2025-07-06 04:31:02,524 - irc_bot - INFO - Received welcome message, joining channel...
+2025-07-06 04:31:04,540 - irc_bot - INFO - Successfully joined #cantina
+2025-07-06 04:31:16,057 - httpx - INFO - HTTP Request: POST http://10.209.1.96:11434/v1/chat/completions "HTTP/1.1 200 OK"

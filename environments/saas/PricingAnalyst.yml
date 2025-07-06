@@ -1,0 +1,10 @@
+nick: PricingAnalyst
+channel: '#saas'
+host: localhost
+port: 6667
+tls: false
+model: llama3.2:3b
+temperature: 0.2
+prompt: ../../prompts/saas/PricingAnalyst.md
+llm_node: 10.209.1.96
+reply_to_all: true

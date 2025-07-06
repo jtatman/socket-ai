@@ -1,0 +1,513 @@
+2025-07-05 04:31:08,182 - __main__ - INFO - Starting mock IRC server on 127.0.0.1:6667
+2025-07-05 04:31:08,184 - asyncio - DEBUG - Using proactor: IocpProactor
+2025-07-05 04:31:08,185 - __main__ - INFO - Mock server started. Press Ctrl+C to stop.
+2025-07-05 04:31:08,185 - tests.mock_irc_server - INFO - Mock IRC server running on 127.0.0.1:6667
+2025-07-05 04:31:12,760 - __main__ - INFO - Stopping mock server...
+2025-07-05 04:31:12,760 - tests.mock_irc_server - INFO - Stopping mock IRC server...
+2025-07-05 04:31:12,761 - tests.mock_irc_server - DEBUG - Error during loop cleanup: This event loop is already running
+2025-07-05 04:31:12,775 - tests.mock_irc_server - INFO - Mock IRC server stopped
+2025-07-05 04:31:12,775 - __main__ - INFO - Mock server stopped.
+2025-07-05 04:31:30,565 - __main__ - INFO - Starting mock IRC server on 127.0.0.1:6667
+2025-07-05 04:31:30,565 - asyncio - DEBUG - Using proactor: IocpProactor
+2025-07-05 04:31:30,567 - __main__ - INFO - Mock server started. Press Ctrl+C to stop.
+2025-07-05 04:31:30,567 - tests.mock_irc_server - INFO - Mock IRC server running on 127.0.0.1:6667
+2025-07-05 04:32:57,782 - __main__ - INFO - Stopping mock server...
+2025-07-05 04:32:57,782 - tests.mock_irc_server - INFO - Stopping mock IRC server...
+2025-07-05 04:32:57,783 - tests.mock_irc_server - DEBUG - Error during loop cleanup: This event loop is already running
+2025-07-05 04:32:57,795 - tests.mock_irc_server - INFO - Mock IRC server stopped
+2025-07-05 04:32:57,797 - __main__ - INFO - Mock server stopped.
+2025-07-05 04:33:00,438 - __main__ - INFO - Starting mock IRC server on 127.0.0.1:6667
+2025-07-05 04:33:00,438 - asyncio - DEBUG - Using proactor: IocpProactor
+2025-07-05 04:33:00,441 - __main__ - INFO - Mock server started. Press Ctrl+C to stop.
+2025-07-05 04:33:00,441 - tests.mock_irc_server - INFO - Mock IRC server running on 127.0.0.1:6667
+2025-07-05 04:33:02,279 - __main__ - INFO - Stopping mock server...
+2025-07-05 04:33:02,279 - tests.mock_irc_server - INFO - Stopping mock IRC server...
+2025-07-05 04:33:02,279 - tests.mock_irc_server - DEBUG - Error during loop cleanup: This event loop is already running
+2025-07-05 04:33:02,291 - tests.mock_irc_server - INFO - Mock IRC server stopped
+2025-07-05 04:33:02,291 - __main__ - INFO - Mock server stopped.
+2025-07-05 04:33:39,905 - __main__ - INFO - Starting mock IRC server on 127.0.0.1:16667
+2025-07-05 04:33:39,907 - asyncio - DEBUG - Using proactor: IocpProactor
+2025-07-05 04:33:39,908 - __main__ - INFO - Mock server started. Press Ctrl+C to stop.
+2025-07-05 04:33:39,908 - tests.mock_irc_server - INFO - Mock IRC server running on 127.0.0.1:16667
+2025-07-05 04:51:55,394 - tests.mock_irc_server - INFO - New connection from ('127.0.0.1', 64814)
+2025-07-05 04:51:55,413 - tests.mock_irc_server - ERROR - Error closing client connection: [WinError 64] The specified network name is no longer available
+2025-07-05 04:51:56,419 - tests.mock_irc_server - INFO - New connection from ('127.0.0.1', 64850)
+2025-07-05 04:51:56,419 - tests.mock_irc_server - INFO - New connection from ('127.0.0.1', 64853)
+2025-07-05 04:51:56,434 - tests.mock_irc_server - DEBUG - Received from ('127.0.0.1', 64850): NICK user1
+2025-07-05 04:51:56,435 - tests.mock_irc_server - DEBUG - Processing command: 'NICK user1'
+2025-07-05 04:51:56,435 - tests.mock_irc_server - DEBUG - Command: NICK, Params: ['user1']
+2025-07-05 04:51:56,435 - tests.mock_irc_server - DEBUG - Received from ('127.0.0.1', 64853): NICK user2
+2025-07-05 04:51:56,436 - tests.mock_irc_server - DEBUG - Processing command: 'NICK user2'
+2025-07-05 04:51:56,436 - tests.mock_irc_server - DEBUG - Command: NICK, Params: ['user2']
+2025-07-05 04:51:56,436 - tests.mock_irc_server - DEBUG - Received from ('127.0.0.1', 64850): USER user1 0 * :User One
+2025-07-05 04:51:56,436 - tests.mock_irc_server - DEBUG - Processing command: 'USER user1 0 * :User One'
+2025-07-05 04:51:56,437 - tests.mock_irc_server - DEBUG - Command: USER, Params: ['user1', '0', '*', ':User', 'One']
+2025-07-05 04:51:56,437 - tests.mock_irc_server - DEBUG - Received from ('127.0.0.1', 64853): USER user2 0 * :User Two
+2025-07-05 04:51:56,437 - tests.mock_irc_server - DEBUG - Processing command: 'USER user2 0 * :User Two'
+2025-07-05 04:51:56,437 - tests.mock_irc_server - DEBUG - Command: USER, Params: ['user2', '0', '*', ':User', 'Two']
+2025-07-05 04:51:56,437 - tests.mock_irc_server - DEBUG - Received from ('127.0.0.1', 64850): JOIN #test
+2025-07-05 04:51:56,437 - tests.mock_irc_server - DEBUG - Processing command: 'JOIN #test'
+2025-07-05 04:51:56,437 - tests.mock_irc_server - DEBUG - Command: JOIN, Params: ['#test']
+2025-07-05 04:51:56,438 - tests.mock_irc_server - DEBUG - Received from ('127.0.0.1', 64853): JOIN #test
+2025-07-05 04:51:56,438 - tests.mock_irc_server - DEBUG - Processing command: 'JOIN #test'
+2025-07-05 04:51:56,438 - tests.mock_irc_server - DEBUG - Command: JOIN, Params: ['#test']
+2025-07-05 04:51:56,438 - tests.mock_irc_server - DEBUG - Received from ('127.0.0.1', 64850): PRIVMSG #test :Hello, world!
+2025-07-05 04:51:56,438 - tests.mock_irc_server - DEBUG - Processing command: 'PRIVMSG #test :Hello, world!'
+2025-07-05 04:51:56,438 - tests.mock_irc_server - DEBUG - Command: PRIVMSG, Params: ['#test', ':Hello,', 'world!']
+2025-07-05 04:51:56,537 - tests.mock_irc_server - DEBUG - Received from ('127.0.0.1', 64850): QUIT :Test complete
+2025-07-05 04:51:56,537 - tests.mock_irc_server - DEBUG - Processing command: 'QUIT :Test complete'
+2025-07-05 04:51:56,538 - tests.mock_irc_server - DEBUG - Command: QUIT, Params: [':Test', 'complete']
+2025-07-05 04:51:56,538 - tests.mock_irc_server - ERROR - Error closing client connection: [WinError 10054] An existing connection was forcibly closed by the remote host
+2025-07-05 04:51:56,538 - tests.mock_irc_server - DEBUG - Received from ('127.0.0.1', 64853): QUIT :Test complete
+2025-07-05 04:51:56,539 - tests.mock_irc_server - DEBUG - Processing command: 'QUIT :Test complete'
+2025-07-05 04:51:56,539 - tests.mock_irc_server - DEBUG - Command: QUIT, Params: [':Test', 'complete']
+2025-07-05 04:51:56,539 - tests.mock_irc_server - ERROR - Error closing client connection: [WinError 10054] An existing connection was forcibly closed by the remote host
+2025-07-05 04:51:57,548 - tests.mock_irc_server - INFO - New connection from ('127.0.0.1', 64861)
+2025-07-05 04:51:57,571 - tests.mock_irc_server - DEBUG - Received from ('127.0.0.1', 64861): NICK testuser
+2025-07-05 04:51:57,571 - tests.mock_irc_server - DEBUG - Processing command: 'NICK testuser'
+2025-07-05 04:51:57,572 - tests.mock_irc_server - DEBUG - Command: NICK, Params: ['testuser']
+2025-07-05 04:51:57,572 - tests.mock_irc_server - DEBUG - Received from ('127.0.0.1', 64861): USER testuser 0 * :Test User
+2025-07-05 04:51:57,572 - tests.mock_irc_server - DEBUG - Processing command: 'USER testuser 0 * :Test User'
+2025-07-05 04:51:57,572 - tests.mock_irc_server - DEBUG - Command: USER, Params: ['testuser', '0', '*', ':Test', 'User']
+2025-07-05 04:51:57,574 - tests.mock_irc_server - ERROR - Error handling client ('127.0.0.1', 64861): [WinError 10053] An established connection was aborted by the software in your host machine
+2025-07-05 04:51:57,574 - tests.mock_irc_server - ERROR - Error closing client connection: [WinError 10053] An established connection was aborted by the software in your host machine
+2025-07-05 04:51:57,575 - tests.mock_irc_server - INFO - New connection from ('127.0.0.1', 64862)
+2025-07-05 04:51:57,587 - tests.mock_irc_server - DEBUG - Received from ('127.0.0.1', 64862): PING :test_connection
+2025-07-05 04:51:57,587 - tests.mock_irc_server - DEBUG - Processing command: 'PING :test_connection'
+2025-07-05 04:51:57,587 - tests.mock_irc_server - DEBUG - Command: PING, Params: [':test_connection']
+2025-07-05 04:52:58,089 - tests.mock_irc_server - INFO - New connection from ('127.0.0.1', 49327)
+2025-07-05 04:52:58,105 - tests.mock_irc_server - ERROR - Error closing client connection: [WinError 64] The specified network name is no longer available
+2025-07-05 04:52:59,110 - tests.mock_irc_server - INFO - New connection from ('127.0.0.1', 49332)
+2025-07-05 04:52:59,111 - tests.mock_irc_server - INFO - New connection from ('127.0.0.1', 49333)
+2025-07-05 04:52:59,125 - tests.mock_irc_server - DEBUG - Received from ('127.0.0.1', 49332): NICK user1
+2025-07-05 04:52:59,125 - tests.mock_irc_server - DEBUG - Processing command: 'NICK user1'
+2025-07-05 04:52:59,125 - tests.mock_irc_server - DEBUG - Command: NICK, Params: ['user1']
+2025-07-05 04:52:59,125 - tests.mock_irc_server - DEBUG - Received from ('127.0.0.1', 49333): NICK user2
+2025-07-05 04:52:59,125 - tests.mock_irc_server - DEBUG - Processing command: 'NICK user2'
+2025-07-05 04:52:59,125 - tests.mock_irc_server - DEBUG - Command: NICK, Params: ['user2']
+2025-07-05 04:52:59,126 - tests.mock_irc_server - DEBUG - Received from ('127.0.0.1', 49332): USER user1 0 * :User One
+2025-07-05 04:52:59,126 - tests.mock_irc_server - DEBUG - Processing command: 'USER user1 0 * :User One'
+2025-07-05 04:52:59,126 - tests.mock_irc_server - DEBUG - Command: USER, Params: ['user1', '0', '*', ':User', 'One']
+2025-07-05 04:52:59,126 - tests.mock_irc_server - DEBUG - Received from ('127.0.0.1', 49333): USER user2 0 * :User Two
+2025-07-05 04:52:59,126 - tests.mock_irc_server - DEBUG - Processing command: 'USER user2 0 * :User Two'
+2025-07-05 04:52:59,127 - tests.mock_irc_server - DEBUG - Command: USER, Params: ['user2', '0', '*', ':User', 'Two']
+2025-07-05 04:52:59,127 - tests.mock_irc_server - DEBUG - Received from ('127.0.0.1', 49332): JOIN #test
+2025-07-05 04:52:59,127 - tests.mock_irc_server - DEBUG - Processing command: 'JOIN #test'
+2025-07-05 04:52:59,128 - tests.mock_irc_server - DEBUG - Command: JOIN, Params: ['#test']
+2025-07-05 04:52:59,128 - tests.mock_irc_server - DEBUG - Received from ('127.0.0.1', 49333): JOIN #test
+2025-07-05 04:52:59,128 - tests.mock_irc_server - DEBUG - Processing command: 'JOIN #test'
+2025-07-05 04:52:59,128 - tests.mock_irc_server - DEBUG - Command: JOIN, Params: ['#test']
+2025-07-05 04:52:59,128 - tests.mock_irc_server - DEBUG - Received from ('127.0.0.1', 49332): PRIVMSG #test :Hello, world!
+2025-07-05 04:52:59,128 - tests.mock_irc_server - DEBUG - Processing command: 'PRIVMSG #test :Hello, world!'
+2025-07-05 04:52:59,128 - tests.mock_irc_server - DEBUG - Command: PRIVMSG, Params: ['#test', ':Hello,', 'world!']
+2025-07-05 04:52:59,227 - tests.mock_irc_server - DEBUG - Received from ('127.0.0.1', 49332): QUIT :Test complete
+2025-07-05 04:52:59,227 - tests.mock_irc_server - DEBUG - Processing command: 'QUIT :Test complete'
+2025-07-05 04:52:59,228 - tests.mock_irc_server - DEBUG - Command: QUIT, Params: [':Test', 'complete']
+2025-07-05 04:52:59,228 - tests.mock_irc_server - ERROR - Error closing client connection: [WinError 10054] An existing connection was forcibly closed by the remote host
+2025-07-05 04:52:59,228 - tests.mock_irc_server - DEBUG - Received from ('127.0.0.1', 49333): QUIT :Test complete
+2025-07-05 04:52:59,229 - tests.mock_irc_server - DEBUG - Processing command: 'QUIT :Test complete'
+2025-07-05 04:52:59,229 - tests.mock_irc_server - DEBUG - Command: QUIT, Params: [':Test', 'complete']
+2025-07-05 04:52:59,229 - tests.mock_irc_server - ERROR - Error closing client connection: [WinError 10054] An existing connection was forcibly closed by the remote host
+2025-07-05 04:53:00,238 - tests.mock_irc_server - INFO - New connection from ('127.0.0.1', 49371)
+2025-07-05 04:53:00,258 - tests.mock_irc_server - DEBUG - Received from ('127.0.0.1', 49371): NICK testuser
+2025-07-05 04:53:00,259 - tests.mock_irc_server - DEBUG - Processing command: 'NICK testuser'
+2025-07-05 04:53:00,260 - tests.mock_irc_server - DEBUG - Command: NICK, Params: ['testuser']
+2025-07-05 04:53:00,261 - tests.mock_irc_server - DEBUG - Received from ('127.0.0.1', 49371): USER testuser 0 * :Test User
+2025-07-05 04:53:00,261 - tests.mock_irc_server - DEBUG - Processing command: 'USER testuser 0 * :Test User'
+2025-07-05 04:53:00,262 - tests.mock_irc_server - DEBUG - Command: USER, Params: ['testuser', '0', '*', ':Test', 'User']
+2025-07-05 04:53:00,262 - tests.mock_irc_server - ERROR - Error handling client ('127.0.0.1', 49371): [WinError 10053] An established connection was aborted by the software in your host machine
+2025-07-05 04:53:00,262 - tests.mock_irc_server - ERROR - Error closing client connection: [WinError 10053] An established connection was aborted by the software in your host machine
+2025-07-05 04:53:00,264 - tests.mock_irc_server - INFO - New connection from ('127.0.0.1', 49372)
+2025-07-05 04:53:00,265 - tests.mock_irc_server - DEBUG - Received from ('127.0.0.1', 49372): PING :test_connection
+2025-07-05 04:53:00,265 - tests.mock_irc_server - DEBUG - Processing command: 'PING :test_connection'
+2025-07-05 04:53:00,265 - tests.mock_irc_server - DEBUG - Command: PING, Params: [':test_connection']
+2025-07-05 04:55:29,420 - tests.mock_irc_server - INFO - New connection from ('127.0.0.1', 51640)
+2025-07-05 04:55:29,433 - tests.mock_irc_server - ERROR - Error closing client connection: [WinError 64] The specified network name is no longer available
+2025-07-05 04:55:30,449 - tests.mock_irc_server - INFO - New connection from ('127.0.0.1', 51648)
+2025-07-05 04:55:30,472 - tests.mock_irc_server - INFO - New connection from ('127.0.0.1', 51649)
+2025-07-05 04:55:30,487 - tests.mock_irc_server - DEBUG - Received from ('127.0.0.1', 51648): NICK user1
+2025-07-05 04:55:30,487 - tests.mock_irc_server - DEBUG - Processing command: 'NICK user1'
+2025-07-05 04:55:30,487 - tests.mock_irc_server - DEBUG - Command: NICK, Params: ['user1']
+2025-07-05 04:55:30,487 - tests.mock_irc_server - DEBUG - Received from ('127.0.0.1', 51649): NICK user2
+2025-07-05 04:55:30,488 - tests.mock_irc_server - DEBUG - Processing command: 'NICK user2'
+2025-07-05 04:55:30,488 - tests.mock_irc_server - DEBUG - Command: NICK, Params: ['user2']
+2025-07-05 04:55:30,488 - tests.mock_irc_server - DEBUG - Received from ('127.0.0.1', 51648): USER user1 0 * :User One
+2025-07-05 04:55:30,488 - tests.mock_irc_server - DEBUG - Processing command: 'USER user1 0 * :User One'
+2025-07-05 04:55:30,489 - tests.mock_irc_server - DEBUG - Command: USER, Params: ['user1', '0', '*', ':User', 'One']
+2025-07-05 04:55:30,489 - tests.mock_irc_server - DEBUG - Received from ('127.0.0.1', 51649): USER user2 0 * :User Two
+2025-07-05 04:55:30,489 - tests.mock_irc_server - DEBUG - Processing command: 'USER user2 0 * :User Two'
+2025-07-05 04:55:30,489 - tests.mock_irc_server - DEBUG - Command: USER, Params: ['user2', '0', '*', ':User', 'Two']
+2025-07-05 04:55:30,489 - tests.mock_irc_server - DEBUG - Received from ('127.0.0.1', 51648): JOIN #test
+2025-07-05 04:55:30,489 - tests.mock_irc_server - DEBUG - Processing command: 'JOIN #test'
+2025-07-05 04:55:30,489 - tests.mock_irc_server - DEBUG - Command: JOIN, Params: ['#test']
+2025-07-05 04:55:30,490 - tests.mock_irc_server - DEBUG - Received from ('127.0.0.1', 51649): JOIN #test
+2025-07-05 04:55:30,490 - tests.mock_irc_server - DEBUG - Processing command: 'JOIN #test'
+2025-07-05 04:55:30,490 - tests.mock_irc_server - DEBUG - Command: JOIN, Params: ['#test']
+2025-07-05 04:55:30,490 - tests.mock_irc_server - DEBUG - Received from ('127.0.0.1', 51648): PRIVMSG #test :Hello, world!
+2025-07-05 04:55:30,491 - tests.mock_irc_server - DEBUG - Processing command: 'PRIVMSG #test :Hello, world!'
+2025-07-05 04:55:30,491 - tests.mock_irc_server - DEBUG - Command: PRIVMSG, Params: ['#test', ':Hello,', 'world!']
+2025-07-05 04:55:30,590 - tests.mock_irc_server - DEBUG - Received from ('127.0.0.1', 51648): QUIT :Test complete
+2025-07-05 04:55:30,591 - tests.mock_irc_server - DEBUG - Processing command: 'QUIT :Test complete'
+2025-07-05 04:55:30,591 - tests.mock_irc_server - DEBUG - Command: QUIT, Params: [':Test', 'complete']
+2025-07-05 04:55:30,592 - tests.mock_irc_server - ERROR - Error closing client connection: [WinError 10054] An existing connection was forcibly closed by the remote host
+2025-07-05 04:55:30,592 - tests.mock_irc_server - DEBUG - Received from ('127.0.0.1', 51649): QUIT :Test complete
+2025-07-05 04:55:30,592 - tests.mock_irc_server - DEBUG - Processing command: 'QUIT :Test complete'
+2025-07-05 04:55:30,593 - tests.mock_irc_server - DEBUG - Command: QUIT, Params: [':Test', 'complete']
+2025-07-05 04:55:30,593 - tests.mock_irc_server - ERROR - Error closing client connection: [WinError 10054] An existing connection was forcibly closed by the remote host
+2025-07-05 04:55:31,603 - tests.mock_irc_server - INFO - New connection from ('127.0.0.1', 51658)
+2025-07-05 04:55:31,616 - tests.mock_irc_server - DEBUG - Received from ('127.0.0.1', 51658): NICK testuser
+2025-07-05 04:55:31,617 - tests.mock_irc_server - DEBUG - Processing command: 'NICK testuser'
+2025-07-05 04:55:31,617 - tests.mock_irc_server - DEBUG - Command: NICK, Params: ['testuser']
+2025-07-05 04:55:31,618 - tests.mock_irc_server - DEBUG - Received from ('127.0.0.1', 51658): USER testuser 0 * :Test User
+2025-07-05 04:55:31,618 - tests.mock_irc_server - DEBUG - Processing command: 'USER testuser 0 * :Test User'
+2025-07-05 04:55:31,618 - tests.mock_irc_server - DEBUG - Command: USER, Params: ['testuser', '0', '*', ':Test', 'User']
+2025-07-05 04:55:31,618 - tests.mock_irc_server - ERROR - Error handling client ('127.0.0.1', 51658): [WinError 10053] An established connection was aborted by the software in your host machine
+2025-07-05 04:55:31,619 - tests.mock_irc_server - ERROR - Error closing client connection: [WinError 10053] An established connection was aborted by the software in your host machine
+2025-07-05 04:55:31,621 - tests.mock_irc_server - INFO - New connection from ('127.0.0.1', 51659)
+2025-07-05 04:55:31,631 - tests.mock_irc_server - DEBUG - Received from ('127.0.0.1', 51659): PING :test_connection
+2025-07-05 04:55:31,632 - tests.mock_irc_server - DEBUG - Processing command: 'PING :test_connection'
+2025-07-05 04:55:31,632 - tests.mock_irc_server - DEBUG - Command: PING, Params: [':test_connection']
+2025-07-05 04:56:40,043 - __main__ - INFO - Stopping mock server...
+2025-07-05 04:56:40,044 - tests.mock_irc_server - INFO - Stopping mock IRC server...
+2025-07-05 04:56:40,044 - tests.mock_irc_server - DEBUG - Error during loop cleanup: This event loop is already running
+2025-07-05 04:56:40,052 - tests.mock_irc_server - INFO - Mock IRC server stopped
+2025-07-05 04:56:40,053 - __main__ - INFO - Mock server stopped.
+2025-07-05 04:56:42,120 - __main__ - INFO - Starting mock IRC server on 127.0.0.1:16667
+2025-07-05 04:56:42,122 - asyncio - DEBUG - Using proactor: IocpProactor
+2025-07-05 04:56:42,123 - __main__ - INFO - Mock server started. Press Ctrl+C to stop.
+2025-07-05 04:56:42,124 - tests.mock_irc_server - INFO - Mock IRC server running on 127.0.0.1:16667
+2025-07-05 04:56:50,286 - tests.mock_irc_server - INFO - New connection from ('127.0.0.1', 52749)
+2025-07-05 04:56:50,309 - tests.mock_irc_server - ERROR - Error closing client connection: [WinError 64] The specified network name is no longer available
+2025-07-05 04:56:51,316 - tests.mock_irc_server - INFO - New connection from ('127.0.0.1', 52758)
+2025-07-05 04:56:51,316 - tests.mock_irc_server - INFO - New connection from ('127.0.0.1', 52759)
+2025-07-05 04:56:51,317 - tests.mock_irc_server - DEBUG - Received from ('127.0.0.1', 52758): NICK user1
+2025-07-05 04:56:51,317 - tests.mock_irc_server - DEBUG - Processing command: 'NICK user1'
+2025-07-05 04:56:51,317 - tests.mock_irc_server - DEBUG - Command: NICK, Params: ['user1']
+2025-07-05 04:56:51,317 - tests.mock_irc_server - DEBUG - Received from ('127.0.0.1', 52759): NICK user2
+2025-07-05 04:56:51,318 - tests.mock_irc_server - DEBUG - Processing command: 'NICK user2'
+2025-07-05 04:56:51,318 - tests.mock_irc_server - DEBUG - Command: NICK, Params: ['user2']
+2025-07-05 04:56:51,318 - tests.mock_irc_server - DEBUG - Received from ('127.0.0.1', 52758): USER user1 0 * :User One
+2025-07-05 04:56:51,318 - tests.mock_irc_server - DEBUG - Processing command: 'USER user1 0 * :User One'
+2025-07-05 04:56:51,318 - tests.mock_irc_server - DEBUG - Command: USER, Params: ['user1', '0', '*', ':User', 'One']
+2025-07-05 04:56:51,319 - tests.mock_irc_server - DEBUG - Received from ('127.0.0.1', 52759): USER user2 0 * :User Two
+2025-07-05 04:56:51,319 - tests.mock_irc_server - DEBUG - Processing command: 'USER user2 0 * :User Two'
+2025-07-05 04:56:51,319 - tests.mock_irc_server - DEBUG - Command: USER, Params: ['user2', '0', '*', ':User', 'Two']
+2025-07-05 04:56:51,319 - tests.mock_irc_server - DEBUG - Received from ('127.0.0.1', 52758): JOIN #test
+2025-07-05 04:56:51,319 - tests.mock_irc_server - DEBUG - Processing command: 'JOIN #test'
+2025-07-05 04:56:51,319 - tests.mock_irc_server - DEBUG - Command: JOIN, Params: ['#test']
+2025-07-05 04:56:51,319 - tests.mock_irc_server - DEBUG - Received from ('127.0.0.1', 52759): JOIN #test
+2025-07-05 04:56:51,319 - tests.mock_irc_server - DEBUG - Processing command: 'JOIN #test'
+2025-07-05 04:56:51,319 - tests.mock_irc_server - DEBUG - Command: JOIN, Params: ['#test']
+2025-07-05 04:56:51,319 - tests.mock_irc_server - DEBUG - Received from ('127.0.0.1', 52758): PRIVMSG #test :Hello, world!
+2025-07-05 04:56:51,319 - tests.mock_irc_server - DEBUG - Processing command: 'PRIVMSG #test :Hello, world!'
+2025-07-05 04:56:51,319 - tests.mock_irc_server - DEBUG - Command: PRIVMSG, Params: ['#test', ':Hello,', 'world!']
+2025-07-05 04:56:51,418 - tests.mock_irc_server - DEBUG - Received from ('127.0.0.1', 52758): QUIT :Test complete
+2025-07-05 04:56:51,418 - tests.mock_irc_server - DEBUG - Processing command: 'QUIT :Test complete'
+2025-07-05 04:56:51,419 - tests.mock_irc_server - DEBUG - Command: QUIT, Params: [':Test', 'complete']
+2025-07-05 04:56:51,419 - tests.mock_irc_server - ERROR - Error closing client connection: [WinError 10054] An existing connection was forcibly closed by the remote host
+2025-07-05 04:56:51,420 - tests.mock_irc_server - DEBUG - Received from ('127.0.0.1', 52759): QUIT :Test complete
+2025-07-05 04:56:51,420 - tests.mock_irc_server - DEBUG - Processing command: 'QUIT :Test complete'
+2025-07-05 04:56:51,420 - tests.mock_irc_server - DEBUG - Command: QUIT, Params: [':Test', 'complete']
+2025-07-05 04:56:51,420 - tests.mock_irc_server - ERROR - Error closing client connection: [WinError 10054] An existing connection was forcibly closed by the remote host
+2025-07-05 04:56:52,429 - tests.mock_irc_server - INFO - New connection from ('127.0.0.1', 52769)
+2025-07-05 04:56:52,449 - tests.mock_irc_server - DEBUG - Received from ('127.0.0.1', 52769): NICK testuser
+2025-07-05 04:56:52,449 - tests.mock_irc_server - DEBUG - Processing command: 'NICK testuser'
+2025-07-05 04:56:52,451 - tests.mock_irc_server - DEBUG - Command: NICK, Params: ['testuser']
+2025-07-05 04:56:52,453 - tests.mock_irc_server - DEBUG - Received from ('127.0.0.1', 52769): USER testuser 0 * :Test User
+2025-07-05 04:56:52,454 - tests.mock_irc_server - DEBUG - Processing command: 'USER testuser 0 * :Test User'
+2025-07-05 04:56:52,455 - tests.mock_irc_server - DEBUG - Command: USER, Params: ['testuser', '0', '*', ':Test', 'User']
+2025-07-05 04:56:52,456 - tests.mock_irc_server - ERROR - Error handling client ('127.0.0.1', 52769): [WinError 10053] An established connection was aborted by the software in your host machine
+2025-07-05 04:56:52,457 - tests.mock_irc_server - ERROR - Error closing client connection: [WinError 10053] An established connection was aborted by the software in your host machine
+2025-07-05 04:56:52,460 - tests.mock_irc_server - INFO - New connection from ('127.0.0.1', 52770)
+2025-07-05 04:56:52,478 - tests.mock_irc_server - DEBUG - Received from ('127.0.0.1', 52770): PING :test_connection
+2025-07-05 04:56:52,479 - tests.mock_irc_server - DEBUG - Processing command: 'PING :test_connection'
+2025-07-05 04:56:52,479 - tests.mock_irc_server - DEBUG - Command: PING, Params: [':test_connection']
+2025-07-05 04:58:53,872 - tests.mock_irc_server - INFO - New connection from ('127.0.0.1', 54802)
+2025-07-05 04:58:53,882 - tests.mock_irc_server - ERROR - Error closing client connection: [WinError 64] The specified network name is no longer available
+2025-07-05 04:58:54,898 - tests.mock_irc_server - INFO - New connection from ('127.0.0.1', 54841)
+2025-07-05 04:58:54,913 - tests.mock_irc_server - INFO - New connection from ('127.0.0.1', 54842)
+2025-07-05 04:58:54,913 - tests.mock_irc_server - DEBUG - Received from ('127.0.0.1', 54841): NICK user1
+2025-07-05 04:58:54,914 - tests.mock_irc_server - DEBUG - Processing command: 'NICK user1'
+2025-07-05 04:58:54,914 - tests.mock_irc_server - DEBUG - Command: NICK, Params: ['user1']
+2025-07-05 04:58:54,914 - tests.mock_irc_server - DEBUG - Received from ('127.0.0.1', 54842): NICK user2
+2025-07-05 04:58:54,915 - tests.mock_irc_server - DEBUG - Processing command: 'NICK user2'
+2025-07-05 04:58:54,915 - tests.mock_irc_server - DEBUG - Command: NICK, Params: ['user2']
+2025-07-05 04:58:54,915 - tests.mock_irc_server - DEBUG - Received from ('127.0.0.1', 54841): USER user1 0 * :User One
+2025-07-05 04:58:54,915 - tests.mock_irc_server - DEBUG - Processing command: 'USER user1 0 * :User One'
+2025-07-05 04:58:54,915 - tests.mock_irc_server - DEBUG - Command: USER, Params: ['user1', '0', '*', ':User', 'One']
+2025-07-05 04:58:54,915 - tests.mock_irc_server - DEBUG - Received from ('127.0.0.1', 54842): USER user2 0 * :User Two
+2025-07-05 04:58:54,916 - tests.mock_irc_server - DEBUG - Processing command: 'USER user2 0 * :User Two'
+2025-07-05 04:58:54,916 - tests.mock_irc_server - DEBUG - Command: USER, Params: ['user2', '0', '*', ':User', 'Two']
+2025-07-05 04:58:54,916 - tests.mock_irc_server - DEBUG - Received from ('127.0.0.1', 54841): JOIN #test
+2025-07-05 04:58:54,916 - tests.mock_irc_server - DEBUG - Processing command: 'JOIN #test'
+2025-07-05 04:58:54,916 - tests.mock_irc_server - DEBUG - Command: JOIN, Params: ['#test']
+2025-07-05 04:58:54,916 - tests.mock_irc_server - DEBUG - Received from ('127.0.0.1', 54842): JOIN #test
+2025-07-05 04:58:54,916 - tests.mock_irc_server - DEBUG - Processing command: 'JOIN #test'
+2025-07-05 04:58:54,917 - tests.mock_irc_server - DEBUG - Command: JOIN, Params: ['#test']
+2025-07-05 04:58:54,917 - tests.mock_irc_server - DEBUG - Received from ('127.0.0.1', 54841): PRIVMSG #test :Hello, world!
+2025-07-05 04:58:54,917 - tests.mock_irc_server - DEBUG - Processing command: 'PRIVMSG #test :Hello, world!'
+2025-07-05 04:58:54,917 - tests.mock_irc_server - DEBUG - Command: PRIVMSG, Params: ['#test', ':Hello,', 'world!']
+2025-07-05 04:58:55,016 - tests.mock_irc_server - DEBUG - Received from ('127.0.0.1', 54841): QUIT :Test complete
+2025-07-05 04:58:55,016 - tests.mock_irc_server - DEBUG - Processing command: 'QUIT :Test complete'
+2025-07-05 04:58:55,017 - tests.mock_irc_server - DEBUG - Command: QUIT, Params: [':Test', 'complete']
+2025-07-05 04:58:55,017 - tests.mock_irc_server - ERROR - Error closing client connection: [WinError 10054] An existing connection was forcibly closed by the remote host
+2025-07-05 04:58:55,017 - tests.mock_irc_server - DEBUG - Received from ('127.0.0.1', 54842): QUIT :Test complete
+2025-07-05 04:58:55,018 - tests.mock_irc_server - DEBUG - Processing command: 'QUIT :Test complete'
+2025-07-05 04:58:55,018 - tests.mock_irc_server - DEBUG - Command: QUIT, Params: [':Test', 'complete']
+2025-07-05 04:58:55,018 - tests.mock_irc_server - ERROR - Error closing client connection: [WinError 10054] An existing connection was forcibly closed by the remote host
+2025-07-05 04:58:56,028 - tests.mock_irc_server - INFO - New connection from ('127.0.0.1', 54847)
+2025-07-05 04:58:56,029 - tests.mock_irc_server - DEBUG - Received from ('127.0.0.1', 54847): NICK testuser
+2025-07-05 04:58:56,029 - tests.mock_irc_server - DEBUG - Processing command: 'NICK testuser'
+2025-07-05 04:58:56,030 - tests.mock_irc_server - DEBUG - Command: NICK, Params: ['testuser']
+2025-07-05 04:58:56,030 - tests.mock_irc_server - DEBUG - Received from ('127.0.0.1', 54847): USER testuser 0 * :Test User
+2025-07-05 04:58:56,030 - tests.mock_irc_server - DEBUG - Processing command: 'USER testuser 0 * :Test User'
+2025-07-05 04:58:56,030 - tests.mock_irc_server - DEBUG - Command: USER, Params: ['testuser', '0', '*', ':Test', 'User']
+2025-07-05 04:58:56,030 - tests.mock_irc_server - ERROR - Error handling client ('127.0.0.1', 54847): [WinError 10053] An established connection was aborted by the software in your host machine
+2025-07-05 04:58:56,031 - tests.mock_irc_server - ERROR - Error closing client connection: [WinError 10053] An established connection was aborted by the software in your host machine
+2025-07-05 04:58:56,034 - tests.mock_irc_server - INFO - New connection from ('127.0.0.1', 54848)
+2025-07-05 04:58:56,035 - tests.mock_irc_server - DEBUG - Received from ('127.0.0.1', 54848): PING :test_connection
+2025-07-05 04:58:56,035 - tests.mock_irc_server - DEBUG - Processing command: 'PING :test_connection'
+2025-07-05 04:58:56,035 - tests.mock_irc_server - DEBUG - Command: PING, Params: [':test_connection']
+2025-07-05 04:58:57,044 - tests.mock_irc_server - INFO - New connection from ('127.0.0.1', 54854)
+2025-07-05 04:58:57,068 - tests.mock_irc_server - DEBUG - Received from ('127.0.0.1', 54854): NICK testuser
+2025-07-05 04:58:57,069 - tests.mock_irc_server - DEBUG - Processing command: 'NICK testuser'
+2025-07-05 04:58:57,069 - tests.mock_irc_server - DEBUG - Command: NICK, Params: ['testuser']
+2025-07-05 04:58:57,069 - tests.mock_irc_server - DEBUG - Received from ('127.0.0.1', 54854): USER testuser 0 * :Test User
+2025-07-05 04:58:57,069 - tests.mock_irc_server - DEBUG - Processing command: 'USER testuser 0 * :Test User'
+2025-07-05 04:58:57,069 - tests.mock_irc_server - DEBUG - Command: USER, Params: ['testuser', '0', '*', ':Test', 'User']
+2025-07-05 04:58:57,069 - tests.mock_irc_server - ERROR - Error handling client ('127.0.0.1', 54854): [WinError 10053] An established connection was aborted by the software in your host machine
+2025-07-05 04:58:57,069 - tests.mock_irc_server - ERROR - Error closing client connection: [WinError 10053] An established connection was aborted by the software in your host machine
+2025-07-05 04:58:58,070 - tests.mock_irc_server - INFO - New connection from ('127.0.0.1', 54867)
+2025-07-05 04:58:58,070 - tests.mock_irc_server - DEBUG - Received from ('127.0.0.1', 54867): NICK testuser
+2025-07-05 04:58:58,070 - tests.mock_irc_server - DEBUG - Processing command: 'NICK testuser'
+2025-07-05 04:58:58,070 - tests.mock_irc_server - DEBUG - Command: NICK, Params: ['testuser']
+2025-07-05 04:58:58,070 - tests.mock_irc_server - DEBUG - Received from ('127.0.0.1', 54867): USER testuser 0 * :Test User
+2025-07-05 04:58:58,071 - tests.mock_irc_server - DEBUG - Processing command: 'USER testuser 0 * :Test User'
+2025-07-05 04:58:58,071 - tests.mock_irc_server - DEBUG - Command: USER, Params: ['testuser', '0', '*', ':Test', 'User']
+2025-07-05 04:58:58,071 - tests.mock_irc_server - ERROR - Error handling client ('127.0.0.1', 54867): [WinError 10053] An established connection was aborted by the software in your host machine
+2025-07-05 04:58:58,071 - tests.mock_irc_server - ERROR - Error closing client connection: [WinError 10053] An established connection was aborted by the software in your host machine
+2025-07-05 04:58:59,072 - tests.mock_irc_server - INFO - New connection from ('127.0.0.1', 54878)
+2025-07-05 04:58:59,088 - tests.mock_irc_server - DEBUG - Received from ('127.0.0.1', 54878): NICK testuser
+2025-07-05 04:58:59,089 - tests.mock_irc_server - DEBUG - Processing command: 'NICK testuser'
+2025-07-05 04:58:59,089 - tests.mock_irc_server - DEBUG - Command: NICK, Params: ['testuser']
+2025-07-05 04:58:59,089 - tests.mock_irc_server - DEBUG - Received from ('127.0.0.1', 54878): USER testuser 0 * :Test User
+2025-07-05 04:58:59,089 - tests.mock_irc_server - DEBUG - Processing command: 'USER testuser 0 * :Test User'
+2025-07-05 04:58:59,089 - tests.mock_irc_server - DEBUG - Command: USER, Params: ['testuser', '0', '*', ':Test', 'User']
+2025-07-05 04:58:59,090 - tests.mock_irc_server - ERROR - Error handling client ('127.0.0.1', 54878): [WinError 10053] An established connection was aborted by the software in your host machine
+2025-07-05 04:58:59,090 - tests.mock_irc_server - ERROR - Error closing client connection: [WinError 10053] An established connection was aborted by the software in your host machine
+2025-07-05 04:59:00,089 - tests.mock_irc_server - INFO - New connection from ('127.0.0.1', 54887)
+2025-07-05 04:59:00,111 - tests.mock_irc_server - DEBUG - Received from ('127.0.0.1', 54887): NICK testuser
+2025-07-05 04:59:00,111 - tests.mock_irc_server - DEBUG - Processing command: 'NICK testuser'
+2025-07-05 04:59:00,111 - tests.mock_irc_server - DEBUG - Command: NICK, Params: ['testuser']
+2025-07-05 04:59:00,112 - tests.mock_irc_server - DEBUG - Received from ('127.0.0.1', 54887): USER testuser 0 * :Test User
+2025-07-05 04:59:00,112 - tests.mock_irc_server - DEBUG - Processing command: 'USER testuser 0 * :Test User'
+2025-07-05 04:59:00,112 - tests.mock_irc_server - DEBUG - Command: USER, Params: ['testuser', '0', '*', ':Test', 'User']
+2025-07-05 04:59:00,112 - tests.mock_irc_server - ERROR - Error handling client ('127.0.0.1', 54887): [WinError 10053] An established connection was aborted by the software in your host machine
+2025-07-05 04:59:00,112 - tests.mock_irc_server - ERROR - Error closing client connection: [WinError 10053] An established connection was aborted by the software in your host machine
+2025-07-05 04:59:01,111 - tests.mock_irc_server - INFO - New connection from ('127.0.0.1', 54892)
+2025-07-05 04:59:01,129 - tests.mock_irc_server - DEBUG - Received from ('127.0.0.1', 54892): NICK testuser
+2025-07-05 04:59:01,129 - tests.mock_irc_server - DEBUG - Processing command: 'NICK testuser'
+2025-07-05 04:59:01,130 - tests.mock_irc_server - DEBUG - Command: NICK, Params: ['testuser']
+2025-07-05 04:59:01,130 - tests.mock_irc_server - DEBUG - Received from ('127.0.0.1', 54892): USER testuser 0 * :Test User
+2025-07-05 04:59:01,130 - tests.mock_irc_server - DEBUG - Processing command: 'USER testuser 0 * :Test User'
+2025-07-05 04:59:01,131 - tests.mock_irc_server - DEBUG - Command: USER, Params: ['testuser', '0', '*', ':Test', 'User']
+2025-07-05 04:59:01,131 - tests.mock_irc_server - ERROR - Error handling client ('127.0.0.1', 54892): [WinError 10053] An established connection was aborted by the software in your host machine
+2025-07-05 04:59:01,131 - tests.mock_irc_server - ERROR - Error closing client connection: [WinError 10053] An established connection was aborted by the software in your host machine
+2025-07-05 04:59:02,130 - tests.mock_irc_server - INFO - New connection from ('127.0.0.1', 54930)
+2025-07-05 04:59:02,145 - tests.mock_irc_server - DEBUG - Received from ('127.0.0.1', 54930): NICK testuser
+2025-07-05 04:59:02,145 - tests.mock_irc_server - DEBUG - Processing command: 'NICK testuser'
+2025-07-05 04:59:02,145 - tests.mock_irc_server - DEBUG - Command: NICK, Params: ['testuser']
+2025-07-05 04:59:02,145 - tests.mock_irc_server - DEBUG - Received from ('127.0.0.1', 54930): USER testuser 0 * :Test User
+2025-07-05 04:59:02,146 - tests.mock_irc_server - DEBUG - Processing command: 'USER testuser 0 * :Test User'
+2025-07-05 04:59:02,146 - tests.mock_irc_server - DEBUG - Command: USER, Params: ['testuser', '0', '*', ':Test', 'User']
+2025-07-05 04:59:02,146 - tests.mock_irc_server - ERROR - Error handling client ('127.0.0.1', 54930): [WinError 10053] An established connection was aborted by the software in your host machine
+2025-07-05 04:59:02,147 - tests.mock_irc_server - ERROR - Error closing client connection: [WinError 10053] An established connection was aborted by the software in your host machine
+2025-07-05 04:59:03,147 - tests.mock_irc_server - INFO - New connection from ('127.0.0.1', 54935)
+2025-07-05 04:59:03,165 - tests.mock_irc_server - DEBUG - Received from ('127.0.0.1', 54935): NICK testuser
+2025-07-05 04:59:03,166 - tests.mock_irc_server - DEBUG - Processing command: 'NICK testuser'
+2025-07-05 04:59:03,167 - tests.mock_irc_server - DEBUG - Command: NICK, Params: ['testuser']
+2025-07-05 04:59:03,168 - tests.mock_irc_server - DEBUG - Received from ('127.0.0.1', 54935): USER testuser 0 * :Test User
+2025-07-05 04:59:03,170 - tests.mock_irc_server - DEBUG - Processing command: 'USER testuser 0 * :Test User'
+2025-07-05 04:59:03,171 - tests.mock_irc_server - DEBUG - Command: USER, Params: ['testuser', '0', '*', ':Test', 'User']
+2025-07-05 04:59:03,171 - tests.mock_irc_server - ERROR - Error handling client ('127.0.0.1', 54935): [WinError 10053] An established connection was aborted by the software in your host machine
+2025-07-05 04:59:03,172 - tests.mock_irc_server - ERROR - Error closing client connection: [WinError 10053] An established connection was aborted by the software in your host machine
+2025-07-05 04:59:04,165 - tests.mock_irc_server - INFO - New connection from ('127.0.0.1', 54972)
+2025-07-05 04:59:04,187 - tests.mock_irc_server - DEBUG - Received from ('127.0.0.1', 54972): NICK testuser
+2025-07-05 04:59:04,187 - tests.mock_irc_server - DEBUG - Processing command: 'NICK testuser'
+2025-07-05 04:59:04,187 - tests.mock_irc_server - DEBUG - Command: NICK, Params: ['testuser']
+2025-07-05 04:59:04,187 - tests.mock_irc_server - DEBUG - Received from ('127.0.0.1', 54972): USER testuser 0 * :Test User
+2025-07-05 04:59:04,187 - tests.mock_irc_server - DEBUG - Processing command: 'USER testuser 0 * :Test User'
+2025-07-05 04:59:04,188 - tests.mock_irc_server - DEBUG - Command: USER, Params: ['testuser', '0', '*', ':Test', 'User']
+2025-07-05 04:59:04,188 - tests.mock_irc_server - ERROR - Error handling client ('127.0.0.1', 54972): [WinError 10053] An established connection was aborted by the software in your host machine
+2025-07-05 04:59:04,188 - tests.mock_irc_server - ERROR - Error closing client connection: [WinError 10053] An established connection was aborted by the software in your host machine
+2025-07-05 04:59:05,189 - tests.mock_irc_server - INFO - New connection from ('127.0.0.1', 54977)
+2025-07-05 04:59:05,209 - tests.mock_irc_server - DEBUG - Received from ('127.0.0.1', 54977): NICK testuser
+2025-07-05 04:59:05,210 - tests.mock_irc_server - DEBUG - Processing command: 'NICK testuser'
+2025-07-05 04:59:05,210 - tests.mock_irc_server - DEBUG - Command: NICK, Params: ['testuser']
+2025-07-05 04:59:05,211 - tests.mock_irc_server - DEBUG - Received from ('127.0.0.1', 54977): USER testuser 0 * :Test User
+2025-07-05 04:59:05,211 - tests.mock_irc_server - DEBUG - Processing command: 'USER testuser 0 * :Test User'
+2025-07-05 04:59:05,211 - tests.mock_irc_server - DEBUG - Command: USER, Params: ['testuser', '0', '*', ':Test', 'User']
+2025-07-05 04:59:05,211 - tests.mock_irc_server - ERROR - Error handling client ('127.0.0.1', 54977): [WinError 10053] An established connection was aborted by the software in your host machine
+2025-07-05 04:59:05,212 - tests.mock_irc_server - ERROR - Error closing client connection: [WinError 10053] An established connection was aborted by the software in your host machine
+2025-07-05 04:59:06,211 - tests.mock_irc_server - INFO - New connection from ('127.0.0.1', 54986)
+2025-07-05 04:59:06,223 - tests.mock_irc_server - DEBUG - Received from ('127.0.0.1', 54986): NICK testuser
+2025-07-05 04:59:06,224 - tests.mock_irc_server - DEBUG - Processing command: 'NICK testuser'
+2025-07-05 04:59:06,224 - tests.mock_irc_server - DEBUG - Command: NICK, Params: ['testuser']
+2025-07-05 04:59:06,224 - tests.mock_irc_server - DEBUG - Received from ('127.0.0.1', 54986): USER testuser 0 * :Test User
+2025-07-05 04:59:06,225 - tests.mock_irc_server - DEBUG - Processing command: 'USER testuser 0 * :Test User'
+2025-07-05 04:59:06,225 - tests.mock_irc_server - DEBUG - Command: USER, Params: ['testuser', '0', '*', ':Test', 'User']
+2025-07-05 04:59:06,225 - tests.mock_irc_server - ERROR - Error handling client ('127.0.0.1', 54986): [WinError 10053] An established connection was aborted by the software in your host machine
+2025-07-05 04:59:06,225 - tests.mock_irc_server - ERROR - Error closing client connection: [WinError 10053] An established connection was aborted by the software in your host machine
+2025-07-05 04:59:46,844 - tests.mock_irc_server - INFO - New connection from ('127.0.0.1', 55509)
+2025-07-05 04:59:46,868 - tests.mock_irc_server - ERROR - Error closing client connection: [WinError 64] The specified network name is no longer available
+2025-07-05 04:59:47,872 - tests.mock_irc_server - INFO - New connection from ('127.0.0.1', 55546)
+2025-07-05 04:59:47,890 - tests.mock_irc_server - INFO - New connection from ('127.0.0.1', 55547)
+2025-07-05 04:59:47,890 - tests.mock_irc_server - DEBUG - Received from ('127.0.0.1', 55546): NICK user1
+2025-07-05 04:59:47,891 - tests.mock_irc_server - DEBUG - Processing command: 'NICK user1'
+2025-07-05 04:59:47,891 - tests.mock_irc_server - DEBUG - Command: NICK, Params: ['user1']
+2025-07-05 04:59:47,891 - tests.mock_irc_server - DEBUG - Received from ('127.0.0.1', 55547): NICK user2
+2025-07-05 04:59:47,891 - tests.mock_irc_server - DEBUG - Processing command: 'NICK user2'
+2025-07-05 04:59:47,891 - tests.mock_irc_server - DEBUG - Command: NICK, Params: ['user2']
+2025-07-05 04:59:47,892 - tests.mock_irc_server - DEBUG - Received from ('127.0.0.1', 55546): USER user1 0 * :User One
+2025-07-05 04:59:47,892 - tests.mock_irc_server - DEBUG - Processing command: 'USER user1 0 * :User One'
+2025-07-05 04:59:47,892 - tests.mock_irc_server - DEBUG - Command: USER, Params: ['user1', '0', '*', ':User', 'One']
+2025-07-05 04:59:47,892 - tests.mock_irc_server - DEBUG - Received from ('127.0.0.1', 55547): USER user2 0 * :User Two
+2025-07-05 04:59:47,892 - tests.mock_irc_server - DEBUG - Processing command: 'USER user2 0 * :User Two'
+2025-07-05 04:59:47,893 - tests.mock_irc_server - DEBUG - Command: USER, Params: ['user2', '0', '*', ':User', 'Two']
+2025-07-05 04:59:47,893 - tests.mock_irc_server - DEBUG - Received from ('127.0.0.1', 55546): JOIN #test
+2025-07-05 04:59:47,893 - tests.mock_irc_server - DEBUG - Processing command: 'JOIN #test'
+2025-07-05 04:59:47,893 - tests.mock_irc_server - DEBUG - Command: JOIN, Params: ['#test']
+2025-07-05 04:59:47,893 - tests.mock_irc_server - DEBUG - Received from ('127.0.0.1', 55547): JOIN #test
+2025-07-05 04:59:47,893 - tests.mock_irc_server - DEBUG - Processing command: 'JOIN #test'
+2025-07-05 04:59:47,894 - tests.mock_irc_server - DEBUG - Command: JOIN, Params: ['#test']
+2025-07-05 04:59:47,894 - tests.mock_irc_server - DEBUG - Received from ('127.0.0.1', 55546): PRIVMSG #test :Hello, world!
+2025-07-05 04:59:47,894 - tests.mock_irc_server - DEBUG - Processing command: 'PRIVMSG #test :Hello, world!'
+2025-07-05 04:59:47,894 - tests.mock_irc_server - DEBUG - Command: PRIVMSG, Params: ['#test', ':Hello,', 'world!']
+2025-07-05 04:59:47,994 - tests.mock_irc_server - DEBUG - Received from ('127.0.0.1', 55546): QUIT :Test complete
+2025-07-05 04:59:47,996 - tests.mock_irc_server - DEBUG - Processing command: 'QUIT :Test complete'
+2025-07-05 04:59:47,996 - tests.mock_irc_server - DEBUG - Command: QUIT, Params: [':Test', 'complete']
+2025-07-05 04:59:47,997 - tests.mock_irc_server - DEBUG - Received from ('127.0.0.1', 55547): QUIT :Test complete
+2025-07-05 04:59:47,997 - tests.mock_irc_server - DEBUG - Processing command: 'QUIT :Test complete'
+2025-07-05 04:59:47,997 - tests.mock_irc_server - DEBUG - Command: QUIT, Params: [':Test', 'complete']
+2025-07-05 04:59:49,036 - tests.mock_irc_server - INFO - New connection from ('127.0.0.1', 55574)
+2025-07-05 04:59:49,047 - tests.mock_irc_server - DEBUG - Received from ('127.0.0.1', 55574): NICK testuser
+2025-07-05 04:59:49,047 - tests.mock_irc_server - DEBUG - Processing command: 'NICK testuser'
+2025-07-05 04:59:49,047 - tests.mock_irc_server - DEBUG - Command: NICK, Params: ['testuser']
+2025-07-05 04:59:49,048 - tests.mock_irc_server - DEBUG - Received from ('127.0.0.1', 55574): USER testuser 0 * :Test User
+2025-07-05 04:59:49,048 - tests.mock_irc_server - DEBUG - Processing command: 'USER testuser 0 * :Test User'
+2025-07-05 04:59:49,048 - tests.mock_irc_server - DEBUG - Command: USER, Params: ['testuser', '0', '*', ':Test', 'User']
+2025-07-05 04:59:49,048 - tests.mock_irc_server - ERROR - Error handling client ('127.0.0.1', 55574): [WinError 10053] An established connection was aborted by the software in your host machine
+2025-07-05 04:59:49,048 - tests.mock_irc_server - ERROR - Error closing client connection: [WinError 10053] An established connection was aborted by the software in your host machine
+2025-07-05 04:59:49,052 - tests.mock_irc_server - INFO - New connection from ('127.0.0.1', 55576)
+2025-07-05 04:59:49,116 - tests.mock_irc_server - DEBUG - Received from ('127.0.0.1', 55576): PING :test_connection
+2025-07-05 04:59:49,116 - tests.mock_irc_server - DEBUG - Processing command: 'PING :test_connection'
+2025-07-05 04:59:49,116 - tests.mock_irc_server - DEBUG - Command: PING, Params: [':test_connection']
+2025-07-05 04:59:50,126 - tests.mock_irc_server - INFO - New connection from ('127.0.0.1', 55600)
+2025-07-05 04:59:50,127 - tests.mock_irc_server - DEBUG - Received from ('127.0.0.1', 55600): NICK testuser
+2025-07-05 04:59:50,127 - tests.mock_irc_server - DEBUG - Processing command: 'NICK testuser'
+2025-07-05 04:59:50,127 - tests.mock_irc_server - DEBUG - Command: NICK, Params: ['testuser']
+2025-07-05 04:59:50,127 - tests.mock_irc_server - DEBUG - Received from ('127.0.0.1', 55600): USER testuser 0 * :Test User
+2025-07-05 04:59:50,128 - tests.mock_irc_server - DEBUG - Processing command: 'USER testuser 0 * :Test User'
+2025-07-05 04:59:50,128 - tests.mock_irc_server - DEBUG - Command: USER, Params: ['testuser', '0', '*', ':Test', 'User']
+2025-07-05 04:59:50,128 - tests.mock_irc_server - ERROR - Error closing client connection: [WinError 64] The specified network name is no longer available
+2025-07-05 04:59:51,129 - tests.mock_irc_server - INFO - New connection from ('127.0.0.1', 55612)
+2025-07-05 04:59:51,130 - tests.mock_irc_server - DEBUG - Received from ('127.0.0.1', 55612): NICK testuser
+2025-07-05 04:59:51,130 - tests.mock_irc_server - DEBUG - Processing command: 'NICK testuser'
+2025-07-05 04:59:51,131 - tests.mock_irc_server - DEBUG - Command: NICK, Params: ['testuser']
+2025-07-05 04:59:51,131 - tests.mock_irc_server - DEBUG - Received from ('127.0.0.1', 55612): USER testuser 0 * :Test User
+2025-07-05 04:59:51,131 - tests.mock_irc_server - DEBUG - Processing command: 'USER testuser 0 * :Test User'
+2025-07-05 04:59:51,131 - tests.mock_irc_server - DEBUG - Command: USER, Params: ['testuser', '0', '*', ':Test', 'User']
+2025-07-05 04:59:51,131 - tests.mock_irc_server - ERROR - Error closing client connection: [WinError 64] The specified network name is no longer available
+2025-07-05 04:59:52,134 - tests.mock_irc_server - INFO - New connection from ('127.0.0.1', 55629)
+2025-07-05 04:59:52,153 - tests.mock_irc_server - DEBUG - Received from ('127.0.0.1', 55629): NICK testuser
+2025-07-05 04:59:52,153 - tests.mock_irc_server - DEBUG - Processing command: 'NICK testuser'
+2025-07-05 04:59:52,154 - tests.mock_irc_server - DEBUG - Command: NICK, Params: ['testuser']
+2025-07-05 04:59:52,154 - tests.mock_irc_server - DEBUG - Received from ('127.0.0.1', 55629): USER testuser 0 * :Test User
+2025-07-05 04:59:52,154 - tests.mock_irc_server - DEBUG - Processing command: 'USER testuser 0 * :Test User'
+2025-07-05 04:59:52,154 - tests.mock_irc_server - DEBUG - Command: USER, Params: ['testuser', '0', '*', ':Test', 'User']
+2025-07-05 04:59:52,155 - tests.mock_irc_server - ERROR - Error closing client connection: [WinError 10054] An existing connection was forcibly closed by the remote host
+2025-07-05 04:59:53,155 - tests.mock_irc_server - INFO - New connection from ('127.0.0.1', 55640)
+2025-07-05 04:59:53,179 - tests.mock_irc_server - DEBUG - Received from ('127.0.0.1', 55640): NICK testuser
+2025-07-05 04:59:53,179 - tests.mock_irc_server - DEBUG - Processing command: 'NICK testuser'
+2025-07-05 04:59:53,180 - tests.mock_irc_server - DEBUG - Command: NICK, Params: ['testuser']
+2025-07-05 04:59:53,180 - tests.mock_irc_server - DEBUG - Received from ('127.0.0.1', 55640): USER testuser 0 * :Test User
+2025-07-05 04:59:53,180 - tests.mock_irc_server - DEBUG - Processing command: 'USER testuser 0 * :Test User'
+2025-07-05 04:59:53,181 - tests.mock_irc_server - DEBUG - Command: USER, Params: ['testuser', '0', '*', ':Test', 'User']
+2025-07-05 04:59:53,181 - tests.mock_irc_server - ERROR - Error handling client ('127.0.0.1', 55640): [WinError 10053] An established connection was aborted by the software in your host machine
+2025-07-05 04:59:53,181 - tests.mock_irc_server - ERROR - Error closing client connection: [WinError 10053] An established connection was aborted by the software in your host machine
+2025-07-05 04:59:54,181 - tests.mock_irc_server - INFO - New connection from ('127.0.0.1', 55650)
+2025-07-05 04:59:54,182 - tests.mock_irc_server - DEBUG - Received from ('127.0.0.1', 55650): NICK testuser
+2025-07-05 04:59:54,182 - tests.mock_irc_server - DEBUG - Processing command: 'NICK testuser'
+2025-07-05 04:59:54,182 - tests.mock_irc_server - DEBUG - Command: NICK, Params: ['testuser']
+2025-07-05 04:59:54,182 - tests.mock_irc_server - DEBUG - Received from ('127.0.0.1', 55650): USER testuser 0 * :Test User
+2025-07-05 04:59:54,182 - tests.mock_irc_server - DEBUG - Processing command: 'USER testuser 0 * :Test User'
+2025-07-05 04:59:54,184 - tests.mock_irc_server - DEBUG - Command: USER, Params: ['testuser', '0', '*', ':Test', 'User']
+2025-07-05 04:59:54,184 - tests.mock_irc_server - ERROR - Error closing client connection: [WinError 10054] An existing connection was forcibly closed by the remote host
+2025-07-05 04:59:55,187 - tests.mock_irc_server - INFO - New connection from ('127.0.0.1', 55657)
+2025-07-05 04:59:55,211 - tests.mock_irc_server - DEBUG - Received from ('127.0.0.1', 55657): NICK testuser
+2025-07-05 04:59:55,212 - tests.mock_irc_server - DEBUG - Processing command: 'NICK testuser'
+2025-07-05 04:59:55,213 - tests.mock_irc_server - DEBUG - Command: NICK, Params: ['testuser']
+2025-07-05 04:59:55,215 - tests.mock_irc_server - DEBUG - Received from ('127.0.0.1', 55657): USER testuser 0 * :Test User
+2025-07-05 04:59:55,215 - tests.mock_irc_server - DEBUG - Processing command: 'USER testuser 0 * :Test User'
+2025-07-05 04:59:55,215 - tests.mock_irc_server - DEBUG - Command: USER, Params: ['testuser', '0', '*', ':Test', 'User']
+2025-07-05 04:59:55,216 - tests.mock_irc_server - ERROR - Error closing client connection: [WinError 64] The specified network name is no longer available
+2025-07-05 04:59:56,217 - tests.mock_irc_server - INFO - New connection from ('127.0.0.1', 55682)
+2025-07-05 04:59:56,236 - tests.mock_irc_server - DEBUG - Received from ('127.0.0.1', 55682): NICK testuser
+2025-07-05 04:59:56,237 - tests.mock_irc_server - DEBUG - Processing command: 'NICK testuser'
+2025-07-05 04:59:56,238 - tests.mock_irc_server - DEBUG - Command: NICK, Params: ['testuser']
+2025-07-05 04:59:56,239 - tests.mock_irc_server - DEBUG - Received from ('127.0.0.1', 55682): USER testuser 0 * :Test User
+2025-07-05 04:59:56,239 - tests.mock_irc_server - DEBUG - Processing command: 'USER testuser 0 * :Test User'
+2025-07-05 04:59:56,239 - tests.mock_irc_server - DEBUG - Command: USER, Params: ['testuser', '0', '*', ':Test', 'User']
+2025-07-05 04:59:56,240 - tests.mock_irc_server - ERROR - Error closing client connection: [WinError 10054] An existing connection was forcibly closed by the remote host
+2025-07-05 04:59:57,242 - tests.mock_irc_server - INFO - New connection from ('127.0.0.1', 55701)
+2025-07-05 04:59:57,246 - tests.mock_irc_server - DEBUG - Received from ('127.0.0.1', 55701): NICK testuser
+2025-07-05 04:59:57,248 - tests.mock_irc_server - DEBUG - Processing command: 'NICK testuser'
+2025-07-05 04:59:57,249 - tests.mock_irc_server - DEBUG - Command: NICK, Params: ['testuser']
+2025-07-05 04:59:57,250 - tests.mock_irc_server - DEBUG - Received from ('127.0.0.1', 55701): USER testuser 0 * :Test User
+2025-07-05 04:59:57,251 - tests.mock_irc_server - DEBUG - Processing command: 'USER testuser 0 * :Test User'
+2025-07-05 04:59:57,251 - tests.mock_irc_server - DEBUG - Command: USER, Params: ['testuser', '0', '*', ':Test', 'User']
+2025-07-05 04:59:57,252 - tests.mock_irc_server - ERROR - Error closing client connection: [WinError 10054] An existing connection was forcibly closed by the remote host
+2025-07-05 04:59:58,253 - tests.mock_irc_server - INFO - New connection from ('127.0.0.1', 55725)
+2025-07-05 04:59:58,254 - tests.mock_irc_server - DEBUG - Received from ('127.0.0.1', 55725): NICK testuser
+2025-07-05 04:59:58,254 - tests.mock_irc_server - DEBUG - Processing command: 'NICK testuser'
+2025-07-05 04:59:58,254 - tests.mock_irc_server - DEBUG - Command: NICK, Params: ['testuser']
+2025-07-05 04:59:58,254 - tests.mock_irc_server - DEBUG - Received from ('127.0.0.1', 55725): USER testuser 0 * :Test User
+2025-07-05 04:59:58,254 - tests.mock_irc_server - DEBUG - Processing command: 'USER testuser 0 * :Test User'
+2025-07-05 04:59:58,255 - tests.mock_irc_server - DEBUG - Command: USER, Params: ['testuser', '0', '*', ':Test', 'User']
+2025-07-05 04:59:58,255 - tests.mock_irc_server - ERROR - Error closing client connection: [WinError 10054] An existing connection was forcibly closed by the remote host
+2025-07-05 04:59:59,256 - tests.mock_irc_server - INFO - New connection from ('127.0.0.1', 55747)
+2025-07-05 04:59:59,274 - tests.mock_irc_server - DEBUG - Received from ('127.0.0.1', 55747): NICK testuser
+2025-07-05 04:59:59,274 - tests.mock_irc_server - DEBUG - Processing command: 'NICK testuser'
+2025-07-05 04:59:59,274 - tests.mock_irc_server - DEBUG - Command: NICK, Params: ['testuser']
+2025-07-05 04:59:59,275 - tests.mock_irc_server - DEBUG - Received from ('127.0.0.1', 55747): USER testuser 0 * :Test User
+2025-07-05 04:59:59,275 - tests.mock_irc_server - DEBUG - Processing command: 'USER testuser 0 * :Test User'
+2025-07-05 04:59:59,275 - tests.mock_irc_server - DEBUG - Command: USER, Params: ['testuser', '0', '*', ':Test', 'User']
+2025-07-05 04:59:59,275 - tests.mock_irc_server - ERROR - Error closing client connection: [WinError 10054] An existing connection was forcibly closed by the remote host
+2025-07-05 04:59:59,353 - tests.mock_irc_server - INFO - New connection from ('127.0.0.1', 55750)
+2025-07-05 04:59:59,368 - tests.mock_irc_server - DEBUG - Received from ('127.0.0.1', 55750): NICK testuser
+2025-07-05 04:59:59,368 - tests.mock_irc_server - DEBUG - Processing command: 'NICK testuser'
+2025-07-05 04:59:59,368 - tests.mock_irc_server - DEBUG - Command: NICK, Params: ['testuser']
+2025-07-05 04:59:59,369 - tests.mock_irc_server - DEBUG - Received from ('127.0.0.1', 55750): USER testuser 0 * :Test User
+2025-07-05 04:59:59,369 - tests.mock_irc_server - DEBUG - Processing command: 'USER testuser 0 * :Test User'
+2025-07-05 04:59:59,369 - tests.mock_irc_server - DEBUG - Command: USER, Params: ['testuser', '0', '*', ':Test', 'User']
+2025-07-05 04:59:59,369 - tests.mock_irc_server - ERROR - Error closing client connection: [WinError 10054] An existing connection was forcibly closed by the remote host
+2025-07-05 05:57:05,279 - tests.mock_irc_server - INFO - New connection from ('127.0.0.1', 60072)
+2025-07-05 05:57:05,281 - tests.mock_irc_server - DEBUG - Received from ('127.0.0.1', 60072): TEST MESSAGE
+2025-07-05 05:57:05,281 - tests.mock_irc_server - DEBUG - Processing command: 'TEST MESSAGE'
+2025-07-05 05:57:05,281 - tests.mock_irc_server - DEBUG - Command: TEST, Params: ['MESSAGE']
+2025-07-05 06:34:10,977 - tests.mock_irc_server - INFO - New connection from ('127.0.0.1', 62314)
+2025-07-05 06:34:10,978 - tests.mock_irc_server - DEBUG - Received from ('127.0.0.1', 62314): NICK TestUser
+2025-07-05 06:34:10,979 - tests.mock_irc_server - DEBUG - Processing command: 'NICK TestUser'
+2025-07-05 06:34:10,979 - tests.mock_irc_server - DEBUG - Command: NICK, Params: ['TestUser']
+2025-07-05 06:34:10,979 - tests.mock_irc_server - DEBUG - Received from ('127.0.0.1', 62314): USER testuser 0 * :Test User
+2025-07-05 06:34:10,979 - tests.mock_irc_server - DEBUG - Processing command: 'USER testuser 0 * :Test User'
+2025-07-05 06:34:10,980 - tests.mock_irc_server - DEBUG - Command: USER, Params: ['testuser', '0', '*', ':Test', 'User']
+2025-07-05 06:34:10,988 - tests.mock_irc_server - DEBUG - Received from ('127.0.0.1', 62314): JOIN #test
+2025-07-05 06:34:10,989 - tests.mock_irc_server - DEBUG - Processing command: 'JOIN #test'
+2025-07-05 06:34:10,989 - tests.mock_irc_server - DEBUG - Command: JOIN, Params: ['#test']
+2025-07-05 06:34:10,989 - tests.mock_irc_server - DEBUG - Received from ('127.0.0.1', 62314): PRIVMSG #test :Hello, world!
+2025-07-05 06:34:10,990 - tests.mock_irc_server - DEBUG - Processing command: 'PRIVMSG #test :Hello, world!'
+2025-07-05 06:34:10,990 - tests.mock_irc_server - DEBUG - Command: PRIVMSG, Params: ['#test', ':Hello,', 'world!']
+2025-07-05 06:34:11,990 - tests.mock_irc_server - DEBUG - Received from ('127.0.0.1', 62314): QUIT :Test complete
+2025-07-05 06:34:11,992 - tests.mock_irc_server - DEBUG - Processing command: 'QUIT :Test complete'
+2025-07-05 06:34:11,992 - tests.mock_irc_server - DEBUG - Command: QUIT, Params: [':Test', 'complete']

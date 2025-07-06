@@ -1,0 +1,157 @@
+2025-07-06 01:24:17,979 - miniircd[51508] - INFO - Accepted connection from 127.0.0.1:54263.
+2025-07-06 01:24:17,979 - miniircd[51508] - INFO - Disconnected connection from 127.0.0.1:54263 (EOT).
+2025-07-06 01:25:44,215 - miniircd[51508] - INFO - Accepted connection from 127.0.0.1:54377.
+2025-07-06 01:25:44,215 - miniircd[51508] - INFO - Disconnected connection from 127.0.0.1:54377 (EOT).
+2025-07-06 01:26:34,446 - miniircd[51508] - INFO - Accepted connection from 127.0.0.1:54746.
+2025-07-06 01:26:34,447 - miniircd[51508] - INFO - Disconnected connection from 127.0.0.1:54746 (Test complete).
+2025-07-06 01:27:19,238 - miniircd[51508] - INFO - Accepted connection from 127.0.0.1:54800.
+2025-07-06 01:27:19,238 - miniircd[51508] - INFO - Disconnected connection from 127.0.0.1:54800 (Test complete).
+2025-07-06 01:35:10,917 - miniircd[51508] - INFO - Accepted connection from 127.0.0.1:55576.
+2025-07-06 01:35:10,917 - miniircd[51508] - INFO - Accepted connection from 127.0.0.1:55577.
+2025-07-06 01:35:10,917 - miniircd[51508] - INFO - Disconnected connection from 127.0.0.1:55576 (EOT).
+2025-07-06 01:35:10,943 - miniircd[51508] - INFO - Disconnected connection from 127.0.0.1:55577 (Test complete).
+2025-07-06 01:35:13,731 - miniircd[51508] - INFO - Accepted connection from 127.0.0.1:55585.
+2025-07-06 01:35:26,017 - miniircd[51508] - INFO - Accepted connection from 127.0.0.1:55600.
+2025-07-06 01:35:36,087 - miniircd[51508] - INFO - Disconnected connection from 127.0.0.1:55600 ([WinError 10054] An existing connection was forcibly closed by the remote host).
+2025-07-06 01:35:36,090 - miniircd[51508] - INFO - Disconnected connection from 127.0.0.1:55585 ([WinError 10054] An existing connection was forcibly closed by the remote host).
+2025-07-06 02:07:43,510 - miniircd[51508] - INFO - Accepted connection from 127.0.0.1:58091.
+2025-07-06 02:07:43,510 - miniircd[51508] - INFO - Accepted connection from 127.0.0.1:58092.
+2025-07-06 02:07:43,511 - miniircd[51508] - INFO - Disconnected connection from 127.0.0.1:58091 (EOT).
+2025-07-06 02:07:43,511 - miniircd[51508] - INFO - Disconnected connection from 127.0.0.1:58092 (Test complete).
+2025-07-06 02:07:46,278 - miniircd[51508] - INFO - Accepted connection from 127.0.0.1:58099.
+2025-07-06 02:07:58,586 - miniircd[51508] - INFO - Accepted connection from 127.0.0.1:58132.
+2025-07-06 02:08:08,631 - miniircd[51508] - INFO - Disconnected connection from 127.0.0.1:58132 ([WinError 10054] An existing connection was forcibly closed by the remote host).
+2025-07-06 02:08:08,635 - miniircd[51508] - INFO - Disconnected connection from 127.0.0.1:58099 ([WinError 10054] An existing connection was forcibly closed by the remote host).
+2025-07-06 02:27:49,447 - miniircd[51508] - INFO - Accepted connection from 127.0.0.1:59685.
+2025-07-06 02:27:49,448 - miniircd[51508] - INFO - Disconnected connection from 127.0.0.1:59685 (EOT).
+2025-07-06 02:27:52,377 - miniircd[51508] - INFO - Accepted connection from 127.0.0.1:59693.
+2025-07-06 02:28:04,541 - miniircd[51508] - INFO - Accepted connection from 127.0.0.1:59707.
+2025-07-06 02:28:10,578 - miniircd[51508] - INFO - Disconnected connection from 127.0.0.1:59707 (Test complete).
+2025-07-06 02:28:10,578 - miniircd[51508] - INFO - Disconnected connection from 127.0.0.1:59693 ([WinError 10054] An existing connection was forcibly closed by the remote host).
+2025-07-06 03:21:47,760 - miniircd[51508] - INFO - Accepted connection from 127.0.0.1:63787.
+2025-07-06 03:21:47,761 - miniircd[51508] - INFO - Disconnected connection from 127.0.0.1:63787 (EOT).
+2025-07-06 03:21:50,688 - miniircd[51508] - INFO - Accepted connection from 127.0.0.1:63795.
+2025-07-06 03:22:02,906 - miniircd[51508] - INFO - Accepted connection from 127.0.0.1:63810.
+2025-07-06 03:22:08,665 - miniircd[51508] - INFO - Disconnected connection from 127.0.0.1:63810 (Test complete).
+2025-07-06 03:22:08,668 - miniircd[51508] - INFO - Disconnected connection from 127.0.0.1:63795 ([WinError 10054] An existing connection was forcibly closed by the remote host).
+2025-07-06 03:30:55,249 - miniircd[51508] - INFO - Accepted connection from 127.0.0.1:64522.
+2025-07-06 03:30:55,264 - miniircd[51508] - INFO - Disconnected connection from 127.0.0.1:64522 (Test complete).
+2025-07-06 03:30:55,304 - miniircd[51508] - INFO - Accepted connection from 127.0.0.1:64524.
+2025-07-06 03:30:55,304 - miniircd[51508] - INFO - Disconnected connection from 127.0.0.1:64524 (EOT).
+2025-07-06 03:30:55,304 - miniircd[51508] - INFO - Accepted connection from 127.0.0.1:64525.
+2025-07-06 03:30:55,304 - miniircd[51508] - INFO - Disconnected connection from 127.0.0.1:64525 (Test complete).
+2025-07-06 03:30:58,120 - miniircd[51508] - INFO - Accepted connection from 127.0.0.1:64532.
+2025-07-06 03:31:10,401 - miniircd[51508] - INFO - Accepted connection from 127.0.0.1:64549.
+2025-07-06 03:31:11,566 - miniircd[51508] - INFO - Accepted connection from 127.0.0.1:64555.
+2025-07-06 03:31:15,770 - miniircd[51508] - INFO - Disconnected connection from 127.0.0.1:64549 (Test complete).
+2025-07-06 03:31:15,779 - miniircd[51508] - INFO - Disconnected connection from 127.0.0.1:64532 ([WinError 10054] An existing connection was forcibly closed by the remote host).
+2025-07-06 03:31:15,800 - miniircd[51508] - INFO - Accepted connection from 127.0.0.1:64560.
+2025-07-06 03:31:15,816 - miniircd[51508] - INFO - Disconnected connection from 127.0.0.1:64560 (Test complete).
+2025-07-06 03:31:16,580 - miniircd[51508] - INFO - Disconnected connection from 127.0.0.1:64555 (Client quit).
+2025-07-06 03:31:16,645 - miniircd[51508] - INFO - Accepted connection from 127.0.0.1:64562.
+2025-07-06 03:31:16,665 - miniircd[51508] - INFO - Disconnected connection from 127.0.0.1:64562 (EOT).
+2025-07-06 03:31:16,666 - miniircd[51508] - INFO - Accepted connection from 127.0.0.1:64563.
+2025-07-06 03:31:16,688 - miniircd[51508] - INFO - Disconnected connection from 127.0.0.1:64563 (Test complete).
+2025-07-06 03:31:19,657 - miniircd[51508] - INFO - Accepted connection from 127.0.0.1:64570.
+2025-07-06 03:31:31,801 - miniircd[51508] - INFO - Accepted connection from 127.0.0.1:64594.
+2025-07-06 03:31:35,195 - miniircd[51508] - INFO - Disconnected connection from 127.0.0.1:64594 (Test complete).
+2025-07-06 03:31:35,197 - miniircd[51508] - INFO - Disconnected connection from 127.0.0.1:64570 ([WinError 10054] An existing connection was forcibly closed by the remote host).
+2025-07-06 03:31:35,197 - miniircd[51508] - INFO - Accepted connection from 127.0.0.1:64599.
+2025-07-06 03:31:35,211 - miniircd[51508] - INFO - Disconnected connection from 127.0.0.1:64599 (Test complete).
+2025-07-06 03:32:58,136 - miniircd[51508] - INFO - Accepted connection from 127.0.0.1:64722.
+2025-07-06 03:32:58,136 - miniircd[51508] - INFO - Disconnected connection from 127.0.0.1:64722 (EOT).
+2025-07-06 03:32:58,136 - miniircd[51508] - INFO - Accepted connection from 127.0.0.1:64723.
+2025-07-06 03:32:58,136 - miniircd[51508] - INFO - Disconnected connection from 127.0.0.1:64723 (Test complete).
+2025-07-06 03:33:00,920 - miniircd[51508] - INFO - Accepted connection from 127.0.0.1:64731.
+2025-07-06 03:33:07,601 - miniircd[51508] - INFO - Accepted connection from 127.0.0.1:64741.
+2025-07-06 03:33:07,602 - miniircd[51508] - INFO - Disconnected connection from 127.0.0.1:64741 (EOT).
+2025-07-06 03:33:07,602 - miniircd[51508] - INFO - Accepted connection from 127.0.0.1:64742.
+2025-07-06 03:33:07,613 - miniircd[51508] - INFO - Disconnected connection from 127.0.0.1:64742 (Test complete).
+2025-07-06 03:38:41,078 - miniircd[18740] - INFO - Accepted connection from 127.0.0.1:65210.
+2025-07-06 03:38:53,363 - miniircd[18740] - INFO - Accepted connection from 127.0.0.1:65224.
+2025-07-06 03:38:57,729 - miniircd[18740] - INFO - Disconnected connection from 127.0.0.1:65224 (Test complete).
+2025-07-06 03:38:57,739 - miniircd[18740] - INFO - Disconnected connection from 127.0.0.1:65210 ([WinError 10054] An existing connection was forcibly closed by the remote host).
+2025-07-06 03:39:23,105 - miniircd[35652] - INFO - Accepted connection from 127.0.0.1:65269.
+2025-07-06 03:39:35,310 - miniircd[27372] - INFO - Accepted connection from 127.0.0.1:65291.
+2025-07-06 03:39:36,989 - miniircd[27372] - INFO - Accepted connection from 127.0.0.1:65294.
+2025-07-06 03:39:42,994 - miniircd[27372] - INFO - Disconnected connection from 127.0.0.1:65291 (Test complete).
+2025-07-06 03:39:42,997 - miniircd[27372] - INFO - Accepted connection from 127.0.0.1:65302.
+2025-07-06 03:39:43,010 - miniircd[27372] - INFO - Disconnected connection from 127.0.0.1:65302 (Test complete).
+2025-07-06 03:39:49,288 - miniircd[27372] - INFO - Accepted connection from 127.0.0.1:65311.
+2025-07-06 03:39:52,998 - miniircd[27372] - INFO - Disconnected connection from 127.0.0.1:65311 (Test complete).
+2025-07-06 03:39:53,000 - miniircd[27372] - INFO - Disconnected connection from 127.0.0.1:65294 ([WinError 10054] An existing connection was forcibly closed by the remote host).
+2025-07-06 03:39:53,002 - miniircd[27372] - ERROR - Fatal exception
+Traceback (most recent call last):
+  File "C:\Users\stora\Downloads\socket-ai\tests\miniircd.py", line 985, in start
+    self.run(serversockets)
+  File "C:\Users\stora\Downloads\socket-ai\tests\miniircd.py", line 1015, in run
+    iwtd, owtd, ewtd = select.select(
+                       ^^^^^^^^^^^^^^
+ValueError: file descriptor cannot be a negative integer (-1)
+2025-07-06 03:43:52,470 - miniircd[46896] - INFO - Accepted connection from 127.0.0.1:49316.
+2025-07-06 03:44:03,303 - miniircd[44040] - INFO - Accepted connection from 127.0.0.1:49337.
+2025-07-06 03:44:04,700 - miniircd[44040] - INFO - Accepted connection from 127.0.0.1:49339.
+2025-07-06 03:44:09,328 - miniircd[44040] - INFO - Disconnected connection from 127.0.0.1:49339 (Test complete).
+2025-07-06 03:44:09,336 - miniircd[44040] - INFO - Accepted connection from 127.0.0.1:49346.
+2025-07-06 03:44:09,351 - miniircd[44040] - INFO - Disconnected connection from 127.0.0.1:49346 (Test complete).
+2025-07-06 03:44:15,563 - miniircd[44040] - INFO - Accepted connection from 127.0.0.1:49354.
+2025-07-06 03:44:19,570 - miniircd[44040] - INFO - Disconnected connection from 127.0.0.1:49354 (Test complete).
+2025-07-06 03:44:19,580 - miniircd[44040] - INFO - Disconnected connection from 127.0.0.1:49337 ([WinError 10054] An existing connection was forcibly closed by the remote host).
+2025-07-06 03:44:19,592 - miniircd[44040] - ERROR - Fatal exception
+Traceback (most recent call last):
+  File "C:\Users\stora\Downloads\socket-ai\tests\miniircd.py", line 985, in start
+    self.run(serversockets)
+  File "C:\Users\stora\Downloads\socket-ai\tests\miniircd.py", line 1015, in run
+    iwtd, owtd, ewtd = select.select(
+                       ^^^^^^^^^^^^^^
+ValueError: file descriptor cannot be a negative integer (-1)
+2025-07-06 03:46:29,124 - miniircd[20604] - INFO - Accepted connection from 127.0.0.1:49554.
+2025-07-06 03:46:37,577 - miniircd[46124] - INFO - Accepted connection from 127.0.0.1:49570.
+2025-07-06 03:46:41,336 - miniircd[46124] - INFO - Accepted connection from 127.0.0.1:49575.
+2025-07-06 03:46:43,601 - miniircd[46124] - INFO - Disconnected connection from 127.0.0.1:49575 (Test complete).
+2025-07-06 03:46:43,609 - miniircd[46124] - INFO - Accepted connection from 127.0.0.1:49579.
+2025-07-06 03:46:44,110 - miniircd[46124] - INFO - Disconnected connection from 127.0.0.1:49579 (EOT).
+2025-07-06 03:46:44,110 - miniircd[46124] - INFO - Accepted connection from 127.0.0.1:49581.
+2025-07-06 03:46:44,591 - miniircd[46124] - INFO - Disconnected connection from 127.0.0.1:49581 (EOT).
+2025-07-06 03:46:49,621 - miniircd[46124] - INFO - Accepted connection from 127.0.0.1:49588.
+2025-07-06 03:46:54,576 - miniircd[46124] - INFO - Disconnected connection from 127.0.0.1:49588 (Test complete).
+2025-07-06 03:46:54,578 - miniircd[46124] - INFO - Disconnected connection from 127.0.0.1:49570 ([WinError 10054] An existing connection was forcibly closed by the remote host).
+2025-07-06 03:46:54,578 - miniircd[46124] - ERROR - Fatal exception
+Traceback (most recent call last):
+  File "C:\Users\stora\Downloads\socket-ai\tests\miniircd.py", line 985, in start
+    self.run(serversockets)
+  File "C:\Users\stora\Downloads\socket-ai\tests\miniircd.py", line 1015, in run
+    iwtd, owtd, ewtd = select.select(
+                       ^^^^^^^^^^^^^^
+ValueError: file descriptor cannot be a negative integer (-1)
+2025-07-06 03:47:57,088 - miniircd[42992] - INFO - Accepted connection from 127.0.0.1:49719.
+2025-07-06 03:48:03,676 - miniircd[3424] - INFO - Accepted connection from 127.0.0.1:49734.
+2025-07-06 03:48:09,286 - miniircd[3424] - INFO - Accepted connection from 127.0.0.1:49742.
+2025-07-06 03:48:09,692 - miniircd[3424] - INFO - Disconnected connection from 127.0.0.1:49742 (Test complete).
+2025-07-06 03:48:09,693 - miniircd[3424] - INFO - Accepted connection from 127.0.0.1:49743.
+2025-07-06 03:48:10,208 - miniircd[3424] - INFO - Disconnected connection from 127.0.0.1:49743 (EOT).
+2025-07-06 03:48:10,208 - miniircd[3424] - INFO - Accepted connection from 127.0.0.1:49746.
+2025-07-06 03:48:15,660 - miniircd[3424] - INFO - Disconnected connection from 127.0.0.1:49746 (EOT).
+2025-07-06 03:48:15,860 - miniircd[3424] - INFO - Accepted connection from 127.0.0.1:49754.
+2025-07-06 03:48:20,343 - miniircd[3424] - INFO - Disconnected connection from 127.0.0.1:49754 (Test complete).
+2025-07-06 03:48:20,343 - miniircd[3424] - INFO - Disconnected connection from 127.0.0.1:49734 ([WinError 10054] An existing connection was forcibly closed by the remote host).
+2025-07-06 03:48:20,343 - miniircd[3424] - ERROR - Fatal exception
+Traceback (most recent call last):
+  File "C:\Users\stora\Downloads\socket-ai\tests\miniircd.py", line 985, in start
+    self.run(serversockets)
+  File "C:\Users\stora\Downloads\socket-ai\tests\miniircd.py", line 1015, in run
+    iwtd, owtd, ewtd = select.select(
+                       ^^^^^^^^^^^^^^
+ValueError: file descriptor cannot be a negative integer (-1)
+2025-07-06 04:31:00,516 - miniircd[11032] - INFO - Accepted connection from 127.0.0.1:53245.
+2025-07-06 04:31:12,555 - miniircd[11032] - INFO - Accepted connection from 127.0.0.1:53260.
+2025-07-06 04:31:18,395 - miniircd[11032] - INFO - Disconnected connection from 127.0.0.1:53260 (Test complete).
+2025-07-06 04:31:18,395 - miniircd[11032] - INFO - Disconnected connection from 127.0.0.1:53245 ([WinError 10054] An existing connection was forcibly closed by the remote host).
+2025-07-06 04:31:18,401 - miniircd[11032] - ERROR - Fatal exception
+Traceback (most recent call last):
+  File "C:\Users\stora\Downloads\socket-ai\tests\miniircd.py", line 985, in start
+    self.run(serversockets)
+  File "C:\Users\stora\Downloads\socket-ai\tests\miniircd.py", line 1015, in run
+    iwtd, owtd, ewtd = select.select(
+                       ^^^^^^^^^^^^^^
+ValueError: file descriptor cannot be a negative integer (-1)

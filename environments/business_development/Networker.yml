@@ -1,0 +1,10 @@
+nick: Networker
+channel: '#business_development'
+host: localhost
+port: 6667
+tls: false
+model: llama3.2:3b
+temperature: 0.7
+prompt: ../../prompts/business_development/Networker.md
+llm_node: 10.209.1.96
+reply_to_all: true

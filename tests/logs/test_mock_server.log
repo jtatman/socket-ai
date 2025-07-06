@@ -1,0 +1,62 @@
+2025-07-06 00:48:48,213 - test_mock_server - INFO - Test module initialized
+2025-07-06 00:48:48,216 - test_irc_bots - INFO - Starting mock IRC server...
+2025-07-06 00:48:48,216 - asyncio - DEBUG - Using proactor: IocpProactor
+2025-07-06 00:48:48,220 - test_irc_bots - INFO - Found 5 bot configurations: C3PO, Chewbacca, HanSolo, PrincessLeia, R2D2
+2025-07-06 00:48:48,225 - test_irc_bots - INFO - Testing IRC server connection...
+2025-07-06 00:48:53,288 - test_irc_bots - INFO - 
+================================================================================
+2025-07-06 00:48:53,288 - test_irc_bots - INFO - STARTING TEST: test_bot_connection
+2025-07-06 00:48:53,288 - test_irc_bots - INFO - ================================================================================
+2025-07-06 00:48:53,288 - test_irc_bots - INFO - Available bots: C3PO, Chewbacca, HanSolo, PrincessLeia, R2D2
+2025-07-06 00:48:53,288 - test_irc_bots - INFO - Starting mock IRC server...
+2025-07-06 00:48:53,288 - test_irc_bots - INFO - Attempting to connect to mock server (attempt 1/10)...
+2025-07-06 00:48:53,309 - test_irc_bots - INFO - Successfully connected to mock server
+2025-07-06 00:48:53,309 - test_irc_bots - INFO - Starting bot: C3PO
+2025-07-06 00:48:53,309 - test_irc_bots - INFO - Bot config path: C:\Users\stora\Downloads\socket-ai\environments\cantina\C3PO.yml
+2025-07-06 00:48:53,309 - test_irc_bots - INFO - Bot config exists: True
+2025-07-06 00:48:53,316 - test_irc_bots - INFO - Started bot process with PID: 19096
+2025-07-06 00:48:53,316 - test_irc_bots - INFO - Waiting for bot to start and connect to server (15 seconds)...
+2025-07-06 00:48:54,220 - test_irc_bots - ERROR - BOT STDERR: 2025-07-06 00:48:54,155 - utils.config - INFO - Loaded configuration from environments\cantina\C3PO.yml
+2025-07-06 00:48:54,321 - test_irc_bots - ERROR - BOT STDERR: 2025-07-06 00:48:54,205 - irc_bot - INFO - Attempting to connect to localhost:16667...
+2025-07-06 00:48:56,329 - test_irc_bots - ERROR - BOT STDERR: 2025-07-06 00:48:56,250 - irc_bot - INFO - Successfully connected to localhost:16667
+2025-07-06 00:49:08,380 - test_irc_bots - INFO - Connecting test client to IRC server...
+2025-07-06 00:49:08,401 - test_irc_bots - INFO - Connected to IRC server
+2025-07-06 00:49:08,401 - test_irc_bots - INFO - Sending NICK and USER commands...
+2025-07-06 00:49:08,401 - test_irc_bots - INFO - Waiting for welcome message...
+2025-07-06 00:49:18,411 - test_irc_bots - WARNING - Error during cleanup: name 'bot_manager' is not defined
+2025-07-06 00:49:18,426 - test_mock_server - INFO - 
+================================================================================
+2025-07-06 00:49:18,426 - test_mock_server - INFO - Starting mock IRC server...
+2025-07-06 00:49:18,426 - test_mock_server - INFO - Mock server started on 127.0.0.1:16667
+2025-07-06 00:49:18,426 - test_mock_server - INFO - 
+--------------------------------------------------------------------------------
+2025-07-06 00:49:18,426 - test_mock_server - INFO - Starting test_mock_server_basic
+2025-07-06 00:49:18,426 - test_mock_server - INFO - Creating socket...
+2025-07-06 00:49:18,426 - test_mock_server - INFO - Connecting to 127.0.0.1:16667...
+2025-07-06 00:49:18,427 - test_mock_server - INFO - Successfully connected to mock server
+2025-07-06 00:49:18,427 - test_mock_server - INFO - Sending NICK command: b'NICK testuser\r\n'
+2025-07-06 00:49:18,427 - test_mock_server - INFO - Successfully sent NICK command
+2025-07-06 00:49:18,427 - test_mock_server - INFO - Sending USER command: b'USER testuser 0 * :Test User\r\n'
+2025-07-06 00:49:18,427 - test_mock_server - INFO - Successfully sent USER command
+2025-07-06 00:49:18,428 - test_mock_server - INFO - Reading server responses...
+2025-07-06 00:49:23,435 - test_mock_server - WARNING - No data received within 5 seconds
+2025-07-06 00:49:23,435 - test_mock_server - INFO - Complete server response: b''
+2025-07-06 00:49:23,435 - test_mock_server - ERROR - Test failed: Did not receive welcome message. Response: b''
+assert False
+2025-07-06 00:49:23,448 - test_mock_server - ERROR - Traceback (most recent call last):
+  File "C:\Users\stora\Downloads\socket-ai\tests\test_mock_server.py", line 153, in test_mock_server_basic
+    assert welcome_received, f"Did not receive welcome message. Response: {response!r}"
+AssertionError: Did not receive welcome message. Response: b''
+assert False
+
+2025-07-06 00:49:23,448 - test_mock_server - INFO - Sent QUIT command to server
+2025-07-06 00:49:23,448 - test_mock_server - INFO - Closed socket connection
+2025-07-06 00:49:23,448 - test_mock_server - INFO - --------------------------------------------------------------------------------
+
+2025-07-06 00:49:23,454 - test_mock_server - INFO - Stopping mock IRC server...
+2025-07-06 00:49:23,454 - mock_irc_server - INFO - Stopping mock IRC server...
+2025-07-06 00:49:23,454 - mock_irc_server - INFO - Mock IRC server stopped
+2025-07-06 00:49:23,454 - test_mock_server - INFO - Mock server stopped
+2025-07-06 00:49:23,454 - test_mock_server - INFO - ================================================================================
+
+2025-07-06 00:49:23,454 - test_irc_bots - INFO - Stopping mock IRC server...

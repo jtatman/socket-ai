@@ -1,0 +1,19 @@
+2025-07-05 01:08:58,478 - tests.test_cantina - INFO - Test configuration: BOTS=['C3PO', 'Chewbacca', 'HanSolo', 'PrincessLeia', 'R2D2'], TEST_HOST=127.0.0.1, TEST_PORT=6667, CHANNEL=#test-channel
+2025-07-05 01:11:11,659 - tests.test_cantina - INFO - Test configuration: BOTS=['C3PO', 'Chewbacca', 'HanSolo', 'PrincessLeia', 'R2D2'], TEST_HOST=127.0.0.1, TEST_PORT=6667, CHANNEL=#test-channel
+2025-07-05 08:03:42,591 - __main__ - INFO - 
+=== Starting IRC connection test ===
+2025-07-05 08:03:42,592 - __main__ - INFO - Connecting to 127.0.0.1:16667...
+2025-07-05 08:03:42,592 - __main__ - INFO - Connected to server
+2025-07-05 08:03:42,593 - __main__ - INFO - Server response: :test.irc.server 001 * :Welcome to the test IRC server
+
+2025-07-05 08:03:42,593 - __main__ - INFO - Join response: :user NICK TestUser
+
+2025-07-05 08:03:42,593 - __main__ - INFO - Sent test message: PRIVMSG #test-channel :Hello, world!
+2025-07-05 08:03:43,594 - __main__ - INFO - Received response: :test.irc.server 001 TestUser :Welcome to the test IRC server, TestUser
+:test.irc.server 375 TestUser :- test.irc.server Message of the Day -
+:test.irc.server 372 TestUser :- Welcome to the test IRC server
+:test.irc.server 376 TestUser :End of /MOTD command
+:test.irc.server 001 TestUser :Welcome to the test IRC server
+:TestUser JOIN #test-channel
+
+2025-07-05 08:03:43,594 - __main__ - INFO - Test cleanup complete

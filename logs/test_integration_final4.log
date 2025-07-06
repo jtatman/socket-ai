@@ -1,0 +1,28 @@
+INFO     test_irc_bots:test_irc_bots.py:50 Starting mock IRC server...
+DEBUG    asyncio:proactor_events.py:633 Using proactor: IocpProactor
+INFO     test_irc_bots:test_irc_bots.py:183 
+================================================================================
+INFO     mock_irc_server:mock_irc_server.py:209 Mock IRC server running on 127.0.0.1:16667
+INFO     test_irc_bots:test_irc_bots.py:184 STARTING TEST: test_bot_connection
+INFO     test_irc_bots:test_irc_bots.py:185 ================================================================================
+INFO     test_irc_bots:test_irc_bots.py:191 Available bots: C3PO, Chewbacca, HanSolo, PrincessLeia, R2D2
+INFO     test_irc_bots:test_irc_bots.py:194 Starting mock IRC server...
+INFO     test_irc_bots:test_irc_bots.py:205 Attempting to connect to mock server (attempt 1/10)...
+INFO     test_irc_bots:test_irc_bots.py:207 Successfully connected to mock server
+INFO     test_irc_bots:test_irc_bots.py:226 Starting bot: C3PO
+INFO     test_irc_bots:test_irc_bots.py:230 Bot config path: C:\Users\stora\Downloads\socket-ai\environments\cantina\C3PO.yml
+INFO     test_irc_bots:test_irc_bots.py:231 Bot config exists: True
+INFO     test_irc_bots:test_irc_bots.py:251 Started bot process with PID: 35192
+INFO     test_irc_bots:test_irc_bots.py:254 Waiting for bot to start and connect to server (15 seconds)...
+ERROR    test_irc_bots:test_irc_bots.py:273 BOT STDERR: Traceback (most recent call last):
+ERROR    test_irc_bots:test_irc_bots.py:273 BOT STDERR: File "C:\Users\stora\Downloads\socket-ai\scripts\launch_bot.py", line 18, in <module>
+ERROR    test_irc_bots:test_irc_bots.py:273 BOT STDERR: from bots.irc_bot import IRCBot
+ERROR    test_irc_bots:test_irc_bots.py:273 BOT STDERR: File "C:\Users\stora\Downloads\socket-ai\bots\irc_bot.py", line 201
+ERROR    test_irc_bots:test_irc_bots.py:273 BOT STDERR: except Exception as e:
+ERROR    test_irc_bots:test_irc_bots.py:273 BOT STDERR: SyntaxError: expected 'except' or 'finally' block
+ERROR    test_irc_bots:test_irc_bots.py:281 Bot process exited with code 1
+WARNING  test_irc_bots:test_irc_bots.py:399 Error during cleanup: cannot access local variable 'sock' where it is not associated with a value
+INFO     test_irc_bots:test_irc_bots.py:53 Stopping mock IRC server...
+INFO     mock_irc_server:mock_irc_server.py:230 Stopping mock IRC server...
+DEBUG    mock_irc_server:mock_irc_server.py:268 Error during loop cleanup: This event loop is already running
+INFO     mock_irc_server:mock_irc_server.py:279 Mock IRC server stopped

@@ -1,0 +1,104 @@
+INFO     test_irc_bots:test_irc_bots.py:50 Starting mock IRC server...
+DEBUG    asyncio:proactor_events.py:633 Using proactor: IocpProactor
+INFO     test_irc_bots:test_irc_bots.py:183 
+================================================================================
+INFO     mock_irc_server:mock_irc_server.py:224 Mock IRC server running on 127.0.0.1:16667
+INFO     test_irc_bots:test_irc_bots.py:184 STARTING TEST: test_bot_connection
+INFO     test_irc_bots:test_irc_bots.py:185 ================================================================================
+INFO     test_irc_bots:test_irc_bots.py:191 Available bots: C3PO, Chewbacca, HanSolo, PrincessLeia, R2D2
+INFO     test_irc_bots:test_irc_bots.py:194 Starting mock IRC server...
+INFO     test_irc_bots:test_irc_bots.py:205 Attempting to connect to mock server (attempt 1/10)...
+INFO     test_irc_bots:test_irc_bots.py:207 Successfully connected to mock server
+INFO     test_irc_bots:test_irc_bots.py:226 Starting bot: C3PO
+INFO     test_irc_bots:test_irc_bots.py:230 Bot config path: C:\Users\stora\Downloads\socket-ai\environments\cantina\C3PO.yml
+INFO     test_irc_bots:test_irc_bots.py:231 Bot config exists: True
+INFO     test_irc_bots:test_irc_bots.py:251 Started bot process with PID: 15476
+INFO     test_irc_bots:test_irc_bots.py:254 Waiting for bot to start and connect to server (15 seconds)...
+ERROR    test_irc_bots:test_irc_bots.py:273 BOT STDERR: 2025-07-06 00:12:37,824 - utils.config - INFO - Loaded configuration from environments\cantina\C3PO.yml
+ERROR    test_irc_bots:test_irc_bots.py:273 BOT STDERR: 2025-07-06 00:12:37,878 - irc_bot - INFO - Attempting to connect to localhost:16667...
+ERROR    test_irc_bots:test_irc_bots.py:273 BOT STDERR: 2025-07-06 00:12:39,937 - irc_bot - INFO - Successfully connected to localhost:16667
+ERROR    test_irc_bots:test_irc_bots.py:273 BOT STDERR: 2025-07-06 00:12:43,944 - irc_bot - ERROR - Connection error in send_line: Connection lost
+ERROR    test_irc_bots:test_irc_bots.py:273 BOT STDERR: 2025-07-06 00:12:43,945 - irc_bot - ERROR - Error processing line: [WinError 10053] An established connection was aborted by the software in your host machine
+ERROR    test_irc_bots:test_irc_bots.py:273 BOT STDERR: Traceback (most recent call last):
+ERROR    test_irc_bots:test_irc_bots.py:273 BOT STDERR: File "C:\Users\stora\Downloads\socket-ai\bots\irc_bot.py", line 81, in send_line
+ERROR    test_irc_bots:test_irc_bots.py:273 BOT STDERR: await self.writer.drain()
+ERROR    test_irc_bots:test_irc_bots.py:273 BOT STDERR: File "C:\Users\stora\micromamba\envs\irc-ai\Lib\asyncio\streams.py", line 392, in drain
+ERROR    test_irc_bots:test_irc_bots.py:273 BOT STDERR: await self._protocol._drain_helper()
+ERROR    test_irc_bots:test_irc_bots.py:273 BOT STDERR: File "C:\Users\stora\micromamba\envs\irc-ai\Lib\asyncio\streams.py", line 166, in _drain_helper
+ERROR    test_irc_bots:test_irc_bots.py:273 BOT STDERR: raise ConnectionResetError('Connection lost')
+ERROR    test_irc_bots:test_irc_bots.py:273 BOT STDERR: ConnectionResetError: Connection lost
+ERROR    test_irc_bots:test_irc_bots.py:273 BOT STDERR: 
+ERROR    test_irc_bots:test_irc_bots.py:273 BOT STDERR: During handling of the above exception, another exception occurred:
+ERROR    test_irc_bots:test_irc_bots.py:273 BOT STDERR: 
+ERROR    test_irc_bots:test_irc_bots.py:273 BOT STDERR: Traceback (most recent call last):
+ERROR    test_irc_bots:test_irc_bots.py:273 BOT STDERR: File "C:\Users\stora\Downloads\socket-ai\bots\irc_bot.py", line 226, in _main_loop
+ERROR    test_irc_bots:test_irc_bots.py:273 BOT STDERR: await self._handle_line(line)
+ERROR    test_irc_bots:test_irc_bots.py:273 BOT STDERR: File "C:\Users\stora\Downloads\socket-ai\bots\irc_bot.py", line 289, in _handle_line
+ERROR    test_irc_bots:test_irc_bots.py:273 BOT STDERR: await self.send_line(f"JOIN {self.channel}")
+ERROR    test_irc_bots:test_irc_bots.py:273 BOT STDERR: File "C:\Users\stora\Downloads\socket-ai\bots\irc_bot.py", line 87, in send_line
+ERROR    test_irc_bots:test_irc_bots.py:273 BOT STDERR: await self.writer.wait_closed()
+ERROR    test_irc_bots:test_irc_bots.py:273 BOT STDERR: File "C:\Users\stora\micromamba\envs\irc-ai\Lib\asyncio\streams.py", line 364, in wait_closed
+ERROR    test_irc_bots:test_irc_bots.py:273 BOT STDERR: await self._protocol._get_close_waiter(self)
+ERROR    test_irc_bots:test_irc_bots.py:273 BOT STDERR: File "C:\Users\stora\micromamba\envs\irc-ai\Lib\asyncio\proactor_events.py", line 401, in _loop_writing
+ERROR    test_irc_bots:test_irc_bots.py:273 BOT STDERR: self._write_fut = self._loop._proactor.send(self._sock, data)
+ERROR    test_irc_bots:test_irc_bots.py:273 BOT STDERR: ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ERROR    test_irc_bots:test_irc_bots.py:273 BOT STDERR: File "C:\Users\stora\micromamba\envs\irc-ai\Lib\asyncio\windows_events.py", line 574, in send
+ERROR    test_irc_bots:test_irc_bots.py:273 BOT STDERR: ov.WSASend(conn.fileno(), buf, flags)
+ERROR    test_irc_bots:test_irc_bots.py:273 BOT STDERR: ConnectionAbortedError: [WinError 10053] An established connection was aborted by the software in your host machine
+ERROR    test_irc_bots:test_irc_bots.py:273 BOT STDERR: 2025-07-06 00:12:43,973 - irc_bot - ERROR - Cannot send line: writer is not connected
+ERROR    test_irc_bots:test_irc_bots.py:273 BOT STDERR: 2025-07-06 00:12:43,974 - irc_bot - WARNING - Connection closed by server, attempting to reconnect...
+ERROR    test_irc_bots:test_irc_bots.py:273 BOT STDERR: 2025-07-06 00:12:43,974 - irc_bot - ERROR - Reconnection attempt 1 failed: [WinError 10053] An established connection was aborted by the software in your host machine
+ERROR    test_irc_bots:test_irc_bots.py:273 BOT STDERR: 2025-07-06 00:12:43,974 - irc_bot - ERROR - Reconnection attempt 2 failed: [WinError 10053] An established connection was aborted by the software in your host machine
+ERROR    test_irc_bots:test_irc_bots.py:273 BOT STDERR: 2025-07-06 00:12:43,974 - irc_bot - ERROR - Reconnection attempt 3 failed: [WinError 10053] An established connection was aborted by the software in your host machine
+ERROR    test_irc_bots:test_irc_bots.py:273 BOT STDERR: 2025-07-06 00:12:43,974 - irc_bot - ERROR - Failed to reconnect in main loop: Failed to reconnect after 3 attempts
+ERROR    test_irc_bots:test_irc_bots.py:273 BOT STDERR: 2025-07-06 00:12:43,974 - irc_bot - ERROR - Fatal error in main loop: Failed to reconnect after 3 attempts
+ERROR    test_irc_bots:test_irc_bots.py:273 BOT STDERR: Traceback (most recent call last):
+ERROR    test_irc_bots:test_irc_bots.py:273 BOT STDERR: File "C:\Users\stora\Downloads\socket-ai\bots\irc_bot.py", line 81, in send_line
+ERROR    test_irc_bots:test_irc_bots.py:273 BOT STDERR: await self.writer.drain()
+ERROR    test_irc_bots:test_irc_bots.py:273 BOT STDERR: File "C:\Users\stora\micromamba\envs\irc-ai\Lib\asyncio\streams.py", line 392, in drain
+ERROR    test_irc_bots:test_irc_bots.py:273 BOT STDERR: await self._protocol._drain_helper()
+ERROR    test_irc_bots:test_irc_bots.py:273 BOT STDERR: File "C:\Users\stora\micromamba\envs\irc-ai\Lib\asyncio\streams.py", line 166, in _drain_helper
+ERROR    test_irc_bots:test_irc_bots.py:273 BOT STDERR: raise ConnectionResetError('Connection lost')
+ERROR    test_irc_bots:test_irc_bots.py:273 BOT STDERR: ConnectionResetError: Connection lost
+ERROR    test_irc_bots:test_irc_bots.py:273 BOT STDERR: 
+ERROR    test_irc_bots:test_irc_bots.py:273 BOT STDERR: During handling of the above exception, another exception occurred:
+ERROR    test_irc_bots:test_irc_bots.py:273 BOT STDERR: 
+ERROR    test_irc_bots:test_irc_bots.py:273 BOT STDERR: Traceback (most recent call last):
+ERROR    test_irc_bots:test_irc_bots.py:273 BOT STDERR: File "C:\Users\stora\Downloads\socket-ai\bots\irc_bot.py", line 150, in _reconnect
+ERROR    test_irc_bots:test_irc_bots.py:273 BOT STDERR: await self.writer.wait_closed()
+ERROR    test_irc_bots:test_irc_bots.py:273 BOT STDERR: File "C:\Users\stora\micromamba\envs\irc-ai\Lib\asyncio\streams.py", line 364, in wait_closed
+ERROR    test_irc_bots:test_irc_bots.py:273 BOT STDERR: await self._protocol._get_close_waiter(self)
+ERROR    test_irc_bots:test_irc_bots.py:273 BOT STDERR: ConnectionAbortedError: [WinError 10053] An established connection was aborted by the software in your host machine
+ERROR    test_irc_bots:test_irc_bots.py:273 BOT STDERR: 
+ERROR    test_irc_bots:test_irc_bots.py:273 BOT STDERR: During handling of the above exception, another exception occurred:
+ERROR    test_irc_bots:test_irc_bots.py:273 BOT STDERR: 
+ERROR    test_irc_bots:test_irc_bots.py:273 BOT STDERR: Traceback (most recent call last):
+ERROR    test_irc_bots:test_irc_bots.py:273 BOT STDERR: File "C:\Users\stora\Downloads\socket-ai\bots\irc_bot.py", line 199, in _main_loop
+ERROR    test_irc_bots:test_irc_bots.py:273 BOT STDERR: await self._reconnect()
+ERROR    test_irc_bots:test_irc_bots.py:273 BOT STDERR: File "C:\Users\stora\Downloads\socket-ai\bots\irc_bot.py", line 175, in _reconnect
+ERROR    test_irc_bots:test_irc_bots.py:273 BOT STDERR: raise ConnectionError(f"Failed to reconnect after {max_attempts} attempts")
+ERROR    test_irc_bots:test_irc_bots.py:273 BOT STDERR: ConnectionError: Failed to reconnect after 3 attempts
+ERROR    test_irc_bots:test_irc_bots.py:273 BOT STDERR: 2025-07-06 00:12:43,975 - irc_bot - ERROR - Unexpected error during handshake: Failed to reconnect after 3 attempts
+ERROR    test_irc_bots:test_irc_bots.py:273 BOT STDERR: Traceback (most recent call last):
+ERROR    test_irc_bots:test_irc_bots.py:273 BOT STDERR: File "C:\Users\stora\Downloads\socket-ai\bots\irc_bot.py", line 81, in send_line
+ERROR    test_irc_bots:test_irc_bots.py:273 BOT STDERR: await self.writer.drain()
+ERROR    test_irc_bots:test_irc_bots.py:273 BOT STDERR: File "C:\Users\stora\micromamba\envs\irc-ai\Lib\asyncio\streams.py", line 392, in drain
+ERROR    test_irc_bots:test_irc_bots.py:273 BOT STDERR: await self._protocol._drain_helper()
+ERROR    test_irc_bots:test_irc_bots.py:273 BOT STDERR: File "C:\Users\stora\micromamba\envs\irc-ai\Lib\asyncio\streams.py", line 166, in _drain_helper
+ERROR    test_irc_bots:test_irc_bots.py:273 BOT STDERR: raise ConnectionResetError('Connection lost')
+ERROR    test_irc_bots:test_irc_bots.py:273 BOT STDERR: ConnectionResetError: Connection lost
+ERROR    test_irc_bots:test_irc_bots.py:273 BOT STDERR: 
+ERROR    test_irc_bots:test_irc_bots.py:273 BOT STDERR: During handling of the above exception, another exception occurred:
+ERROR    test_irc_bots:test_irc_bots.py:273 BOT STDERR: 
+ERROR    test_irc_bots:test_irc_bots.py:273 BOT STDERR: Traceback (most recent call last):
+ERROR    test_irc_bots:test_irc_bots.py:273 BOT STDERR: File "C:\Users\stora\Downloads\socket-ai\bots\irc_bot.py", line 150, in _reconnect
+ERROR    test_irc_bots:test_irc_bots.py:273 BOT STDERR: await self.writer.wait_closed()
+ERROR    test_irc_bots:test_irc_bots.py:273 BOT STDERR: File "C:\Users\stora\micromamba\envs\irc-ai\Lib\asyncio\streams.py", line 364, in wait_closed
+ERROR    test_irc_bots:test_irc_bots.py:273 BOT STDERR: await self._protocol._get_close_waiter(self)
+ERROR    test_irc_bots:test_irc_bots.py:273 BOT STDERR: ConnectionAbortedError: [WinError 10053] An established connection was aborted by the software in your host machine
+ERROR    test_irc_bots:test_irc_bots.py:281 Bot process exited with code 0
+WARNING  test_irc_bots:test_irc_bots.py:399 Error during cleanup: cannot access local variable 'sock' where it is not associated with a value
+INFO     test_irc_bots:test_irc_bots.py:53 Stopping mock IRC server...
+INFO     mock_irc_server:mock_irc_server.py:245 Stopping mock IRC server...
+DEBUG    mock_irc_server:mock_irc_server.py:283 Error during loop cleanup: This event loop is already running
+INFO     mock_irc_server:mock_irc_server.py:294 Mock IRC server stopped

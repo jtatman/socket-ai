@@ -1,0 +1,25 @@
+INFO     test_irc_bots:test_irc_bots.py:50 Starting mock IRC server...
+DEBUG    asyncio:proactor_events.py:633 Using proactor: IocpProactor
+INFO     test_irc_bots:test_irc_bots.py:183 Starting test_bot_connection...
+INFO     mock_irc_server:mock_irc_server.py:141 Mock IRC server running on 127.0.0.1:16667
+INFO     test_irc_bots:test_irc_bots.py:189 Starting mock IRC server...
+INFO     test_irc_bots:test_irc_bots.py:200 Attempting to connect to mock server (attempt 1/10)...
+INFO     test_irc_bots:test_irc_bots.py:202 Successfully connected to mock server
+INFO     test_irc_bots:test_irc_bots.py:221 Starting bot: C3PO
+INFO     test_irc_bots:test_irc_bots.py:225 Bot config path: C:\Users\stora\Downloads\socket-ai\environments\cantina\C3PO.yml
+INFO     test_irc_bots:test_irc_bots.py:226 Bot config exists: True
+INFO     test_irc_bots:test_irc_bots.py:246 Started bot process with PID: 45624
+INFO     test_irc_bots:test_irc_bots.py:249 Waiting for bot to start and connect to server (15 seconds)...
+ERROR    test_irc_bots:test_irc_bots.py:268 BOT STDERR: 2025-07-05 22:34:25,332 - utils.config - INFO - Loaded configuration from environments\cantina\C3PO.yml
+ERROR    test_irc_bots:test_irc_bots.py:268 BOT STDERR: 2025-07-05 22:34:25,332 - __main__ - ERROR - Bot error: name 'asyncio' is not defined
+ERROR    test_irc_bots:test_irc_bots.py:268 BOT STDERR: Traceback (most recent call last):
+ERROR    test_irc_bots:test_irc_bots.py:268 BOT STDERR: File "C:\Users\stora\Downloads\socket-ai\scripts\launch_bot.py", line 77, in main
+ERROR    test_irc_bots:test_irc_bots.py:268 BOT STDERR: asyncio.run(run_bot(config))
+ERROR    test_irc_bots:test_irc_bots.py:268 BOT STDERR: ^^^^^^^
+ERROR    test_irc_bots:test_irc_bots.py:268 BOT STDERR: NameError: name 'asyncio' is not defined
+ERROR    test_irc_bots:test_irc_bots.py:276 Bot process exited with code 1
+WARNING  test_irc_bots:test_irc_bots.py:394 Error during cleanup: cannot access local variable 'sock' where it is not associated with a value
+INFO     test_irc_bots:test_irc_bots.py:53 Stopping mock IRC server...
+INFO     mock_irc_server:mock_irc_server.py:162 Stopping mock IRC server...
+DEBUG    mock_irc_server:mock_irc_server.py:200 Error during loop cleanup: This event loop is already running
+INFO     mock_irc_server:mock_irc_server.py:211 Mock IRC server stopped

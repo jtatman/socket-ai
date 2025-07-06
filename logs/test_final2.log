@@ -1,0 +1,39 @@
+INFO     test_irc_bots:test_irc_bots.py:50 Starting mock IRC server...
+DEBUG    asyncio:proactor_events.py:633 Using proactor: IocpProactor
+INFO     mock_irc_server:mock_irc_server.py:157 Mock IRC server running on 127.0.0.1:16667
+INFO     test_irc_bots:test_irc_bots.py:183 
+================================================================================
+INFO     test_irc_bots:test_irc_bots.py:184 STARTING TEST: test_bot_connection
+INFO     test_irc_bots:test_irc_bots.py:185 ================================================================================
+INFO     test_irc_bots:test_irc_bots.py:191 Available bots: C3PO, Chewbacca, HanSolo, PrincessLeia, R2D2
+INFO     test_irc_bots:test_irc_bots.py:194 Starting mock IRC server...
+INFO     test_irc_bots:test_irc_bots.py:205 Attempting to connect to mock server (attempt 1/10)...
+INFO     test_irc_bots:test_irc_bots.py:207 Successfully connected to mock server
+INFO     test_irc_bots:test_irc_bots.py:226 Starting bot: C3PO
+INFO     test_irc_bots:test_irc_bots.py:230 Bot config path: C:\Users\stora\Downloads\socket-ai\environments\cantina\C3PO.yml
+INFO     test_irc_bots:test_irc_bots.py:231 Bot config exists: True
+INFO     test_irc_bots:test_irc_bots.py:251 Started bot process with PID: 51904
+INFO     test_irc_bots:test_irc_bots.py:254 Waiting for bot to start and connect to server (15 seconds)...
+ERROR    test_irc_bots:test_irc_bots.py:273 BOT STDERR: 2025-07-05 22:41:15,598 - utils.config - INFO - Loaded configuration from environments\cantina\C3PO.yml
+ERROR    test_irc_bots:test_irc_bots.py:273 BOT STDERR: 2025-07-05 22:41:15,653 - irc_bot - INFO - Attempting to connect to localhost:16667...
+ERROR    test_irc_bots:test_irc_bots.py:273 BOT STDERR: 2025-07-05 22:41:15,653 - irc_bot - ERROR - Failed to connect to localhost:16667: ssl_handshake_timeout is only meaningful with ssl
+ERROR    test_irc_bots:test_irc_bots.py:273 BOT STDERR: 2025-07-05 22:41:15,653 - __main__ - ERROR - Bot error: ssl_handshake_timeout is only meaningful with ssl
+ERROR    test_irc_bots:test_irc_bots.py:273 BOT STDERR: Traceback (most recent call last):
+ERROR    test_irc_bots:test_irc_bots.py:273 BOT STDERR: File "C:\Users\stora\Downloads\socket-ai\scripts\launch_bot.py", line 48, in run_bot
+ERROR    test_irc_bots:test_irc_bots.py:273 BOT STDERR: await bot.connect()  # connect() calls _main_loop() internally
+ERROR    test_irc_bots:test_irc_bots.py:273 BOT STDERR: ^^^^^^^^^^^^^^^^^^^
+ERROR    test_irc_bots:test_irc_bots.py:273 BOT STDERR: File "C:\Users\stora\Downloads\socket-ai\bots\irc_bot.py", line 95, in connect
+ERROR    test_irc_bots:test_irc_bots.py:273 BOT STDERR: self.reader, self.writer = await asyncio.open_connection(
+ERROR    test_irc_bots:test_irc_bots.py:273 BOT STDERR: ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ERROR    test_irc_bots:test_irc_bots.py:273 BOT STDERR: File "C:\Users\stora\micromamba\envs\irc-ai\Lib\asyncio\streams.py", line 48, in open_connection
+ERROR    test_irc_bots:test_irc_bots.py:273 BOT STDERR: transport, _ = await loop.create_connection(
+ERROR    test_irc_bots:test_irc_bots.py:273 BOT STDERR: ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ERROR    test_irc_bots:test_irc_bots.py:273 BOT STDERR: File "C:\Users\stora\micromamba\envs\irc-ai\Lib\asyncio\base_events.py", line 1027, in create_connection
+ERROR    test_irc_bots:test_irc_bots.py:273 BOT STDERR: raise ValueError(
+ERROR    test_irc_bots:test_irc_bots.py:273 BOT STDERR: ValueError: ssl_handshake_timeout is only meaningful with ssl
+ERROR    test_irc_bots:test_irc_bots.py:281 Bot process exited with code 0
+WARNING  test_irc_bots:test_irc_bots.py:399 Error during cleanup: cannot access local variable 'sock' where it is not associated with a value
+INFO     test_irc_bots:test_irc_bots.py:53 Stopping mock IRC server...
+INFO     mock_irc_server:mock_irc_server.py:178 Stopping mock IRC server...
+DEBUG    mock_irc_server:mock_irc_server.py:216 Error during loop cleanup: This event loop is already running
+INFO     mock_irc_server:mock_irc_server.py:227 Mock IRC server stopped

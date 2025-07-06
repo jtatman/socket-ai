@@ -1,0 +1,10 @@
+nick: TechLead
+channel: '#product_development'
+host: localhost
+port: 6667
+tls: false
+model: llama3.2:3b
+temperature: 0.25
+prompt: ../../prompts/product_development/TechLead.md
+llm_node: 10.209.1.96
+reply_to_all: true

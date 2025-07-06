@@ -1,0 +1,10 @@
+nick: BrandDesigner
+channel: '#marketing'
+host: localhost
+port: 6667
+tls: false
+model: llama3.2:3b
+temperature: 0.5
+prompt: ../../prompts/marketing/BrandDesigner.md
+llm_node: 10.209.1.96
+reply_to_all: true
