@@ -1,25 +1,76 @@
+"""Socket-based AI Chat Server
+
+This module implements a multi-client chat server with AI integration. It allows
+multiple clients to connect and chat in real-time, with an AI bot that can
+respond to messages. The server uses TCP sockets for communication and supports
+concurrent client connections using threads.
+
+Example:
+    Start the server:
+    ```
+    python socket-server-ai.py
+    ```
+
+    Connect clients using:
+    ```
+    python socket-client-ai.py
+    ```
+
+Note:
+    The server requires an OpenAI-compatible API endpoint to be configured.
+"""
+
 import socket
 import threading
 import queue
 import time
 import random
-from typing import Dict
+from typing import Dict, Optional, Tuple
 
 from openai import OpenAI
 
-HOST = '0.0.0.0'
-PORT = 65432
+# Server configuration
+HOST = '0.0.0.0'  # Listen on all available network interfaces
+PORT = 65432      # Default port for the chat server
 
 # Mapping of socket -> (addr, last_seen)
-clients: Dict[socket.socket, tuple[str, float]] = {}
+# Global state
+clients: Dict[socket.socket, Tuple[str, float]] = {}
+"""Active client connections with their address and last activity timestamp.
+
+Keys:
+    socket.socket: The client socket object
+
+Values:
+    Tuple containing (address: str, last_seen: float)
+"""
+
 clients_lock = threading.Lock()
+"""Thread lock to synchronize access to the clients dictionary."""
 
 # Thread-safe queue used to fan-out messages to all connected clients
 message_queue: "queue.Queue[str]" = queue.Queue(maxsize=1000)
+"""Queue for broadcasting messages to all connected clients.
 
-client = OpenAI(base_url="http://10.209.1.96:11434/v1", api_key="ollama")  # Or real key if OpenAI
+Messages are added to this queue and processed by the dispatcher thread.
+"""
 
-def get_ai_response(user_msg):
+# Initialize OpenAI client with local Ollama server
+client = OpenAI(base_url="http://10.209.1.96:11434/v1", api_key="ollama")
+
+def get_ai_response(user_msg: str) -> str:
+    """Generate an AI response to the given user message.
+    
+    Args:
+        user_msg: The user's message to respond to.
+        
+    Returns:
+        str: The AI's generated response, or an error message if the request fails.
+        
+    Example:
+        >>> get_ai_response("Hello, how are you?")
+        "I'm doing well, thank you for asking! How can I assist you today?"
+    """
     try:
         completion = client.chat.completions.create(
             model="llama3.2:3b",  # or any available local/remote model
@@ -34,12 +85,16 @@ def get_ai_response(user_msg):
     except Exception as e:
         return f"[AI error]: {e}"
 
-def broadcast(message: str, sender_conn: socket.socket | None = None) -> None:
-    """Send *message* to all currently connected clients.
-
-    If *sender_conn* is provided, the sender will be skipped so the echo is
-    not returned to them. Any socket failures cause immediate removal of the
-    offending connection.
+def broadcast(message: str, sender_conn: Optional[socket.socket] = None) -> None:
+    """Send a message to all connected clients.
+    
+    Args:
+        message: The message to broadcast.
+        sender_conn: Optional client socket to exclude from the broadcast
+                    (to avoid echoing back to the sender).
+                    
+    Note:
+        Automatically removes any clients that cause socket errors during sending.
     """
     with clients_lock:
         dead = []
@@ -57,11 +112,19 @@ def broadcast(message: str, sender_conn: socket.socket | None = None) -> None:
             finally:
                 clients.pop(d, None)
 
-def handle_client(conn: socket.socket, addr):
-    """Read loop for each connected client.
-
-    Reads incoming lines and posts them to *message_queue*. Also requests an
-    LLM response which is likewise queued.
+def handle_client(conn: socket.socket, addr: Tuple[str, int]) -> None:
+    """Handle communication with a single connected client.
+    
+    This function runs in a separate thread for each client connection.
+    It reads incoming messages, broadcasts them to all clients, and optionally
+    generates AI responses.
+    
+    Args:
+        conn: The client socket object.
+        addr: Tuple containing the client's (IP address, port).
+        
+    Note:
+        The client socket will be closed when this function returns.
     """
     print(f"[+] Connected: {addr}")
     with clients_lock:
@@ -102,13 +165,25 @@ def handle_client(conn: socket.socket, addr):
             pass
 
 def dispatcher_loop() -> None:
-    """Continuously broadcast messages taken from *message_queue*."""
+    """Continuously process and broadcast messages from the message queue.
+    
+    This function runs in a dedicated thread and is responsible for taking
+    messages from the message queue and broadcasting them to all connected
+    clients.
+    """
     while True:
         msg = message_queue.get()
         broadcast(msg)
 
 def reaper_loop(timeout: int = 10) -> None:
-    """Periodically cull clients that haven’t sent anything for *timeout* seconds."""
+    """Periodically clean up inactive client connections.
+    
+    This function runs in a dedicated thread and removes clients that haven't
+    sent any data within the specified timeout period.
+    
+    Args:
+        timeout: Number of seconds of inactivity before a client is disconnected.
+    """
     while True:
         time.sleep(timeout)
         now = time.time()
@@ -123,7 +198,14 @@ def reaper_loop(timeout: int = 10) -> None:
             with clients_lock:
                 clients.pop(conn, None)
 
-def start_server():
+def start_server() -> None:
+    """Start the chat server and initialize worker threads.
+    
+    This function sets up the server socket, starts the dispatcher and reaper
+    threads, and enters the main accept loop to handle incoming connections.
+    
+    The server runs until interrupted by a keyboard interrupt (Ctrl+C).
+    """
     server_sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
     server_sock.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1)
     server_sock.bind((HOST, PORT))
