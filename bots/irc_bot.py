@@ -27,6 +27,9 @@ from typing import Optional
 
 import yaml
 from openai.types.chat import ChatCompletion
+import time
+import socket
+from collections import deque
 
 from core.llm_proxy import get_client
 
@@ -65,9 +68,12 @@ class IRCBot:
         self.writer: Optional[asyncio.StreamWriter] = None
         self._send_lock = asyncio.Lock()
         self._last_sent = 0.0
+        # Track processed lines to avoid duplicate handling
+        self._seen_messages = deque(maxlen=100)
 
     # ------------------------------------------------------------- IRC helpers
     async def send_line(self, line: str) -> None:
+        """Send a line, reconnecting if needed."""
         try:
             async with self._send_lock:
                 delta = max(0.0, RATE_LIMIT - (asyncio.get_running_loop().time() - self._last_sent))
@@ -75,8 +81,11 @@ class IRCBot:
                     await asyncio.sleep(delta)
                 logger.debug(">>> %s", line)
                 if self.writer is None or self.writer.is_closing():
-                    logger.error("Cannot send line: writer is not connected")
-                    return
+                    logger.warning("Writer not connected, attempting to reconnect before sending.")
+                    await self._reconnect()
+                    if self.writer is None or self.writer.is_closing():
+                        logger.error("Reconnect failed, writer still not connected.")
+                        raise ConnectionError("Writer is not connected after reconnect")
                 self.writer.write((line + CRLF).encode())
                 await self.writer.drain()
                 self._last_sent = asyncio.get_running_loop().time()
@@ -104,6 +113,11 @@ class IRCBot:
             
             logger.debug(f"Opening connection with params: {connect_kwargs}")
             self.reader, self.writer = await asyncio.open_connection(**connect_kwargs)
+            # Enable TCP keepalive to maintain connection
+            sock = self.writer.get_extra_info('socket')
+            if sock:
+                sock.setsockopt(socket.SOL_SOCKET, socket.SO_KEEPALIVE, 1)
+                logger.debug("Enabled TCP keepalive on socket")
             logger.info("Successfully connected to %s:%s", self.host, self.port)
             
             try:
@@ -142,6 +156,8 @@ class IRCBot:
 
     async def _reconnect(self) -> None:
         """Attempt to reconnect to the IRC server."""
+        # Clear history on reconnect to prevent receive-queue growth and repetitive context
+        self.conversation_history.clear()
         max_attempts = 3
         for attempt in range(1, max_attempts + 1):
             try:
@@ -151,8 +167,13 @@ class IRCBot:
                 
                 # Connect to the server with timeout
                 try:
+                    # Use same SSL context as initial connect
+                    ssl_ctx = ssl.create_default_context() if self.tls else None
+                    connect_kwargs = {'host': self.host, 'port': self.port, 'ssl': ssl_ctx}
+                    if self.tls:
+                        connect_kwargs['ssl_handshake_timeout'] = 10.0
                     self.reader, self.writer = await asyncio.wait_for(
-                        asyncio.open_connection(self.host, self.port, ssl=self.tls),
+                        asyncio.open_connection(**connect_kwargs),
                         timeout=10.0
                     )
                     logger.info(f"Connected to {self.host}:{self.port}")
@@ -169,6 +190,9 @@ class IRCBot:
                     
                     await self.send_line(f"NICK {self.nick}")
                     await self.send_line(f"USER {self.nick} 0 * :{self.nick} IRC Bot")
+                    # Rejoin channel after reconnect
+                    logger.info(f"Joining channel {self.channel} after reconnect")
+                    await self.send_line(f"JOIN {self.channel}")
                     logger.debug("IRC handshake initiated")
                     
                     # Start the main loop
@@ -227,18 +251,6 @@ class IRCBot:
         try:
             while True:
                 logger.debug("Top of main loop iteration")
-                
-                # Handle connection state
-                if self.reader.at_eof():
-                    logger.warning("Connection closed by server, attempting to reconnect...")
-                    try:
-                        await self._reconnect()
-                        logger.debug("Successfully reconnected in main loop")
-                    except Exception as e:
-                        logger.error(f"Failed to reconnect in main loop: {e}")
-                        raise
-                    continue
-                
                 # Read data with timeout
                 try:
                     logger.debug("Waiting for data from server...")
@@ -246,9 +258,8 @@ class IRCBot:
                     logger.debug(f"Received {len(chunk) if chunk else 0} bytes from server")
                     
                     if not chunk:
-                        logger.warning("Received empty chunk, connection may be closed")
-                        await asyncio.sleep(1)
-                        continue
+                        logger.warning("Received empty chunk, server closed connection; raising to reconnect")
+                        raise ConnectionError("Server closed connection")
                     
                     # Process received data
                     buffer += chunk
@@ -309,20 +320,61 @@ class IRCBot:
             
             logger.debug("Main loop cleanup complete")
 
+    # ---------------------------------------------------------- idle chatter
+    async def _idle_chatter(self):
+        """Background idle chatter: respond only to new user messages."""
+        # Track previous user message count
+        prev_user_count = sum(1 for m in self.conversation_history if m.get('role')=='user')
+        while True:
+            # Sleep before polling new messages
+            await asyncio.sleep(random.uniform(300, 600))
+            # Count current user messages
+            user_msgs = [m for m in self.conversation_history if m.get('role')=='user']
+            if len(user_msgs) <= prev_user_count:
+                continue
+            # Build context for LLM
+            messages = [{'role':'system','content':self.system_prompt}]
+            messages += [{'role':m['role'],'name':m.get('name'),'content':m['content']} for m in self.conversation_history[-5:]]
+            try:
+                resp = await asyncio.to_thread(
+                    self.client.chat.completions.create,
+                    model=self.model,
+                    messages=messages+[{'role':'user','content':'Add a relevant comment to the ongoing conversation.'}],
+                    temperature=min(0.9, self.temperature+0.1),
+                    max_tokens=100
+                )
+                thought = resp.choices[0].message.content.strip()
+                if thought and len(thought) > 5:
+                    await self.send_line(f"PRIVMSG {self.channel} :{thought}")
+                    self._update_conversation('assistant', self.nick, thought)
+            except Exception as exc:
+                logger.debug(f"Idle chatter error: {exc}")
+            prev_user_count = len(user_msgs)
+
     # ------------------------------------------------------------- line handler
     async def _handle_line(self, line: str):
         if not line:
             return
 
+        # Skip duplicate lines to prevent duplicate responses
+        if line in self._seen_messages:
+            logger.debug(f"Skipping duplicate line: {line}")
+            return
+        self._seen_messages.append(line)
+
         logger.debug(f"Processing line: {line}")
 
-        # Handle PING
-        if line.startswith("PING"):
+        parts = line.split(" ")
+        # Handle PING messages (with or without prefix)
+        if parts[0] == "PING" or (parts[0].startswith(":") and len(parts) > 1 and parts[1] == "PING"):
+            # Extract token (last parameter)
+            token = parts[-1]
             logger.debug("Responding to PING")
-            await self.send_line("PONG " + line.split(" ", 1)[1])
+            await self.send_line(f"PONG {token}")
             return
 
-        parts = line.split(" ")
+        if len(parts) < 2:
+            return
         if len(parts) < 2:
             return
 
@@ -339,8 +391,6 @@ class IRCBot:
             if code == 1:
                 logger.info("Received welcome message, joining channel...")
                 await self.send_line(f"JOIN {self.channel}")
-                if self.chatter:
-                    asyncio.create_task(self._idle_chatter())
             return
 
         # Handle server commands
@@ -373,10 +423,17 @@ class IRCBot:
             if user.lower() == self.nick.lower():
                 return
                 
+            logger.info(f"Detected PRIVMSG: user={user}, target={target}, message={message}")
             logger.debug(f"Message from {user} in {target}: {message}")
             await self._maybe_respond(user, target, message)
+            
+            
+            if len(self.conversation_history) > self.max_history:
+                self.conversation_history = self.conversation_history[-self.max_history:]
+                return
 
-    # ------------------------------------------------------------- decide reply
+   
+   
     def _update_conversation(self, role: str, name: str, content: str):
         """Update conversation history with new message."""
         self.conversation_history.append({
@@ -384,120 +441,58 @@ class IRCBot:
             "name": name,
             "content": content
         })
-        # Keep conversation history manageable
-        if len(self.conversation_history) > self.max_history:
-            self.conversation_history = self.conversation_history[-self.max_history:]
 
+
+    
     async def _maybe_respond(self, user: str, target: str, msg: str):
-        # Don't respond to self
-        if user == self.nick:
+        """Generate and send a response if applicable, retrying send_line once on connection error."""
+        if user.lower() == self.nick.lower():
             return
-
-        # Update conversation history with the new message
         self._update_conversation("user", user, msg)
-
-        # Determine if we should respond
-        should_respond = False
-        if target.startswith("#"):  # Channel message
-            msg_lower = msg.lower()
-            if self.nick.lower() in msg_lower:
-                should_respond = True  # Direct mention
-            elif self.reply_to_all and not any(bot.lower() in msg_lower for bot in ["R2D2", "C3PO", "Leia", "Han", "Chewbacca"]):
-                should_respond = True  # General chatter
-        else:  # PM
-            should_respond = True
-
+        is_channel = target.startswith("#")
+        should_respond = (not is_channel) or (self.nick.lower() in msg.lower()) or self.reply_to_all
         if not should_respond:
             return
-
-        # Prepare conversation context with system prompt
         messages = [{"role": "system", "content": self.system_prompt}]
-        
-        # Add conversation history with proper role labeling
-        for msg in self.conversation_history:
-            messages.append({
-                "role": msg["role"],
-                "name": msg["name"],
-                "content": msg["content"]
-            })
-
+        for m in self.conversation_history:
+            messages.append({"role": m["role"], "name": m.get("name"), "content": m["content"]})
         try:
-            # Get response from LLM
-            completion: ChatCompletion = self.client.chat.completions.create(
+            completion = await asyncio.to_thread(
+                self.client.chat.completions.create,
                 model=self.model,
                 messages=messages,
                 temperature=self.temperature,
-                max_tokens=150,
+                max_tokens=150
             )
             reply = completion.choices[0].message.content.strip()
-            
-            # Update conversation with our response
             self._update_conversation("assistant", self.nick, reply)
-            
-            # Send response with natural delay
             await asyncio.sleep(random.uniform(1, 3))
-            reply_target = user if not target.startswith("#") else target
-            await self.send_line(f"PRIVMSG {reply_target} :{reply}")
-            
+            reply_target = user if not is_channel else target
+            try:
+                await self.send_line(f"PRIVMSG {reply_target} :{reply}")
+            except ConnectionError:
+                logger.warning("Send failed, reconnecting and retrying PRIVMSG send.")
+                await self._reconnect()
+                await self.send_line(f"PRIVMSG {reply_target} :{reply}")
         except Exception as exc:
             logger.error(f"Error generating response: {exc}")
-            reply = "[Had trouble thinking of a response]"
-            await self.send_line(f"PRIVMSG {target} :{reply}")
-
-    # ---------------------------------------------------------- idle chatter
-    async def _idle_chatter(self):
-        """Periodically post a message to the channel even without prompt."""
-        while True:
-            # Random delay between 20-60 seconds for more natural interaction
-            await asyncio.sleep(random.uniform(20, 60))
-            
-            # Only chatter if we're in a conversation
-            if len(self.conversation_history) > 0:
-                try:
-                    # Use conversation context for more relevant chatter
-                    messages = [
-                        {"role": "system", "content": self.system_prompt},
-                        *[{"role": msg["role"], "content": msg["content"]} 
-                          for msg in self.conversation_history[-5:]]  # Last 5 messages
-                    ]
-                    
-                    completion = self.client.chat.completions.create(
-                        model=self.model,
-                        messages=messages + [
-                            {"role": "user", "content": "Add a relevant comment to the ongoing conversation."}
-                        ],
-                        temperature=min(0.9, self.temperature + 0.1),  # Slightly more creative
-                        max_tokens=100,
-                    )
-                    thought = completion.choices[0].message.content.strip()
-                    
-                    # Only send if we got a reasonable response
-                    if thought and len(thought) > 5:  # Basic validation
-                        await self.send_line(f"PRIVMSG {self.channel} :{thought}")
-                        # Add our own chatter to history
-                        self._update_conversation("assistant", self.nick, thought)
-                        
-                except Exception as exc:
-                    logger.debug(f"Idle chatter error: {exc}")
-                    # Don't spam on errors
-                    await asyncio.sleep(60)
-
-
+            fallback = "[Had trouble thinking of a response]"
+            try:
+                await self.send_line(f"PRIVMSG {target} :{fallback}")
+            except ConnectionError:
+                logger.warning("Send failed, reconnecting and retrying fallback send.")
+                await self._reconnect()
+                await self.send_line(f"PRIVMSG {target} :{fallback}")
 # ---------------------------------------------------------------------------
 async def main(cfg_path: Path):
     logging.basicConfig(level=logging.INFO, format="%(levelname)s:%(name)s: %(message)s")
     with cfg_path.open("r", encoding="utf-8") as fh:
         cfg = yaml.safe_load(fh)
     bot = IRCBot(cfg)
-    while True:
-        try:
-            await bot.connect()
-        except (ConnectionError, ssl.SSLError, OSError) as e:
-            logger.warning("Disconnected: %s. Reconnecting in 5s…", e)
-            await asyncio.sleep(5)
-        else:
-            logger.warning("Connection closed. Reconnecting in 5s…")
-            await asyncio.sleep(5)
+    try:
+        await bot.connect()
+    except (ConnectionError, ssl.SSLError, OSError) as e:
+        logger.error("Bot terminated: %s", e)
 
 
 if __name__ == "__main__":
